@@ -13,6 +13,8 @@
 		E14D4B711E11F82B009422DF /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B701E11F82B009422DF /* FontLoader.swift */; };
 		E14D4B731E11F868009422DF /* FontLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B721E11F868009422DF /* FontLoaderTests.swift */; };
 		E14D4B761E11FAAE009422DF /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E14D4B741E11F890009422DF /* FontAwesome.ttf */; };
+		E14D4B781E11FC09009422DF /* FontBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B771E11FC09009422DF /* FontBase.swift */; };
+		E14D4B7A1E11FCC8009422DF /* FontBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B791E11FCC8009422DF /* FontBaseTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		E14D4B701E11F82B009422DF /* FontLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontLoader.swift; sourceTree = "<group>"; };
 		E14D4B721E11F868009422DF /* FontLoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontLoaderTests.swift; sourceTree = "<group>"; };
 		E14D4B741E11F890009422DF /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		E14D4B771E11FC09009422DF /* FontBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontBase.swift; sourceTree = "<group>"; };
+		E14D4B791E11FCC8009422DF /* FontBaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontBaseTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 				E14D4B581E11F7CC009422DF /* FontAwesomeSwift.h */,
 				E14D4B591E11F7CC009422DF /* Info.plist */,
 				E14D4B701E11F82B009422DF /* FontLoader.swift */,
+				E14D4B771E11FC09009422DF /* FontBase.swift */,
 			);
 			path = FontAwesomeSwift;
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 				E14D4B631E11F7CC009422DF /* FontAwesomeSwiftTests.swift */,
 				E14D4B651E11F7CC009422DF /* Info.plist */,
 				E14D4B721E11F868009422DF /* FontLoaderTests.swift */,
+				E14D4B791E11FCC8009422DF /* FontBaseTests.swift */,
 			);
 			path = FontAwesomeSwiftTests;
 			sourceTree = "<group>";
@@ -217,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E14D4B711E11F82B009422DF /* FontLoader.swift in Sources */,
+				E14D4B781E11FC09009422DF /* FontBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14D4B7A1E11FCC8009422DF /* FontBaseTests.swift in Sources */,
 				E14D4B641E11F7CC009422DF /* FontAwesomeSwiftTests.swift in Sources */,
 				E14D4B731E11F868009422DF /* FontLoaderTests.swift in Sources */,
 			);
