@@ -9,7 +9,7 @@
 import Foundation
 
 @objc
-open class FontBase: NSObject {
+open class FASFont: NSObject {
     
     open var bundle: Bundle {
         return Bundle(for: type(of: self))

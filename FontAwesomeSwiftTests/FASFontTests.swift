@@ -9,12 +9,12 @@
 import XCTest
 @testable import FontAwesomeSwift
 
-class FontBaseTests: XCTestCase {
+class FASFontTests: XCTestCase {
     
     func testBundle() {
-        let expectedValue = Bundle(for: FontBase.self)
+        let expectedValue = Bundle(for: FASFont.self)
         
-        XCTAssertEqual(expectedValue, FontBase().bundle)
+        XCTAssertEqual(expectedValue, FASFont().bundle)
     }
     
 }
