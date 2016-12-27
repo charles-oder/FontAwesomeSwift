@@ -10,6 +10,9 @@
 		E14D4B5F1E11F7CC009422DF /* FontAwesomeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14D4B551E11F7CC009422DF /* FontAwesomeSwift.framework */; };
 		E14D4B641E11F7CC009422DF /* FontAwesomeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B631E11F7CC009422DF /* FontAwesomeSwiftTests.swift */; };
 		E14D4B661E11F7CC009422DF /* FontAwesomeSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = E14D4B581E11F7CC009422DF /* FontAwesomeSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E14D4B711E11F82B009422DF /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B701E11F82B009422DF /* FontLoader.swift */; };
+		E14D4B731E11F868009422DF /* FontLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B721E11F868009422DF /* FontLoaderTests.swift */; };
+		E14D4B761E11FAAE009422DF /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E14D4B741E11F890009422DF /* FontAwesome.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		E14D4B5E1E11F7CC009422DF /* FontAwesomeSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesomeSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14D4B631E11F7CC009422DF /* FontAwesomeSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesomeSwiftTests.swift; sourceTree = "<group>"; };
 		E14D4B651E11F7CC009422DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14D4B701E11F82B009422DF /* FontLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontLoader.swift; sourceTree = "<group>"; };
+		E14D4B721E11F868009422DF /* FontLoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontLoaderTests.swift; sourceTree = "<group>"; };
+		E14D4B741E11F890009422DF /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +77,10 @@
 		E14D4B571E11F7CC009422DF /* FontAwesomeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E14D4B6F1E11F7E6009422DF /* Resources */,
 				E14D4B581E11F7CC009422DF /* FontAwesomeSwift.h */,
 				E14D4B591E11F7CC009422DF /* Info.plist */,
+				E14D4B701E11F82B009422DF /* FontLoader.swift */,
 			);
 			path = FontAwesomeSwift;
 			sourceTree = "<group>";
@@ -82,8 +90,17 @@
 			children = (
 				E14D4B631E11F7CC009422DF /* FontAwesomeSwiftTests.swift */,
 				E14D4B651E11F7CC009422DF /* Info.plist */,
+				E14D4B721E11F868009422DF /* FontLoaderTests.swift */,
 			);
 			path = FontAwesomeSwiftTests;
+			sourceTree = "<group>";
+		};
+		E14D4B6F1E11F7E6009422DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E14D4B741E11F890009422DF /* FontAwesome.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +165,7 @@
 					E14D4B541E11F7CC009422DF = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = LBQJS63JZK;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					E14D4B5D1E11F7CC009422DF = {
@@ -180,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14D4B761E11FAAE009422DF /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14D4B711E11F82B009422DF /* FontLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E14D4B641E11F7CC009422DF /* FontAwesomeSwiftTests.swift in Sources */,
+				E14D4B731E11F868009422DF /* FontLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +342,7 @@
 		E14D4B6A1E11F7CC009422DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = LBQJS63JZK;
@@ -333,6 +355,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = us.oder.FontAwesomeSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -340,6 +363,7 @@
 		E14D4B6B1E11F7CC009422DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = LBQJS63JZK;
@@ -359,6 +383,7 @@
 		E14D4B6D1E11F7CC009422DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = LBQJS63JZK;
 				INFOPLIST_FILE = FontAwesomeSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -371,6 +396,7 @@
 		E14D4B6E1E11F7CC009422DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = LBQJS63JZK;
 				INFOPLIST_FILE = FontAwesomeSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
