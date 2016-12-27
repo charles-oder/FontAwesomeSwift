@@ -15,6 +15,9 @@
 		E14D4B761E11FAAE009422DF /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E14D4B741E11F890009422DF /* FontAwesome.ttf */; };
 		E14D4B781E11FC09009422DF /* FASFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B771E11FC09009422DF /* FASFont.swift */; };
 		E14D4B7A1E11FCC8009422DF /* FASFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B791E11FCC8009422DF /* FASFontTests.swift */; };
+		E14D4B7C1E1215D4009422DF /* FASFontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B7B1E1215D4009422DF /* FASFontAwesome.swift */; };
+		E14D4B7E1E12ED10009422DF /* FASIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B7D1E12ED10009422DF /* FASIcon.swift */; };
+		E14D4B801E12ED32009422DF /* FASIconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B7F1E12ED32009422DF /* FASIconTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,9 @@
 		E14D4B741E11F890009422DF /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
 		E14D4B771E11FC09009422DF /* FASFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASFont.swift; sourceTree = "<group>"; };
 		E14D4B791E11FCC8009422DF /* FASFontTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASFontTests.swift; sourceTree = "<group>"; };
+		E14D4B7B1E1215D4009422DF /* FASFontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASFontAwesome.swift; sourceTree = "<group>"; };
+		E14D4B7D1E12ED10009422DF /* FASIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASIcon.swift; sourceTree = "<group>"; };
+		E14D4B7F1E12ED32009422DF /* FASIconTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASIconTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,8 @@
 				E14D4B591E11F7CC009422DF /* Info.plist */,
 				E14D4B701E11F82B009422DF /* FASFontLoader.swift */,
 				E14D4B771E11FC09009422DF /* FASFont.swift */,
+				E14D4B7B1E1215D4009422DF /* FASFontAwesome.swift */,
+				E14D4B7D1E12ED10009422DF /* FASIcon.swift */,
 			);
 			path = FontAwesomeSwift;
 			sourceTree = "<group>";
@@ -97,6 +105,7 @@
 				E14D4B651E11F7CC009422DF /* Info.plist */,
 				E14D4B721E11F868009422DF /* FASFontLoaderTests.swift */,
 				E14D4B791E11FCC8009422DF /* FASFontTests.swift */,
+				E14D4B7F1E12ED32009422DF /* FASIconTests.swift */,
 			);
 			path = FontAwesomeSwiftTests;
 			sourceTree = "<group>";
@@ -224,6 +233,8 @@
 			files = (
 				E14D4B711E11F82B009422DF /* FASFontLoader.swift in Sources */,
 				E14D4B781E11FC09009422DF /* FASFont.swift in Sources */,
+				E14D4B7C1E1215D4009422DF /* FASFontAwesome.swift in Sources */,
+				E14D4B7E1E12ED10009422DF /* FASIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +245,7 @@
 				E14D4B7A1E11FCC8009422DF /* FASFontTests.swift in Sources */,
 				E14D4B641E11F7CC009422DF /* FontAwesomeSwiftTests.swift in Sources */,
 				E14D4B731E11F868009422DF /* FASFontLoaderTests.swift in Sources */,
+				E14D4B801E12ED32009422DF /* FASIconTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
