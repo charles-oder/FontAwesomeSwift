@@ -23,7 +23,8 @@
 		E1C565361E1360AD000CDB18 /* fontcustom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1C565351E1360AD000CDB18 /* fontcustom.ttf */; };
 		E1C565381E1360C0000CDB18 /* FASFoundationIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C565371E1360C0000CDB18 /* FASFoundationIcons.swift */; };
 		E1C5653A1E1364C2000CDB18 /* Material-Design-Iconic-Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1C565391E1364C2000CDB18 /* Material-Design-Iconic-Font.ttf */; };
-		E1C5653C1E1365C1000CDB18 /* MaterialDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C5653B1E1365C1000CDB18 /* MaterialDesign.swift */; };
+		E1C5653C1E1365C1000CDB18 /* FASMaterialDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C5653B1E1365C1000CDB18 /* FASMaterialDesign.swift */; };
+		E1C5653F1E1407AE000CDB18 /* FASOcticons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C5653E1E1407AE000CDB18 /* FASOcticons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +58,9 @@
 		E1C565351E1360AD000CDB18 /* fontcustom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontcustom.ttf; sourceTree = "<group>"; };
 		E1C565371E1360C0000CDB18 /* FASFoundationIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASFoundationIcons.swift; sourceTree = "<group>"; };
 		E1C565391E1364C2000CDB18 /* Material-Design-Iconic-Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Material-Design-Iconic-Font.ttf"; sourceTree = "<group>"; };
-		E1C5653B1E1365C1000CDB18 /* MaterialDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialDesign.swift; sourceTree = "<group>"; };
+		E1C5653B1E1365C1000CDB18 /* FASMaterialDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASMaterialDesign.swift; sourceTree = "<group>"; };
+		E1C5653D1E140771000CDB18 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		E1C5653E1E1407AE000CDB18 /* FASOcticons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASOcticons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +113,8 @@
 				E14D4B7D1E12ED10009422DF /* FASIcon.swift */,
 				E1C565301E1345A1000CDB18 /* FASIonicons.swift */,
 				E1C565371E1360C0000CDB18 /* FASFoundationIcons.swift */,
-				E1C5653B1E1365C1000CDB18 /* MaterialDesign.swift */,
+				E1C5653B1E1365C1000CDB18 /* FASMaterialDesign.swift */,
+				E1C5653E1E1407AE000CDB18 /* FASOcticons.swift */,
 			);
 			path = FontAwesomeSwift;
 			sourceTree = "<group>";
@@ -134,6 +138,7 @@
 				E1C565351E1360AD000CDB18 /* fontcustom.ttf */,
 				E14D4B741E11F890009422DF /* FontAwesome.ttf */,
 				E1C565391E1364C2000CDB18 /* Material-Design-Iconic-Font.ttf */,
+				E1C5653D1E140771000CDB18 /* Octicons.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -254,13 +259,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C5653F1E1407AE000CDB18 /* FASOcticons.swift in Sources */,
 				E14D4B711E11F82B009422DF /* FASFontLoader.swift in Sources */,
 				E14D4B781E11FC09009422DF /* FASFont.swift in Sources */,
 				E14D4B7C1E1215D4009422DF /* FASFontAwesome.swift in Sources */,
 				E14D4B7E1E12ED10009422DF /* FASIcon.swift in Sources */,
 				E1C565311E1345A1000CDB18 /* FASIonicons.swift in Sources */,
 				E1C565381E1360C0000CDB18 /* FASFoundationIcons.swift in Sources */,
-				E1C5653C1E1365C1000CDB18 /* MaterialDesign.swift in Sources */,
+				E1C5653C1E1365C1000CDB18 /* FASMaterialDesign.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
