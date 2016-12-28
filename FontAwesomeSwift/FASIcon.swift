@@ -22,5 +22,21 @@ open class FASIcon: NSObject {
         attributedString.addAttribute(NSForegroundColorAttributeName, value: color, range: NSRange(location: 0, length: attributedString.length))
         return self
     }
+    
+    public var image: UIImage? {
+        return attributedString.image
+    }
+    
 }
 
+
+extension NSAttributedString {
+    var image: UIImage? {
+        UIGraphicsBeginImageContextWithOptions(self.size(), false, 0)
+        self.draw(in: CGRect(x: 0, y: 0, width: self.size().width, height: self.size().height))
+        let iconImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return iconImage
+    }
+    
+}
