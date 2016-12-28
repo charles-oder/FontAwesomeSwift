@@ -18,6 +18,7 @@
 		E14D4B7C1E1215D4009422DF /* FASFontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B7B1E1215D4009422DF /* FASFontAwesome.swift */; };
 		E14D4B7E1E12ED10009422DF /* FASIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B7D1E12ED10009422DF /* FASIcon.swift */; };
 		E14D4B801E12ED32009422DF /* FASIconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B7F1E12ED32009422DF /* FASIconTests.swift */; };
+		E1C565311E1345A1000CDB18 /* FASIonicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C565301E1345A1000CDB18 /* FASIonicons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		E14D4B7B1E1215D4009422DF /* FASFontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASFontAwesome.swift; sourceTree = "<group>"; };
 		E14D4B7D1E12ED10009422DF /* FASIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASIcon.swift; sourceTree = "<group>"; };
 		E14D4B7F1E12ED32009422DF /* FASIconTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASIconTests.swift; sourceTree = "<group>"; };
+		E1C565301E1345A1000CDB18 /* FASIonicons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASIonicons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				E14D4B771E11FC09009422DF /* FASFont.swift */,
 				E14D4B7B1E1215D4009422DF /* FASFontAwesome.swift */,
 				E14D4B7D1E12ED10009422DF /* FASIcon.swift */,
+				E1C565301E1345A1000CDB18 /* FASIonicons.swift */,
 			);
 			path = FontAwesomeSwift;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				E14D4B781E11FC09009422DF /* FASFont.swift in Sources */,
 				E14D4B7C1E1215D4009422DF /* FASFontAwesome.swift in Sources */,
 				E14D4B7E1E12ED10009422DF /* FASIcon.swift in Sources */,
+				E1C565311E1345A1000CDB18 /* FASIonicons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +449,7 @@
 				E14D4B6B1E11F7CC009422DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E14D4B6C1E11F7CC009422DF /* Build configuration list for PBXNativeTarget "FontAwesomeSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +458,7 @@
 				E14D4B6E1E11F7CC009422DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
