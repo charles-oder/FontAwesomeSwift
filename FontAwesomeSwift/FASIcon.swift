@@ -23,6 +23,11 @@ open class FASIcon: NSObject {
         return self
     }
     
+    public func backgroundColor(color: UIColor) -> FASIcon {
+        attributedString.addAttribute(NSBackgroundColorAttributeName, value: color, range: NSRange(location: 0, length: attributedString.length))
+        return self
+    }
+    
     public var image: UIImage? {
         return attributedString.image
     }
