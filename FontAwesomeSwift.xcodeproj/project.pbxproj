@@ -47,6 +47,7 @@
 		E14D4B7D1E12ED10009422DF /* FASIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASIcon.swift; sourceTree = "<group>"; };
 		E14D4B7F1E12ED32009422DF /* FASIconTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASIconTests.swift; sourceTree = "<group>"; };
 		E1C565301E1345A1000CDB18 /* FASIonicons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASIonicons.swift; sourceTree = "<group>"; };
+		E1C565321E1358E0000CDB18 /* FontAwesomeSwift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FontAwesomeSwift.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +72,7 @@
 		E14D4B4B1E11F7CC009422DF = {
 			isa = PBXGroup;
 			children = (
+				E1C565321E1358E0000CDB18 /* FontAwesomeSwift.podspec */,
 				E14D4B571E11F7CC009422DF /* FontAwesomeSwift */,
 				E14D4B621E11F7CC009422DF /* FontAwesomeSwiftTests */,
 				E14D4B561E11F7CC009422DF /* Products */,
