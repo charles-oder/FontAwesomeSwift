@@ -20,6 +20,13 @@ open class FASFont: NSObject {
         return UIFont.systemFont(ofSize: size)
     }
     
+    open func icon(name: String, size: CGFloat) -> FASIcon? {
+        guard let code = allIcons[name] else {
+            return nil
+        }
+        return FASIcon(font: font(size: size), iconCode: code)
+    }
+    
     public var allIcons: [String : String] {
         return [:]
     }

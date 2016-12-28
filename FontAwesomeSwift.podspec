@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FontAwesomeSwift'
-  s.version          = '1.1'
+  s.version          = '1.2'
   s.summary          = 'FontAwesome in Swift'
 
 
@@ -46,7 +46,46 @@ SOFTWARE.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FontAwesomeSwift/**/*'
-  s.resources     = "FontAwesomeSwift/Resources/*.ttf"
+  s.source_files = 'FontAwesomeSwift/FontAwesomeSwift.h'
+
+  s.subspec 'Core' do |ss|
+    ss.source_files = 'FontAwesomeSwift/FASFontLoader.swift', 'FontAwesomeSwift/FASFont.swift', 'FontAwesomeSwift/FASIcon.swift'
+  end
+
+  s.subspec 'FontAwesome' do |ss|
+    ss.dependency 'FontAwesomeSwift/Core'
+    ss.source_files = 'FontAwesomeSwift/FASFontAwesome.swift'
+    ss.resource = 'FontAwesomeSwift/Resources/FontAwesome.ttf'
+  end
+
+  s.subspec 'Ionicons' do |ss|
+    ss.dependency 'FontAwesomeSwift/Core'
+    ss.source_files = 'FontAwesomeSwift/FASIonicons.swift'
+    ss.resource = 'FontAwesomeSwift/Resources/Ionicons.ttf'
+  end
+
+  s.subspec 'FoundationIcons' do |ss|
+    ss.dependency 'FontAwesomeSwift/Core'
+    ss.source_files = 'FontAwesomeSwift/FASFoundationIcons.swift'
+    ss.resource = 'FontAwesomeSwift/Resources/fontcustom.ttf'
+  end
+
+  s.subspec 'MaterialDesign' do |ss|
+    ss.dependency 'FontAwesomeSwift/Core'
+    ss.source_files = 'FontAwesomeSwift/FASMaterialDesign.swift'
+    ss.resource = 'FontAwesomeSwift/Resources/Material-Design-Iconic-Font.ttf'
+  end
+
+  s.subspec 'Octicons' do |ss|
+    ss.dependency 'FontAwesomeSwift/Core'
+    ss.source_files = 'FontAwesomeSwift/FASOcticons.swift'
+   ss.resource = 'FontAwesomeSwift/Resources/Octicons.ttf'
+  end
+
+  s.subspec 'Zocial' do |ss|
+    ss.dependency 'FontAwesomeSwift/Core'
+    ss.source_files = 'FontAwesomeSwift/FASZocial.swift'
+    ss.resource = 'FontAwesomeSwift/Resources/Zocial.ttf'
+  end
 
 end
