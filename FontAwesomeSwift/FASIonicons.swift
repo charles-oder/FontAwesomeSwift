@@ -11,7 +11,7 @@ import Foundation
 open class FASIonicons: FASFont {
     
     open override func font(size: CGFloat) -> UIFont {
-        return FASFontLoader.loadCustomFont(name: "Ionicons", type: "ttf", size: size, bundle: bundle)
+        return loadFont(name: "Ionicons", type: "ttf", size: size)
     }
     
     public func alertIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f101}") }
