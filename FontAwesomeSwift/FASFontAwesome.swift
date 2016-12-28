@@ -758,7 +758,7 @@ open class FASFontAwesome: FASFont {
     public func youtubePlayIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f16a}") }
     public func youtubeSquareIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f166}") }
 
-public var allIcons: [String : String] {
+public override var allIcons: [String : String] {
     return [
              "fa-500px" : "\u{f26e}",
              "fa-address-book" : "\u{f2b9}",

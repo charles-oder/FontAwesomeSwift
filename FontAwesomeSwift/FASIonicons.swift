@@ -747,7 +747,7 @@ open class FASIonicons: FASFont {
     public func xboxIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f30c}") }
     
     
-    public var allIcons: [String : String] {
+    public override var allIcons: [String : String] {
         return [
             "ion-alert" : "\u{f101}",
             "ion-alert-circled" : "\u{f100}",

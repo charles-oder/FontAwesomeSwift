@@ -758,7 +758,7 @@ open class FASMaterialDesign: FASFont {
     public func vibrationIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e7}") }
     public func voicemailIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e8}") }
     
-    public var allIcons: [String : String] {
+    public override var allIcons: [String : String] {
         return [
             "zmdi-var-3d-rotation" : "\u{f101}",
             "zmdi-var-airplane-off" : "\u{f102}",

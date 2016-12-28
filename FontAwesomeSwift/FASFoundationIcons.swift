@@ -298,7 +298,7 @@ open class FASFoundationIcons: FASFont {
     public func zoomInIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f219}") }
     public func zoomOutIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f21a}") }
 
-    public var allIcons: [String : String] {
+    public override var allIcons: [String : String] {
         return [
         "fi-address-book" : "\u{f100}",
         "fi-alert" : "\u{f101}",

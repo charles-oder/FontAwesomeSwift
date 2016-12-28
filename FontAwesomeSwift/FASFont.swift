@@ -20,6 +20,10 @@ open class FASFont: NSObject {
         return UIFont.systemFont(ofSize: size)
     }
     
+    public var allIcons: [String : String] {
+        return [:]
+    }
+    
     open func loadFont(name: String, type: String, size: CGFloat) -> UIFont {
         return loadFont(name: name, type: type, size: size, bundle: bundle)
     }

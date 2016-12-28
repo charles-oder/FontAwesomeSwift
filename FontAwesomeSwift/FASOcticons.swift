@@ -221,7 +221,7 @@ open class FASOcticons: FASFont {
     public func xIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f081}") }
     public func zapIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{26A1}") }
     
-    public var allIcons: [String : String] {
+    public override var allIcons: [String : String] {
         return [
             "octicon-alert" : "\u{f02d}",
             "octicon-alignment-align" : "\u{f08a}",

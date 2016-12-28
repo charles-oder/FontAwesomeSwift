@@ -114,7 +114,7 @@ public class FASZocial: FASFont {
     public func yelpIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "y") }
     public func youtubeIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "U") }
     
-    public var allIcons: [String : String] {
+    public override var allIcons: [String : String] {
         return [
             "zocial.acrobat" : "\u{00E3}",
             "zocial.amazon" : "a",
