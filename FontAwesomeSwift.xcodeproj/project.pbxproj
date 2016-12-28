@@ -22,6 +22,8 @@
 		E1C565341E1360A1000CDB18 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1C565331E13609D000CDB18 /* Ionicons.ttf */; };
 		E1C565361E1360AD000CDB18 /* fontcustom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1C565351E1360AD000CDB18 /* fontcustom.ttf */; };
 		E1C565381E1360C0000CDB18 /* FASFoundationIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C565371E1360C0000CDB18 /* FASFoundationIcons.swift */; };
+		E1C5653A1E1364C2000CDB18 /* Material-Design-Iconic-Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1C565391E1364C2000CDB18 /* Material-Design-Iconic-Font.ttf */; };
+		E1C5653C1E1365C1000CDB18 /* MaterialDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C5653B1E1365C1000CDB18 /* MaterialDesign.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		E1C565331E13609D000CDB18 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
 		E1C565351E1360AD000CDB18 /* fontcustom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontcustom.ttf; sourceTree = "<group>"; };
 		E1C565371E1360C0000CDB18 /* FASFoundationIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASFoundationIcons.swift; sourceTree = "<group>"; };
+		E1C565391E1364C2000CDB18 /* Material-Design-Iconic-Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Material-Design-Iconic-Font.ttf"; sourceTree = "<group>"; };
+		E1C5653B1E1365C1000CDB18 /* MaterialDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialDesign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				E14D4B7D1E12ED10009422DF /* FASIcon.swift */,
 				E1C565301E1345A1000CDB18 /* FASIonicons.swift */,
 				E1C565371E1360C0000CDB18 /* FASFoundationIcons.swift */,
+				E1C5653B1E1365C1000CDB18 /* MaterialDesign.swift */,
 			);
 			path = FontAwesomeSwift;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 				E1C565331E13609D000CDB18 /* Ionicons.ttf */,
 				E1C565351E1360AD000CDB18 /* fontcustom.ttf */,
 				E14D4B741E11F890009422DF /* FontAwesome.ttf */,
+				E1C565391E1364C2000CDB18 /* Material-Design-Iconic-Font.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 				E1C565341E1360A1000CDB18 /* Ionicons.ttf in Resources */,
 				E14D4B761E11FAAE009422DF /* FontAwesome.ttf in Resources */,
 				E1C565361E1360AD000CDB18 /* fontcustom.ttf in Resources */,
+				E1C5653A1E1364C2000CDB18 /* Material-Design-Iconic-Font.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +260,7 @@
 				E14D4B7E1E12ED10009422DF /* FASIcon.swift in Sources */,
 				E1C565311E1345A1000CDB18 /* FASIonicons.swift in Sources */,
 				E1C565381E1360C0000CDB18 /* FASFoundationIcons.swift in Sources */,
+				E1C5653C1E1365C1000CDB18 /* MaterialDesign.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

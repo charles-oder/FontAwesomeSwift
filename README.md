@@ -4,6 +4,7 @@ Icon Font lobrary for iOS.
 - [FontAwesome 4.7] (http://fontawesome.io)
 - [Foundation icons](http://zurb.com/playground/foundation-icon-fonts-3)
 - [Ionicons 2.0.0] (http://ionicons.com/)
+- [Material 2.0.0](https://google.github.io/material-design-icons/)
 
 ## Installation
 ### Requirements
