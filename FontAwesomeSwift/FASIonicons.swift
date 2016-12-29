@@ -10,8 +10,12 @@ import Foundation
 
 open class FASIonicons: FASFont {
     
-    open override func font(size: CGFloat) -> UIFont {
-        return loadFont(name: "Ionicons", type: "ttf", size: size)
+    open override var fontFamily: String {
+        return "Ionicons"
+    }
+    
+    open override var fontType: String {
+        return "ttf"
     }
     
     public func alertIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f101}") }

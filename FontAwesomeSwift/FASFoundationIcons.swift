@@ -10,10 +10,14 @@ import Foundation
 
 open class FASFoundationIcons: FASFont {
     
-    open override func font(size: CGFloat) -> UIFont {
-        return loadFont(name: "fontcustom", type: "ttf", size: size)
+    open override var fontFamily: String {
+        return "fontcustom"
     }
-
+    
+    open override var fontType: String {
+        return "ttf"
+    }
+    
     public func addressBookIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f100}") }
     public func alertIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f101}") }
     public func alignCenterIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f102}") }

@@ -9,8 +9,12 @@
 import Foundation
 open class FASMaterialDesign: FASFont {
     
-    open override func font(size: CGFloat) -> UIFont {
-        return loadFont(name: "Material-Design-Iconic-Font", type: "ttf", size: size)
+    open override var fontFamily: String {
+        return "Material-Design-Iconic-Font"
+    }
+    
+    open override var fontType: String {
+        return "ttf"
     }
 
     public func threeDRotationIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f101}") }

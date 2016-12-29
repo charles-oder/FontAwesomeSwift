@@ -10,15 +10,15 @@ import Foundation
 
 public class FASFontLoader {
     
-    public static func loadCustomFont(name: String, type: String, size: CGFloat, bundle: Bundle) -> UIFont {
+    public static func loadCustomFont(name: String, fileName: String, type: String, size: CGFloat, bundle: Bundle) -> UIFont {
         if UIFont.fontNames(forFamilyName: name).count == 0 {
-            loadFont(name, type: type, bundle: bundle)
+            loadFont(fileName, type: type, bundle: bundle)
         }
         return UIFont(name: name, size: size)!
     }
     
-    class func loadFont(_ fontName: String, type: String, bundle: Bundle) {
-        let fontURL = getFontUrl(name: fontName, type: type, bundle: bundle)
+    class func loadFont(_ fileName: String, type: String, bundle: Bundle) {
+        let fontURL = getFontUrl(name: fileName, type: type, bundle: bundle)
         
         registerFontFile(url: fontURL)
     }

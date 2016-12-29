@@ -15,9 +15,22 @@ open class FASFont: NSObject {
         return Bundle(for: type(of: self))
     }
     
-    open func font(size: CGFloat) -> UIFont {
+    open var fontFamily: String {
         assertionFailure("This must be implemented by a subclass")
-        return UIFont.systemFont(ofSize: size)
+        return ""
+    }
+    
+    open var fontFileName: String {
+        return fontFamily
+    }
+    
+    open var fontType: String {
+        assertionFailure("This must be implemented by a subclass")
+        return ""
+    }
+    
+    open func font(size: CGFloat) -> UIFont {
+        return loadFont(name: fontFamily, fileName: fontFileName, type: fontType, size: size, bundle: bundle)
     }
     
     open func icon(name: String, size: CGFloat) -> FASIcon? {
@@ -31,12 +44,8 @@ open class FASFont: NSObject {
         return [:]
     }
     
-    open func loadFont(name: String, type: String, size: CGFloat) -> UIFont {
-        return loadFont(name: name, type: type, size: size, bundle: bundle)
-    }
-    
-    open func loadFont(name: String, type: String, size: CGFloat, bundle: Bundle) -> UIFont {
-        return FASFontLoader.loadCustomFont(name: name, type: type, size: size, bundle: bundle)
+    open func loadFont(name: String, fileName: String, type: String, size: CGFloat, bundle: Bundle) -> UIFont {
+        return FASFontLoader.loadCustomFont(name: name, fileName: fileName, type: type, size: size, bundle: bundle)
     }
     
 }

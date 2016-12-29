@@ -10,8 +10,12 @@ import Foundation
 
 public class FASZocial: FASFont {
     
-    public override func font(size: CGFloat) -> UIFont {
-        return loadFont(name: "Zocial", type: "ttf", size: size)
+    public override var fontFamily: String {
+        return "Zocial"
+    }
+    
+    public override var fontType: String {
+        return "ttf"
     }
     
     public func acrobatIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{00E3}") }

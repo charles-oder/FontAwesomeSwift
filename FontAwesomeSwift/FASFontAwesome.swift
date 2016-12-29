@@ -11,8 +11,12 @@ import Foundation
 @objc
 open class FASFontAwesome: FASFont {
     
-    open override func font(size: CGFloat) -> UIFont {
-        return loadFont(name: "FontAwesome", type: "ttf", size: size)
+    open override var fontFamily: String {
+        return "FontAwesome"
+    }
+    
+    open override var fontType: String {
+        return "ttf"
     }
     
     public func aslInterpretingIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a3}") }
