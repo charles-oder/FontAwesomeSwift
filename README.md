@@ -47,7 +47,8 @@ Run `pod install` or `pod update`
 #### Swift
 ```swift
 let icon: FASIcon = FASIonicons().checkmarkRoundIcon(size: 20)
-let anotherIcon: FASIcon = FASIonicons().icon(name: "ion-checkmark", size: 20)
+let anotherIcon: FASIcon? = FASIonicons().icon(name: "ion-checkmark", size: 20)
+let anotherIconFromCode: FASIcon = FASIonicons().icon(name: "\u{f122}", size: 20)
 let greenIcon: FASIcon = FASIonicons().checkmarkRoundIcon(size: 20).color(color: UIColor.green)
 let greenIconImage: UIImage? = FASIonicons().checkmarkRoundIcon(size: 20).color(color: UIColor.green).image
 let greenIconAttributedString: NSAttributedString = FASIonicons().checkmarkRoundIcon(size: 20).color(color: UIColor.green).attributedString 
@@ -61,6 +62,7 @@ let offsetIconImage: UIImage? = FASIonicons().checkmarkRoundIcon(size: 20).offse
 ```objective-c
 FASIcon *icon = [[FASIonicons new] iosInformationOutlineIconWithSize:20];
 FASIcon *anotherIcon = [[FASIonicons new] iconWithName: @"ion-checkmark" size:20];
+FASIcon *anotherIconFromCode = [[FASIonicons new] iconWithCode: @"\uf122" size:20];
 FASIcon *greenIcon = [[[FASIonicons new] iosInformationOutlineIconWithSize:20] colorWithColor:[UIColor greenColor]];
 UIImage *greenIconImage = [[[FASIonicons new] iosInformationOutlineIconWithSize:20] colorWithColor:[UIColor greenColor]].image;
 NSAttributedString *greenIconAttributedString = [[[FASIonicons new] iosInformationOutlineIconWithSize:20] colorWithColor:[UIColor greenColor]].attributedString;

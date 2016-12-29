@@ -33,11 +33,15 @@ open class FASFont: NSObject {
         return loadFont(name: fontFamily, fileName: fontFileName, type: fontType, size: size, bundle: bundle)
     }
     
+    open func icon(code: String, size: CGFloat) -> FASIcon {
+        return FASIcon(font: font(size: size), iconCode: code)
+    }
+    
     open func icon(name: String, size: CGFloat) -> FASIcon? {
         guard let code = allIcons[name] else {
             return nil
         }
-        return FASIcon(font: font(size: size), iconCode: code)
+        return icon(code: code, size: size)
     }
     
     public var allIcons: [String : String] {
