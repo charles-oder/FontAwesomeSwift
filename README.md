@@ -78,15 +78,15 @@ and declaring the font family and type with the factory override properties:
 
  If the font file name is different than the family name, the `fontFileName` property may be overridden to declare that.  
 
- The framework will search the bundle that the overridded `FASFont` class is associated with.  
+ The framework will search the bundle that the overridden `FASFont` class is associated with.  
  The `bundle` property may be overridden if the font file is in a different bundle.
 
 #### Example
  ```
- public class ChembookIcons: FASFont {
+ public class CustomFont: FASFont {
 
     public override var fontFamily: String {
-        return "icomoon"
+        return "CustomFontFamily"
     }
     
     public override var fontType: String {
@@ -94,7 +94,7 @@ and declaring the font family and type with the factory override properties:
     }
     
     public override var fontFileName: String {
-        return "icomoon-font"
+        return "CustomFontFile"
     }
 
     public func customFontMethod(size: CGFloat) -> FASIcon {
