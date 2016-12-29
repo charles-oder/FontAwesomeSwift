@@ -47,6 +47,7 @@ Run `pod install` or `pod update`
 #### Swift
 ```swift
 let icon: FASIcon = FASIonicons().checkmarkRoundIcon(size: 20)
+let anotherIcon: FASIcon = FASIonicons().icon(name: "ion-checkmark", size: 20)
 let greenIcon: FASIcon = FASIonicons().checkmarkRoundIcon(size: 20).color(color: UIColor.green)
 let greenIconImage: UIImage? = FASIonicons().checkmarkRoundIcon(size: 20).color(color: UIColor.green).image
 let greenIconAttributedString: NSAttributedString = FASIonicons().checkmarkRoundIcon(size: 20).color(color: UIColor.green).attributedString 
@@ -59,6 +60,7 @@ let offsetIconImage: UIImage? = FASIonicons().checkmarkRoundIcon(size: 20).offse
 #### Objective-C
 ```objective-c
 FASIcon *icon = [[FASIonicons new] iosInformationOutlineIconWithSize:20];
+FASIcon *anotherIcon = [[FASIonicons new] iconWithName: @"ion-checkmark" size:20];
 FASIcon *greenIcon = [[[FASIonicons new] iosInformationOutlineIconWithSize:20] colorWithColor:[UIColor greenColor]];
 UIImage *greenIconImage = [[[FASIonicons new] iosInformationOutlineIconWithSize:20] colorWithColor:[UIColor greenColor]].image;
 NSAttributedString *greenIconAttributedString = [[[FASIonicons new] iosInformationOutlineIconWithSize:20] colorWithColor:[UIColor greenColor]].attributedString;
@@ -66,3 +68,39 @@ UIImage *greenBackgroundImage = [[[FASIonicons new] iosInformationOutlineIconWit
 UIImage *paddedIconImage = [[[FASIonicons new] iosInformationOutlineIconWithSize:20] paddingWithPadding: 10].image;
 UIImage *offsetIconImage = [[[FASIonicons new] iosInformationOutlineIconWithSize:20] offsetWithX: 20 y: 20].image;
 ```
+
+## Adding Custom Fonts
+Custom font files may be added to a project by overriding the `FASFont` class
+and declaring the font family and type with the factory override properties:
+ `fontType` and `fontFamily`.  
+
+ If the font file name is different than the family name, the `fontFileName` property may be overridden to declare that.  
+
+ The framework will search the bundle that the overridded `FASFont` class is associated with.  
+ The `bundle` property may be overridden if the font file is in a different bundle.
+
+#### Example
+ ```
+ public class ChembookIcons: FASFont {
+
+    public override var fontFamily: String {
+        return "icomoon"
+    }
+    
+    public override var fontType: String {
+        return "ttf"
+    }
+    
+    public override var fontFileName: String {
+        return "icomoon-font"
+    }
+
+    public func customFontMethod(size: CGFloat) -> FASIcon {
+        return FASIcon(font: font(size: size), iconCode: "\u{0001}")
+    }
+    
+}
+ ```
+
+### Mapping Names to Font Codes
+ Overriding the `allIcons` property with a `[name : code]` mapping wil allow client code to create font icons with the `icon(name: String, size: CGFloat)` method.
