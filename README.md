@@ -1,4 +1,4 @@
-#FontAwesomeSwift ![Cocoapods Version](https://img.shields.io/cocoapods/v/FontAwesomeSwift.svg?style=flat) ![Platform](https://img.shields.io/cocoapods/p/FontAwesomeSwift.svg?style=flat) ![License](https://img.shields.io/cocoapods/l/FontAwesomeSwift.svg?style=flat)
+#FontAwesomeSwift [![Cocoapods Version](https://img.shields.io/cocoapods/v/FontAwesomeSwift.svg?style=flat)](https://cocoapods.org/pods/FontAwesomeSwift) ![Platform](https://img.shields.io/cocoapods/p/FontAwesomeSwift.svg?style=flat) [![License](https://img.shields.io/cocoapods/l/FontAwesomeSwift.svg?style=flat)](https://github.com/charles-oder/FontAwesomeSwift/blob/master/LICENSE)
 
 ##Icon Font library for iOS.
 - [FontAwesome 4.7] (http://fontawesome.io)
