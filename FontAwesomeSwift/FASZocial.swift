@@ -8,6 +8,7 @@
 
 import Foundation
 
+@objc
 public class FASZocial: FASFont {
     
     public override var fontFamily: String {

@@ -7,13 +7,15 @@
 //
 
 import Foundation
-open class FASMaterialDesign: FASFont {
+
+@objc
+public class FASMaterialDesign: FASFont {
     
-    open override var fontFamily: String {
+    public override var fontFamily: String {
         return "Material-Design-Iconic-Font"
     }
     
-    open override var fontType: String {
+    public override var fontType: String {
         return "ttf"
     }
 

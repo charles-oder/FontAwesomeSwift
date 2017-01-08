@@ -8,13 +8,14 @@
 
 import Foundation
 
-open class FASOcticons: FASFont {
+@objc
+public class FASOcticons: FASFont {
     
-    open override var fontFamily: String {
+    public override var fontFamily: String {
         return "Octicons"
     }
     
-    open override var fontType: String {
+    public override var fontType: String {
         return "ttf"
     }
 
