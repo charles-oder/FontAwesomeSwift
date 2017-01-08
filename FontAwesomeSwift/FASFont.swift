@@ -44,7 +44,7 @@ open class FASFont: NSObject {
         return icon(code: code, size: size)
     }
     
-    public var allIcons: [String : String] {
+    open var allIcons: [String : String] {
         return [:]
     }
     
