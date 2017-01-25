@@ -77,7 +77,7 @@ extension NSAttributedString {
     }
     
     func image(left: CGFloat, right: CGFloat, top: CGFloat, bottom: CGFloat, xOffset: CGFloat, yOffset: CGFloat, backgroundColor: UIColor? = nil) -> UIImage? {
-        let x = xOffset + right
+        let x = xOffset + left
         let y = yOffset + top
         let width = left + right + self.size().width + xOffset
         let height = top + bottom + self.size().height + yOffset
