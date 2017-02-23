@@ -12,7 +12,7 @@ import XCTest
 class FASFontLoaderTests: XCTestCase {
     
     func testLoadFontAwesome() {
-        let testObject = FASFontLoader.loadCustomFont(name: "FontAwesome", type: "ttf", size: 20, bundle: Bundle(for: FASFontLoader.self))
+        let testObject = FASFontLoader.loadCustomFont(name: "FontAwesome", fileName: "FontAwesome", type: "ttf", size: 20, bundle: Bundle(for: FASFontLoader.self))
         
         XCTAssertEqual("FontAwesome", testObject.familyName)
         XCTAssertEqual(20, testObject.pointSize)
