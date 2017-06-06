@@ -29,7 +29,11 @@ public class FASFontLoader {
             let data = try Data(contentsOf: url)
             
             let provider = CGDataProvider(data: data as CFData)
-            let font = CGFont.init(provider!)
+            guard let font = CGFont.init(provider!) else {
+                let error = NSError(domain: "font file error", code: 1, userInfo: nil)
+                NSException(name: NSExceptionName.internalInconsistencyException, reason: "Unable to create font from file" as String, userInfo: [NSUnderlyingErrorKey: error]).raise()
+                return
+            }
             
             var error: Unmanaged<CFError>?
             if !CTFontManagerRegisterGraphicsFont(font, &error) {
