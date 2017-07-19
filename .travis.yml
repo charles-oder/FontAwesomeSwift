@@ -1,5 +1,11 @@
 language: swift
-xcode_workspace: FontAwesomeSwift.xcodeproj
-xcode_scheme: FontAwesomeSwift
-os: osx
 osx_image: xcode8.3
+branches:
+  only:
+    - master
+env:
+  global:
+  - LC_CTYPE=en_US.UTF-8
+  - LANG=en_US.UTF-8
+  - WORKSPACE=FontAwesomeSwift.xcodeproj
+  - IOS_FRAMEWORK_SCHEME="FontAwesomeSwift"
