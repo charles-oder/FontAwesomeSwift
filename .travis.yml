@@ -1,0 +1,5 @@
+language: swift
+xcode_workspace: FontAwesomeSwift.xcodeproj
+xcode_scheme: FontAwesomeSwift
+os: osx
+osx_image: xcode8.3
