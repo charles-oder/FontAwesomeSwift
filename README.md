@@ -1,10 +1,10 @@
-#FontAwesomeSwift 
 [![Build Status](https://travis-ci.org/charles-oder/FontAwesomeSwift.svg?branch=master)](https://travis-ci.org/charles-oder/FontAwesomeSwift)
 [![Cocoapods Version](https://img.shields.io/cocoapods/v/FontAwesomeSwift.svg?style=flat)](https://cocoapods.org/pods/FontAwesomeSwift) 
 ![Platform](https://img.shields.io/cocoapods/p/FontAwesomeSwift.svg?style=flat) 
 [![License](https://img.shields.io/cocoapods/l/FontAwesomeSwift.svg?style=flat)](https://github.com/charles-oder/FontAwesomeSwift/blob/master/LICENSE)
 
-##Icon Font library for iOS.
+# FontAwesomeSwift 
+## Icon Font library for iOS.
 - [FontAwesome 4.7] (http://fontawesome.io)
 - [Foundation icons](http://zurb.com/playground/foundation-icon-fonts-3)
 - [Ionicons 2.0.0] (http://ionicons.com/)
