@@ -32,7 +32,7 @@ public class FASFontLoader {
             let font = CGFont.init(provider!)
             
             var error: Unmanaged<CFError>?
-            if !CTFontManagerRegisterGraphicsFont(font, &error) {
+            if !CTFontManagerRegisterGraphicsFont(font!, &error) {
                 let errorDescription: CFString = CFErrorCopyDescription(error!.takeUnretainedValue())
                 let nsError = error!.takeUnretainedValue() as AnyObject as! NSError
                 NSException(name: NSExceptionName.internalInconsistencyException, reason: errorDescription as String, userInfo: [NSUnderlyingErrorKey: nsError]).raise()
