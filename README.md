@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/charles-oder/FontAwesomeSwift.svg?branch=master)](https://travis-ci.org/charles-oder/FontAwesomeSwift)
 [![Cocoapods Version](https://img.shields.io/cocoapods/v/FontAwesomeSwift.svg?style=flat)](https://cocoapods.org/pods/FontAwesomeSwift) 
+[![Swift](https://img.shields.io/badge/Swift-4-orange.svg)](https://swift.org)
+[![Xcode](https://img.shields.io/badge/Xcode-9-blue.svg)](https://developer.apple.com/xcode)
 ![Platform](https://img.shields.io/cocoapods/p/FontAwesomeSwift.svg?style=flat) 
 [![License](https://img.shields.io/cocoapods/l/FontAwesomeSwift.svg?style=flat)](https://github.com/charles-oder/FontAwesomeSwift/blob/master/LICENSE)
 
