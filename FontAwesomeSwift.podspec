@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FontAwesomeSwift'
-  s.version          = '1.6.0'
+  s.version          = '1.6.1'
   s.summary          = 'FontAwesome in Swift'
 
 
@@ -65,4 +65,10 @@ An extensible library for using external font icons such as FontAwesome.
     ss.resource = 'FontAwesomeSwift/Resources/Zocial.ttf'
   end
 
+  def s.post_install(target)
+    target.new_shell_script_build_phase.shell_script = "mkdir -p $PODS_CONFIGURATION_BUILD_DIR/#{target.name}"
+    target.build_configurations.each do |config|
+      config.build_settings['CONFIGURATION_BUILD_DIR'] = '$PODS_CONFIGURATION_BUILD_DIR'
+    end
+  end
 end
