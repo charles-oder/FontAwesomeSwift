@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1471D0520226A2700A48F17 /* FASFontAwesomeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1471CFC20226A2700A48F17 /* FASFontAwesomeViews.swift */; };
+		E1471D0720226A2700A48F17 /* FASImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1471CFE20226A2700A48F17 /* FASImageView.swift */; };
+		E1471D0820226A2700A48F17 /* FASIonIconViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1471CFF20226A2700A48F17 /* FASIonIconViews.swift */; };
+		E1471D0B20226A2700A48F17 /* FASBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1471D0220226A2700A48F17 /* FASBarButtonItem.swift */; };
+		E1471D0D20226A2700A48F17 /* FASButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1471D0420226A2700A48F17 /* FASButton.swift */; };
+		E1471D1D20226F7700A48F17 /* FASZocialViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1471D1C20226F7700A48F17 /* FASZocialViews.swift */; };
+		E1471D212022700E00A48F17 /* FASOcticonsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1471D202022700E00A48F17 /* FASOcticonsViews.swift */; };
+		E1471D232022702000A48F17 /* FASMaterialDesignViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1471D222022702000A48F17 /* FASMaterialDesignViews.swift */; };
+		E1471D252022703600A48F17 /* FASFoundationIconsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1471D242022703600A48F17 /* FASFoundationIconsViews.swift */; };
 		E14D4B5F1E11F7CC009422DF /* FontAwesomeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14D4B551E11F7CC009422DF /* FontAwesomeSwift.framework */; };
 		E14D4B641E11F7CC009422DF /* FontAwesomeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B631E11F7CC009422DF /* FontAwesomeSwiftTests.swift */; };
 		E14D4B661E11F7CC009422DF /* FontAwesomeSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = E14D4B581E11F7CC009422DF /* FontAwesomeSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,6 +50,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E1471CFC20226A2700A48F17 /* FASFontAwesomeViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASFontAwesomeViews.swift; sourceTree = "<group>"; };
+		E1471CFE20226A2700A48F17 /* FASImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASImageView.swift; sourceTree = "<group>"; };
+		E1471CFF20226A2700A48F17 /* FASIonIconViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASIonIconViews.swift; sourceTree = "<group>"; };
+		E1471D0220226A2700A48F17 /* FASBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASBarButtonItem.swift; sourceTree = "<group>"; };
+		E1471D0420226A2700A48F17 /* FASButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASButton.swift; sourceTree = "<group>"; };
+		E1471D1C20226F7700A48F17 /* FASZocialViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FASZocialViews.swift; sourceTree = "<group>"; };
+		E1471D202022700E00A48F17 /* FASOcticonsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FASOcticonsViews.swift; sourceTree = "<group>"; };
+		E1471D222022702000A48F17 /* FASMaterialDesignViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FASMaterialDesignViews.swift; sourceTree = "<group>"; };
+		E1471D242022703600A48F17 /* FASFoundationIconsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FASFoundationIconsViews.swift; sourceTree = "<group>"; };
 		E14D4B551E11F7CC009422DF /* FontAwesomeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14D4B581E11F7CC009422DF /* FontAwesomeSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontAwesomeSwift.h; sourceTree = "<group>"; };
 		E14D4B591E11F7CC009422DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,6 +105,127 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1471D0E20226CAA00A48F17 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E14D4B771E11FC09009422DF /* FASFont.swift */,
+				E14D4B701E11F82B009422DF /* FASFontLoader.swift */,
+				E14D4B7D1E12ED10009422DF /* FASIcon.swift */,
+				E1471D0420226A2700A48F17 /* FASButton.swift */,
+				E1471CFE20226A2700A48F17 /* FASImageView.swift */,
+				E1471D0220226A2700A48F17 /* FASBarButtonItem.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E1471D0F20226CBB00A48F17 /* IonIcons */ = {
+			isa = PBXGroup;
+			children = (
+				E1C565301E1345A1000CDB18 /* FASIonicons.swift */,
+				E1471CFF20226A2700A48F17 /* FASIonIconViews.swift */,
+				E1471D1820226D2800A48F17 /* Resources */,
+			);
+			path = IonIcons;
+			sourceTree = "<group>";
+		};
+		E1471D1020226CD900A48F17 /* FoundationIcons */ = {
+			isa = PBXGroup;
+			children = (
+				E1C565371E1360C0000CDB18 /* FASFoundationIcons.swift */,
+				E1471D242022703600A48F17 /* FASFoundationIconsViews.swift */,
+				E1471D1720226D2400A48F17 /* Resources */,
+			);
+			path = FoundationIcons;
+			sourceTree = "<group>";
+		};
+		E1471D1120226CE100A48F17 /* MaterialDesign */ = {
+			isa = PBXGroup;
+			children = (
+				E1C5653B1E1365C1000CDB18 /* FASMaterialDesign.swift */,
+				E1471D222022702000A48F17 /* FASMaterialDesignViews.swift */,
+				E1471D1620226D2000A48F17 /* Resources */,
+			);
+			path = MaterialDesign;
+			sourceTree = "<group>";
+		};
+		E1471D1220226CE800A48F17 /* Octicons */ = {
+			isa = PBXGroup;
+			children = (
+				E1C5653E1E1407AE000CDB18 /* FASOcticons.swift */,
+				E1471D202022700E00A48F17 /* FASOcticonsViews.swift */,
+				E1471D1520226D1C00A48F17 /* Resources */,
+			);
+			path = Octicons;
+			sourceTree = "<group>";
+		};
+		E1471D1320226CF100A48F17 /* Zocial */ = {
+			isa = PBXGroup;
+			children = (
+				E1C565431E140950000CDB18 /* FASZocial.swift */,
+				E1471D1C20226F7700A48F17 /* FASZocialViews.swift */,
+				E1471D1420226D0D00A48F17 /* Resources */,
+			);
+			path = Zocial;
+			sourceTree = "<group>";
+		};
+		E1471D1420226D0D00A48F17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1C565401E140937000CDB18 /* Zocial.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1471D1520226D1C00A48F17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1C5653D1E140771000CDB18 /* Octicons.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1471D1620226D2000A48F17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1C565391E1364C2000CDB18 /* Material-Design-Iconic-Font.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1471D1720226D2400A48F17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1C565351E1360AD000CDB18 /* fontcustom.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1471D1820226D2800A48F17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1C565331E13609D000CDB18 /* Ionicons.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1471D1A20226E9500A48F17 /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				E14D4B7B1E1215D4009422DF /* FASFontAwesome.swift */,
+				E1471CFC20226A2700A48F17 /* FASFontAwesomeViews.swift */,
+				E1471D1B20226EAF00A48F17 /* Resources */,
+			);
+			path = FontAwesome;
+			sourceTree = "<group>";
+		};
+		E1471D1B20226EAF00A48F17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E14D4B741E11F890009422DF /* FontAwesome.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		E14D4B4B1E11F7CC009422DF = {
 			isa = PBXGroup;
 			children = (
@@ -109,18 +248,15 @@
 		E14D4B571E11F7CC009422DF /* FontAwesomeSwift */ = {
 			isa = PBXGroup;
 			children = (
-				E14D4B6F1E11F7E6009422DF /* Resources */,
+				E1471D1A20226E9500A48F17 /* FontAwesome */,
+				E1471D1320226CF100A48F17 /* Zocial */,
+				E1471D1220226CE800A48F17 /* Octicons */,
+				E1471D1120226CE100A48F17 /* MaterialDesign */,
+				E1471D1020226CD900A48F17 /* FoundationIcons */,
+				E1471D0F20226CBB00A48F17 /* IonIcons */,
+				E1471D0E20226CAA00A48F17 /* Core */,
 				E14D4B581E11F7CC009422DF /* FontAwesomeSwift.h */,
 				E14D4B591E11F7CC009422DF /* Info.plist */,
-				E14D4B701E11F82B009422DF /* FASFontLoader.swift */,
-				E14D4B771E11FC09009422DF /* FASFont.swift */,
-				E14D4B7B1E1215D4009422DF /* FASFontAwesome.swift */,
-				E14D4B7D1E12ED10009422DF /* FASIcon.swift */,
-				E1C565301E1345A1000CDB18 /* FASIonicons.swift */,
-				E1C565371E1360C0000CDB18 /* FASFoundationIcons.swift */,
-				E1C5653B1E1365C1000CDB18 /* FASMaterialDesign.swift */,
-				E1C5653E1E1407AE000CDB18 /* FASOcticons.swift */,
-				E1C565431E140950000CDB18 /* FASZocial.swift */,
 			);
 			path = FontAwesomeSwift;
 			sourceTree = "<group>";
@@ -135,19 +271,6 @@
 				E14D4B7F1E12ED32009422DF /* FASIconTests.swift */,
 			);
 			path = FontAwesomeSwiftTests;
-			sourceTree = "<group>";
-		};
-		E14D4B6F1E11F7E6009422DF /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E1C565331E13609D000CDB18 /* Ionicons.ttf */,
-				E1C565351E1360AD000CDB18 /* fontcustom.ttf */,
-				E14D4B741E11F890009422DF /* FontAwesome.ttf */,
-				E1C565391E1364C2000CDB18 /* Material-Design-Iconic-Font.ttf */,
-				E1C5653D1E140771000CDB18 /* Octicons.ttf */,
-				E1C565401E140937000CDB18 /* Zocial.ttf */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,14 +393,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1C5653F1E1407AE000CDB18 /* FASOcticons.swift in Sources */,
+				E1471D0720226A2700A48F17 /* FASImageView.swift in Sources */,
+				E1471D0D20226A2700A48F17 /* FASButton.swift in Sources */,
 				E1C565441E140950000CDB18 /* FASZocial.swift in Sources */,
 				E14D4B711E11F82B009422DF /* FASFontLoader.swift in Sources */,
 				E14D4B781E11FC09009422DF /* FASFont.swift in Sources */,
+				E1471D252022703600A48F17 /* FASFoundationIconsViews.swift in Sources */,
+				E1471D0520226A2700A48F17 /* FASFontAwesomeViews.swift in Sources */,
 				E14D4B7C1E1215D4009422DF /* FASFontAwesome.swift in Sources */,
+				E1471D0820226A2700A48F17 /* FASIonIconViews.swift in Sources */,
+				E1471D1D20226F7700A48F17 /* FASZocialViews.swift in Sources */,
 				E14D4B7E1E12ED10009422DF /* FASIcon.swift in Sources */,
+				E1471D0B20226A2700A48F17 /* FASBarButtonItem.swift in Sources */,
 				E1C565311E1345A1000CDB18 /* FASIonicons.swift in Sources */,
+				E1471D232022702000A48F17 /* FASMaterialDesignViews.swift in Sources */,
 				E1C565381E1360C0000CDB18 /* FASFoundationIcons.swift in Sources */,
 				E1C5653C1E1365C1000CDB18 /* FASMaterialDesign.swift in Sources */,
+				E1471D212022700E00A48F17 /* FASOcticonsViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

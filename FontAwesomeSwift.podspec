@@ -26,43 +26,43 @@ An extensible library for using external font icons such as FontAwesome.
   s.source_files = 'FontAwesomeSwift/FontAwesomeSwift.h', 'FontAwesomeSwift/LICENSE'
 
   s.subspec 'Core' do |ss|
-    ss.source_files = 'FontAwesomeSwift/FASFontLoader.swift', 'FontAwesomeSwift/FASFont.swift', 'FontAwesomeSwift/FASIcon.swift'
+    ss.source_files = 'FontAwesomeSwift/Core/*'
   end
 
   s.subspec 'FontAwesome' do |ss|
     ss.dependency 'FontAwesomeSwift/Core'
-    ss.source_files = 'FontAwesomeSwift/FASFontAwesome.swift'
-    ss.resource = 'FontAwesomeSwift/Resources/FontAwesome.ttf'
+    ss.source_files = 'FontAwesomeSwift/FontAwesome/*.swift'
+    ss.resource = 'FontAwesomeSwift/FontAwesome/Resources/*.ttf'
   end
 
   s.subspec 'Ionicons' do |ss|
     ss.dependency 'FontAwesomeSwift/Core'
-    ss.source_files = 'FontAwesomeSwift/FASIonicons.swift'
-    ss.resource = 'FontAwesomeSwift/Resources/Ionicons.ttf'
+    ss.source_files = 'FontAwesomeSwift/Ionicons/*.swift'
+    ss.resource = 'FontAwesomeSwift/Ionicons/Resources/*.ttf'
   end
 
   s.subspec 'FoundationIcons' do |ss|
     ss.dependency 'FontAwesomeSwift/Core'
-    ss.source_files = 'FontAwesomeSwift/FASFoundationIcons.swift'
-    ss.resource = 'FontAwesomeSwift/Resources/fontcustom.ttf'
+    ss.source_files = 'FontAwesomeSwift/FoundationIcons/*.swift'
+    ss.resource = 'FontAwesomeSwift/FoundationIcons/Resources/*.ttf'
   end
 
   s.subspec 'MaterialDesign' do |ss|
     ss.dependency 'FontAwesomeSwift/Core'
-    ss.source_files = 'FontAwesomeSwift/FASMaterialDesign.swift'
-    ss.resource = 'FontAwesomeSwift/Resources/Material-Design-Iconic-Font.ttf'
+    ss.source_files = 'FontAwesomeSwift/MaterialDesign/*.swift'
+    ss.resource = 'FontAwesomeSwift/MaterialDesign/Resources/*.ttf'
   end
 
   s.subspec 'Octicons' do |ss|
     ss.dependency 'FontAwesomeSwift/Core'
-    ss.source_files = 'FontAwesomeSwift/FASOcticons.swift'
-   ss.resource = 'FontAwesomeSwift/Resources/Octicons.ttf'
+    ss.source_files = 'FontAwesomeSwift/Octicons/*.swift'
+    ss.resource = 'FontAwesomeSwift/Octicons/Resources/*.ttf'
   end
 
   s.subspec 'Zocial' do |ss|
     ss.dependency 'FontAwesomeSwift/Core'
-    ss.source_files = 'FontAwesomeSwift/FASZocial.swift'
-    ss.resource = 'FontAwesomeSwift/Resources/Zocial.ttf'
+    ss.source_files = 'FontAwesomeSwift/Zocial/*.swift'
+    ss.resource = 'FontAwesomeSwift/Zocial/Resources/*.ttf'
   end
 
   def s.post_install(target)
