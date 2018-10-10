@@ -24,12 +24,7 @@ open class FASTabBarItem: UITabBarItem {
         }
     }
     
-    @IBInspectable
-    open var iconSize: CGFloat = UIFont.systemFontSize {
-        didSet {
-            setIcon()
-        }
-    }
+    let iconSize: CGFloat = 25
     
     private func setIcon() {
         image = icon(name: iconName, size: iconSize)
