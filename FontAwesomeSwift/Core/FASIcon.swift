@@ -24,17 +24,17 @@ open class FASIcon: NSObject {
     
     public init(font: UIFont, iconCode: String) {
         super.init()
-        attributedString = NSMutableAttributedString(string: iconCode, attributes: [NSAttributedStringKey.font:font])
+        attributedString = NSMutableAttributedString(string: iconCode, attributes: [NSAttributedString.Key.font:font])
     }
     
     public func color(color: UIColor) -> FASIcon {
-        attributedString.addAttribute(NSAttributedStringKey.foregroundColor, value: color, range: NSRange(location: 0, length: attributedString.length))
+        attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: color, range: NSRange(location: 0, length: attributedString.length))
         return self
     }
     
     public func backgroundColor(color: UIColor) -> FASIcon {
         backgroundColor = color
-        attributedString.addAttribute(NSAttributedStringKey.backgroundColor, value: color, range: NSRange(location: 0, length: attributedString.length))
+        attributedString.addAttribute(NSAttributedString.Key.backgroundColor, value: color, range: NSRange(location: 0, length: attributedString.length))
         return self
     }
     

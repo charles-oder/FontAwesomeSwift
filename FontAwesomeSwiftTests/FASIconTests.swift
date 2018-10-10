@@ -18,7 +18,7 @@ class FASIconTests: XCTestCase {
         let testObject = FASIcon(font: font, iconCode: iconCode)
         
         XCTAssertEqual("0", testObject.attributedString.string)
-        let actualFont = testObject.attributedString.attribute(NSAttributedStringKey.font, at: 0, effectiveRange: nil) as? UIFont
+        let actualFont = testObject.attributedString.attribute(NSAttributedString.Key.font, at: 0, effectiveRange: nil) as? UIFont
         XCTAssertEqual("Arial", actualFont?.familyName)
     }
     
@@ -28,7 +28,7 @@ class FASIconTests: XCTestCase {
         
         let testObject = FASIcon(font: font, iconCode: iconCode).color(color: UIColor.green)
         
-        let initialColor = testObject.attributedString.attribute(NSAttributedStringKey.foregroundColor, at: 0, effectiveRange: nil) as? UIColor
+        let initialColor = testObject.attributedString.attribute(NSAttributedString.Key.foregroundColor, at: 0, effectiveRange: nil) as? UIColor
         
         XCTAssertEqual(0, initialColor?.rgb()?.red)
         XCTAssertEqual(255, initialColor?.rgb()?.green)
@@ -37,7 +37,7 @@ class FASIconTests: XCTestCase {
         
         _ = testObject.color(color: UIColor.blue)
         
-        let newColor = testObject.attributedString.attribute(NSAttributedStringKey.foregroundColor, at: 0, effectiveRange: nil) as? UIColor
+        let newColor = testObject.attributedString.attribute(NSAttributedString.Key.foregroundColor, at: 0, effectiveRange: nil) as? UIColor
 
         XCTAssertEqual(0, newColor?.rgb()?.red)
         XCTAssertEqual(0, newColor?.rgb()?.green)
@@ -46,7 +46,7 @@ class FASIconTests: XCTestCase {
 
         
         XCTAssertEqual("0", testObject.attributedString.string)
-        let actualFont = testObject.attributedString.attribute(NSAttributedStringKey.font, at: 0, effectiveRange: nil) as? UIFont
+        let actualFont = testObject.attributedString.attribute(NSAttributedString.Key.font, at: 0, effectiveRange: nil) as? UIFont
         XCTAssertEqual("Arial", actualFont?.familyName)
     }
     
