@@ -73,6 +73,9 @@
 		E14D4B7B1E1215D4009422DF /* FASFontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASFontAwesome.swift; sourceTree = "<group>"; };
 		E14D4B7D1E12ED10009422DF /* FASIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASIcon.swift; sourceTree = "<group>"; };
 		E14D4B7F1E12ED32009422DF /* FASIconTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASIconTests.swift; sourceTree = "<group>"; };
+		E1AF73DF216E4AB8006DAFEF /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		E1AF73E0216E4ABF006DAFEF /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		E1AF73E1216E4AC5006DAFEF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		E1C565301E1345A1000CDB18 /* FASIonicons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASIonicons.swift; sourceTree = "<group>"; };
 		E1C565321E1358E0000CDB18 /* FontAwesomeSwift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FontAwesomeSwift.podspec; sourceTree = "<group>"; };
 		E1C565331E13609D000CDB18 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
@@ -229,6 +232,9 @@
 		E14D4B4B1E11F7CC009422DF = {
 			isa = PBXGroup;
 			children = (
+				E1AF73E1216E4AC5006DAFEF /* .gitignore */,
+				E1AF73E0216E4ABF006DAFEF /* .swift-version */,
+				E1AF73DF216E4AB8006DAFEF /* .travis.yml */,
 				E1C565321E1358E0000CDB18 /* FontAwesomeSwift.podspec */,
 				E14D4B571E11F7CC009422DF /* FontAwesomeSwift */,
 				E14D4B621E11F7CC009422DF /* FontAwesomeSwiftTests */,
