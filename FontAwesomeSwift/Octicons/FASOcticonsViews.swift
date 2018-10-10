@@ -34,3 +34,13 @@ open class FASOcticonsImageView: FASImageView {
     }
     
 }
+
+@IBDesignable
+public class FASOctionsTabBarItem: FASTabBarItem {
+    
+    public override func icon(name: String, size: CGFloat) -> UIImage? {
+        return FASOcticons().icon(name: name, size: size)?.image
+    }
+    
+}
+

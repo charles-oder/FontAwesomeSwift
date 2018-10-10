@@ -34,3 +34,13 @@ open class FASMaterialDesignImageView: FASImageView {
     }
     
 }
+
+@IBDesignable
+public class FASMaterialDesignTabBarItem: FASTabBarItem {
+    
+    public override func icon(name: String, size: CGFloat) -> UIImage? {
+        return FASMaterialDesign().icon(name: name, size: size)?.image
+    }
+    
+}
+

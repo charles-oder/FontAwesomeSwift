@@ -35,3 +35,13 @@ open class FASIonIconButton: FASButton {
     }
     
 }
+
+@IBDesignable
+public class FASIonIconTabBarItem: FASTabBarItem {
+    
+    public override func icon(name: String, size: CGFloat) -> UIImage? {
+        return FASIonicons().icon(name: name, size: size)?.image
+    }
+    
+}
+

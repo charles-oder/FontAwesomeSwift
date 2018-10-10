@@ -35,3 +35,13 @@ open class FASFontAwesomeImageView: FASImageView {
     }
     
 }
+
+@IBDesignable
+public class FASFontAwesomeTabBarItem: FASTabBarItem {
+    
+    public override func icon(name: String, size: CGFloat) -> UIImage? {
+        return FASFontAwesome().icon(name: name, size: size)?.image
+    }
+    
+}
+

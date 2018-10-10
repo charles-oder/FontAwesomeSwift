@@ -27,6 +27,7 @@
 		E14D4B7C1E1215D4009422DF /* FASFontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B7B1E1215D4009422DF /* FASFontAwesome.swift */; };
 		E14D4B7E1E12ED10009422DF /* FASIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B7D1E12ED10009422DF /* FASIcon.swift */; };
 		E14D4B801E12ED32009422DF /* FASIconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D4B7F1E12ED32009422DF /* FASIconTests.swift */; };
+		E1AF73E3216E4C94006DAFEF /* FASTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF73E2216E4C94006DAFEF /* FASTabBarItem.swift */; };
 		E1C565311E1345A1000CDB18 /* FASIonicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C565301E1345A1000CDB18 /* FASIonicons.swift */; };
 		E1C565341E1360A1000CDB18 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1C565331E13609D000CDB18 /* Ionicons.ttf */; };
 		E1C565361E1360AD000CDB18 /* fontcustom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1C565351E1360AD000CDB18 /* fontcustom.ttf */; };
@@ -76,6 +77,7 @@
 		E1AF73DF216E4AB8006DAFEF /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		E1AF73E0216E4ABF006DAFEF /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 		E1AF73E1216E4AC5006DAFEF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E1AF73E2216E4C94006DAFEF /* FASTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FASTabBarItem.swift; sourceTree = "<group>"; };
 		E1C565301E1345A1000CDB18 /* FASIonicons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FASIonicons.swift; sourceTree = "<group>"; };
 		E1C565321E1358E0000CDB18 /* FontAwesomeSwift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FontAwesomeSwift.podspec; sourceTree = "<group>"; };
 		E1C565331E13609D000CDB18 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				E1471D0420226A2700A48F17 /* FASButton.swift */,
 				E1471CFE20226A2700A48F17 /* FASImageView.swift */,
 				E1471D0220226A2700A48F17 /* FASBarButtonItem.swift */,
+				E1AF73E2216E4C94006DAFEF /* FASTabBarItem.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1C5653F1E1407AE000CDB18 /* FASOcticons.swift in Sources */,
+				E1AF73E3216E4C94006DAFEF /* FASTabBarItem.swift in Sources */,
 				E1471D0720226A2700A48F17 /* FASImageView.swift in Sources */,
 				E1471D0D20226A2700A48F17 /* FASButton.swift in Sources */,
 				E1C565441E140950000CDB18 /* FASZocial.swift in Sources */,

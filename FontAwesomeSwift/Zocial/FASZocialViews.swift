@@ -35,3 +35,12 @@ open class FASZocialImageView: FASImageView {
     
 }
 
+@IBDesignable
+public class FASZocialTabBarItem: FASTabBarItem {
+    
+    public override func icon(name: String, size: CGFloat) -> UIImage? {
+        return FASZocial().icon(name: name, size: size)?.image
+    }
+    
+}
+
