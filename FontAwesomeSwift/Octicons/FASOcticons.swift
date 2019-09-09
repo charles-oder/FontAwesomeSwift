@@ -12,6 +12,10 @@ import Foundation
 public class FASOcticons: FASFont {
     
     public override var fontFamily: String {
+        return "octicons"
+    }
+    
+    public override var fontFileName: String {
         return "Octicons"
     }
     
