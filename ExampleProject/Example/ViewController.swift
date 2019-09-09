@@ -21,7 +21,7 @@ class ViewController: UIViewController {
             fontNames = getValidNames()
             collectionView.reloadData()
             iconNameLabel.text = ""
-            fontButton.setTitle(font.fontFamily, for: .normal)
+            fontButton.setTitle("\(font.fontName)", for: .normal)
         }
     }
     
