@@ -9,10 +9,48 @@
 import Foundation
 
 @objc
+public class FASFontAwesome5FreeSolid: FASFontAwesome5FreeRegular {
+    
+    public override var fontFamily: String {
+        return "Font Awesome 5 Free"
+    }
+    
+    public override var fontName: String {
+        return "FontAwesome5Free-Solid"
+    }
+    
+    public override var fontFileName: String {
+        return "fa-solid-900"
+    }
+    
+}
+
+@objc
+public class FASFontAwesome5FreeBrands: FASFontAwesome5FreeRegular {
+    
+    public override var fontFamily: String {
+        return "Font Awesome 5 Brands"
+    }
+    
+    public override var fontName: String {
+        return "FontAwesome5Brands-Regular"
+    }
+    
+    public override var fontFileName: String {
+        return "fa-brands-400"
+    }
+    
+}
+
+@objc
 public class FASFontAwesome5FreeRegular: FASFont {
 
     public override var fontFamily: String {
         return "Font Awesome 5 Free"
+    }
+    
+    public override var fontName: String {
+        return "FontAwesome5Free-Regular"
     }
     
     public override var fontFileName: String {

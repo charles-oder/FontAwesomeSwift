@@ -40,6 +40,12 @@ class ViewController: UIViewController {
         actionViewController.addAction(UIAlertAction(title: "FASFontAwesome5FreeRegular",
                                                      style: .default,
                                                      handler: { [weak self]_ in self?.font = FASFontAwesome5FreeRegular() }))
+        actionViewController.addAction(UIAlertAction(title: "FASFontAwesome5FreeSolid",
+                                                     style: .default,
+                                                     handler: { [weak self]_ in self?.font = FASFontAwesome5FreeSolid() }))
+        actionViewController.addAction(UIAlertAction(title: "FASFontAwesome5FreeBrands",
+                                                     style: .default,
+                                                     handler: { [weak self]_ in self?.font = FASFontAwesome5FreeBrands() }))
         actionViewController.addAction(UIAlertAction(title: "FoundationIcons",
                                                      style: .default,
                                                      handler: { [weak self]_ in self?.font = FASFoundationIcons() }))

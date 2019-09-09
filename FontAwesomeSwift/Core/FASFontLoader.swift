@@ -10,8 +10,8 @@ import Foundation
 
 public class FASFontLoader {
     
-    public static func loadCustomFont(name: String, fileName: String, type: String, size: CGFloat, bundle: Bundle) -> UIFont {
-        if UIFont.fontNames(forFamilyName: name).count == 0 {
+    public static func loadCustomFont(family: String, name: String, fileName: String, type: String, size: CGFloat, bundle: Bundle) -> UIFont {
+        if !UIFont.fontNames(forFamilyName: family).contains(name) {
             loadFont(fileName, type: type, bundle: bundle)
         }
         return UIFont(name: name, size: size)!
