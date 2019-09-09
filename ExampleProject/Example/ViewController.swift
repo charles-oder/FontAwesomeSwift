@@ -37,9 +37,9 @@ class ViewController: UIViewController {
         actionViewController.addAction(UIAlertAction(title: "FontAwesome",
                                                      style: .default,
                                                      handler: { [weak self]_ in self?.font = FASFontAwesome() }))
-        actionViewController.addAction(UIAlertAction(title: "FontAwesome5",
+        actionViewController.addAction(UIAlertAction(title: "FASFontAwesome5FreeRegular",
                                                      style: .default,
-                                                     handler: { [weak self]_ in self?.font = FASFontAwesome5() }))
+                                                     handler: { [weak self]_ in self?.font = FASFontAwesome5FreeRegular() }))
         actionViewController.addAction(UIAlertAction(title: "FoundationIcons",
                                                      style: .default,
                                                      handler: { [weak self]_ in self?.font = FASFoundationIcons() }))

@@ -9,7 +9,7 @@
 import Foundation
 
 @objc
-public class FASFontAwesome5: FASFont {
+public class FASFontAwesome5FreeRegular: FASFont {
 
     public override var fontFamily: String {
         return "Font Awesome 5 Free"

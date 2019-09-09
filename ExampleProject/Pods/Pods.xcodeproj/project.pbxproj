@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C6C6321053AE736240704F1B64D1DFF /* FASZocialViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28430CFAF99DC90846DDA75FBC4FFA8 /* FASZocialViews.swift */; };
-		12907B6158A45B610B586EAE6BE7108C /* FASZocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BDD95F752E79DC476E440266BC1C2E /* FASZocial.swift */; };
-		19B32F621A07E305D4AC51E8F9397129 /* FASMaterialDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1482489451963F6746BF9289AAD50DDC /* FASMaterialDesign.swift */; };
 		1BC1B8C6713D6CF69F21F13B55D8E665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		22FDB18E561E33D7035996B526FE8E18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2BC1D3559BFFDCA2745C9281ADE52B29 /* FASOcticons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE313FC1BBEE1E9B1D192BBD552D891 /* FASOcticons.swift */; };
-		2CED0A2EFB4FF61FCBD6A1287D8B582D /* FASBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF270958990DD3926C9824BD81C0193 /* FASBarButtonItem.swift */; };
+		2704D5F55286D18E6C6A7C6E16C696E9 /* FontAwesomeSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF72C8A4D3E71A58CBAB2B0DC413DB /* FontAwesomeSwift-dummy.m */; };
+		37DCF067B77CFC26EF680834A91DC6C9 /* FASFontAwesomeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A6779AFF6811D3C3DC875C09DE3491 /* FASFontAwesomeViews.swift */; };
 		3D94D888036FA5D65E2A1BB91CD85791 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
-		3EB3E1547E6025DA9E9F524F07DFD5F7 /* FASFontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05878222133D91E908320DE079B073F9 /* FASFontLoader.swift */; };
+		3DC5A00E3498EF1299F793031B2E8E6F /* FASImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678B6B755D304551E08737A132440339 /* FASImageView.swift */; };
 		3F7CE19C05D09FA6FF1593D0F66F6C82 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6FF5F279E16E05AE869BF09D9EA69FE /* Zocial.ttf */; };
-		443687393CB78F09A3D61525CCFDE278 /* FASFontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE124AA9FD8433698D662D14F517CB8D /* FASFontAwesome.swift */; };
+		46E0DB05F572D074A3A8E49C8CB53708 /* FASMaterialDesignViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060F8FCFC6EF30B70D93B4724283CE49 /* FASMaterialDesignViews.swift */; };
+		49BDD5B91B7185FCDAF0B748A5294974 /* FASIonIconViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78336DF7AD46D2FEE0425DF7D59A472E /* FASIonIconViews.swift */; };
 		4AEB78AC35453EA3CCE79A1A74D16E3D /* Material-Design-Iconic-Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9B636C53403FFCA66334C273F16A32D /* Material-Design-Iconic-Font.ttf */; };
-		504871E32E2CF9C13C01959309D1A611 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58B01146CA7E265C58D6E01F9FE236 /* FontAwesome.ttf */; };
-		504946373E4322352153DD4B24206AE2 /* FASButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654D858D6A2F5E2381E50EFBE2B1A7F /* FASButton.swift */; };
-		532D449BABA5973B55016A2413B218C9 /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC583A37FE5C2C114EBE27E55BB7A181 /* fa-regular-400.ttf */; };
-		53AB267FC7E2AB1F6D619C2C0FCEBA57 /* FASImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678B6B755D304551E08737A132440339 /* FASImageView.swift */; };
+		4D686790C143F88E465D2770C6D74A78 /* FASFoundationIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929B0B5A822C3F2B1BAC0DC95A6376EB /* FASFoundationIcons.swift */; };
+		504632E22C6109316C15399C7FE2611C /* FASFontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B377BB5E5ACE7830F53F7A9511206B71 /* FASFontAwesome.swift */; };
+		504871E32E2CF9C13C01959309D1A611 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E132AA397B1E0060FCBDED8F20F8A5FE /* FontAwesome.ttf */; };
+		532D449BABA5973B55016A2413B218C9 /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4AB7BD2F8DF469628EF194411FDE0C9 /* fa-regular-400.ttf */; };
 		59C0AE7AE1FC43BBACC81EB251FDD705 /* fontcustom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB6379BBFE90960BEC9429E863F1B2E6 /* fontcustom.ttf */; };
-		59F0D9FCE118E54AE294A0EDC92560F0 /* FASOcticonsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA16B002F5DEA7979F58358BAC77F15 /* FASOcticonsViews.swift */; };
-		5B7BF3771C681CC475A273E7C4D91251 /* FASFontAwesomeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A0497315103E1F31D239621B010C4 /* FASFontAwesomeViews.swift */; };
-		6FB34A59D4DE7BEB1F1DEB3611F2719C /* FontAwesomeSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF72C8A4D3E71A58CBAB2B0DC413DB /* FontAwesomeSwift-dummy.m */; };
-		7D0DB018A92528B172C1228D0B75FF44 /* FASFontAwesome5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366CBD1C4EAEF2CC5A7EB5BE6F6ADAD9 /* FASFontAwesome5.swift */; };
+		68F97D791E4ABF0DA000223D3C5E7703 /* FASOcticonsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA16B002F5DEA7979F58358BAC77F15 /* FASOcticonsViews.swift */; };
+		6BD69A7682BB25D8C4624175346BCEA9 /* FASZocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BDD95F752E79DC476E440266BC1C2E /* FASZocial.swift */; };
 		7D51EED3849CC2DF71204282824CCDE5 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AA4E6D9B48AC57CA2F842072BFE2902 /* FASFoundationIconsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B442A80352EEE52D020359A735382D /* FASFoundationIconsViews.swift */; };
-		A25D8414741A637E29FC2351F191872D /* FASMaterialDesignViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060F8FCFC6EF30B70D93B4724283CE49 /* FASMaterialDesignViews.swift */; };
-		A8CE8AA17BCC3433DD8F959AC5A8BBD4 /* FASIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C329CC63BBDE311332E32DBE7FB1230 /* FASIcon.swift */; };
-		B9BFCD96F2B37E7314284A3424E614E6 /* FASIonIconViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78336DF7AD46D2FEE0425DF7D59A472E /* FASIonIconViews.swift */; };
-		C92B38D250E1AC9C3BA6BFFBA92E41B2 /* FASIonicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435101A012B6F9B7A98172795463A512 /* FASIonicons.swift */; };
+		8DA5C9C0B441BF6C1006109486BBBF59 /* FASFontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05878222133D91E908320DE079B073F9 /* FASFontLoader.swift */; };
+		941302819C5EFE39D7F93D531894B4A8 /* FASFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A6490BF755E435B866EE5FDD0AB1C /* FASFont.swift */; };
+		9808154E96B7964F0B1484013BD89299 /* FASBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF270958990DD3926C9824BD81C0193 /* FASBarButtonItem.swift */; };
+		9F7E5E7ED518AF375E6A4B9759634B36 /* FASIonicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435101A012B6F9B7A98172795463A512 /* FASIonicons.swift */; };
+		A7BBADAF2B06A0CE87C424B39D0336FF /* FASTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8277354310E408CAB6512313EEFC0FE3 /* FASTabBarItem.swift */; };
+		B470A4A5B7779A6564E2F3133AED6558 /* FASZocialViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28430CFAF99DC90846DDA75FBC4FFA8 /* FASZocialViews.swift */; };
+		B7B53AFF3F4C2C1356A7F650E842ABA7 /* FASFoundationIconsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B442A80352EEE52D020359A735382D /* FASFoundationIconsViews.swift */; };
+		C01BBC40AFB22352228CD2BA0FA2ED36 /* FASFontAwesome5FreeRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = C763B4851AA2FD33488BF57E748F1F9E /* FASFontAwesome5FreeRegular.swift */; };
 		CF5717090B6E25ABA12310BD159ADE99 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE05461E261040C1A1BE956739E3610E /* Octicons.ttf */; };
 		D5F833A0A7AE3C721721F025DF56D404 /* FontAwesomeSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BD7A50DB8D8C4DFDA6AFA0E90D6BD2 /* FontAwesomeSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6169B29F405197C93F5440D2CAEB5A4 /* FASFoundationIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929B0B5A822C3F2B1BAC0DC95A6376EB /* FASFoundationIcons.swift */; };
 		D815A3C738DCE5CE145DA6BD5AA6D648 /* FontAwesomeSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96516C572EDB33779DD061C23BF7C570 /* FontAwesomeSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBA87898D6DE4EF657DAF6F3D047DE8B /* FASButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654D858D6A2F5E2381E50EFBE2B1A7F /* FASButton.swift */; };
 		DE1624A16DABDE7BF052C5A73E56D044 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E891FDC9E15CFC300DC905D7F3C5F157 /* Ionicons.ttf */; };
-		DEF7E506612546373A88D542E80DFC32 /* FASFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42A6490BF755E435B866EE5FDD0AB1C /* FASFont.swift */; };
-		EB77D2E86106A2373BA637B1D62BA9D4 /* FASTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8277354310E408CAB6512313EEFC0FE3 /* FASTabBarItem.swift */; };
+		E86565DF9BE2E7F99609D8FAE80A3F2A /* FASIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C329CC63BBDE311332E32DBE7FB1230 /* FASIcon.swift */; };
+		F7A7B0336DDC7821A19AD39A227C4F30 /* FASMaterialDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1482489451963F6746BF9289AAD50DDC /* FASMaterialDesign.swift */; };
+		FF07D1E4B93BE10F7CF0AFC64D67DD7C /* FASOcticons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE313FC1BBEE1E9B1D192BBD552D891 /* FASOcticons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,13 +68,11 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3457A3F7AA00D909350FDCE53080BC50 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		366CBD1C4EAEF2CC5A7EB5BE6F6ADAD9 /* FASFontAwesome5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FASFontAwesome5.swift; path = FontAwesomeSwift/FontAwesome/FASFontAwesome5.swift; sourceTree = "<group>"; };
 		38B442A80352EEE52D020359A735382D /* FASFoundationIconsViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FASFoundationIconsViews.swift; path = FontAwesomeSwift/FoundationIcons/FASFoundationIconsViews.swift; sourceTree = "<group>"; };
 		435101A012B6F9B7A98172795463A512 /* FASIonicons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FASIonicons.swift; path = FontAwesomeSwift/IonIcons/FASIonicons.swift; sourceTree = "<group>"; };
 		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4654D858D6A2F5E2381E50EFBE2B1A7F /* FASButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FASButton.swift; path = FontAwesomeSwift/Core/FASButton.swift; sourceTree = "<group>"; };
 		5C329CC63BBDE311332E32DBE7FB1230 /* FASIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FASIcon.swift; path = FontAwesomeSwift/Core/FASIcon.swift; sourceTree = "<group>"; };
-		5C58B01146CA7E265C58D6E01F9FE236 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = FontAwesomeSwift/FontAwesome/Resources/FontAwesome.ttf; sourceTree = "<group>"; };
 		60FC495D1118C37236B67C468555A228 /* FontAwesomeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesomeSwift.framework; path = FontAwesomeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BD7A50DB8D8C4DFDA6AFA0E90D6BD2 /* FontAwesomeSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontAwesomeSwift.h; path = FontAwesomeSwift/FontAwesomeSwift.h; sourceTree = "<group>"; };
 		678B6B755D304551E08737A132440339 /* FASImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FASImageView.swift; path = FontAwesomeSwift/Core/FASImageView.swift; sourceTree = "<group>"; };
@@ -85,16 +83,18 @@
 		929B0B5A822C3F2B1BAC0DC95A6376EB /* FASFoundationIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FASFoundationIcons.swift; path = FontAwesomeSwift/FoundationIcons/FASFoundationIcons.swift; sourceTree = "<group>"; };
 		96516C572EDB33779DD061C23BF7C570 /* FontAwesomeSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeSwift-umbrella.h"; sourceTree = "<group>"; };
 		96702332DF2094F0C897C492ED7B06F0 /* FontAwesomeSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FontAwesomeSwift.modulemap; sourceTree = "<group>"; };
+		97A6779AFF6811D3C3DC875C09DE3491 /* FASFontAwesomeViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FASFontAwesomeViews.swift; path = FontAwesomeSwift/FontAwesome/FASFontAwesomeViews.swift; sourceTree = "<group>"; };
 		9BDF72C8A4D3E71A58CBAB2B0DC413DB /* FontAwesomeSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeSwift-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		B377BB5E5ACE7830F53F7A9511206B71 /* FASFontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FASFontAwesome.swift; path = FontAwesomeSwift/FontAwesome/FASFontAwesome.swift; sourceTree = "<group>"; };
 		B42A6490BF755E435B866EE5FDD0AB1C /* FASFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FASFont.swift; path = FontAwesomeSwift/Core/FASFont.swift; sourceTree = "<group>"; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C94A0497315103E1F31D239621B010C4 /* FASFontAwesomeViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FASFontAwesomeViews.swift; path = FontAwesomeSwift/FontAwesome/FASFontAwesomeViews.swift; sourceTree = "<group>"; };
-		CE124AA9FD8433698D662D14F517CB8D /* FASFontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FASFontAwesome.swift; path = FontAwesomeSwift/FontAwesome/FASFontAwesome.swift; sourceTree = "<group>"; };
+		C763B4851AA2FD33488BF57E748F1F9E /* FASFontAwesome5FreeRegular.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FASFontAwesome5FreeRegular.swift; path = FontAwesomeSwift/FontAwesome/FASFontAwesome5FreeRegular.swift; sourceTree = "<group>"; };
 		CFA16B002F5DEA7979F58358BAC77F15 /* FASOcticonsViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FASOcticonsViews.swift; path = FontAwesomeSwift/Octicons/FASOcticonsViews.swift; sourceTree = "<group>"; };
 		D28430CFAF99DC90846DDA75FBC4FFA8 /* FASZocialViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FASZocialViews.swift; path = FontAwesomeSwift/Zocial/FASZocialViews.swift; sourceTree = "<group>"; };
 		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		E132AA397B1E0060FCBDED8F20F8A5FE /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = FontAwesomeSwift/FontAwesome/Resources/FontAwesome.ttf; sourceTree = "<group>"; };
 		E1F7AACDCC0CB22CAF51CE12E4C6A0AD /* FontAwesomeSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeSwift.xcconfig; sourceTree = "<group>"; };
 		E2D7EBDFBE8BF528FD4B9F0FD0782231 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E6FF5F279E16E05AE869BF09D9EA69FE /* Zocial.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Zocial.ttf; path = FontAwesomeSwift/Zocial/Resources/Zocial.ttf; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EB6379BBFE90960BEC9429E863F1B2E6 /* fontcustom.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = fontcustom.ttf; path = FontAwesomeSwift/FoundationIcons/Resources/fontcustom.ttf; sourceTree = "<group>"; };
 		EE05461E261040C1A1BE956739E3610E /* Octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Octicons.ttf; path = FontAwesomeSwift/Octicons/Resources/Octicons.ttf; sourceTree = "<group>"; };
-		FC583A37FE5C2C114EBE27E55BB7A181 /* fa-regular-400.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "fa-regular-400.ttf"; path = "FontAwesomeSwift/FontAwesome/Resources/fa-regular-400.ttf"; sourceTree = "<group>"; };
+		F4AB7BD2F8DF469628EF194411FDE0C9 /* fa-regular-400.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "fa-regular-400.ttf"; path = "FontAwesomeSwift/FontAwesome/Resources/fa-regular-400.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +136,17 @@
 			name = Zocial;
 			sourceTree = "<group>";
 		};
+		0618BF624CEEF1D4BDA5897161FC8593 /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				B377BB5E5ACE7830F53F7A9511206B71 /* FASFontAwesome.swift */,
+				C763B4851AA2FD33488BF57E748F1F9E /* FASFontAwesome5FreeRegular.swift */,
+				97A6779AFF6811D3C3DC875C09DE3491 /* FASFontAwesomeViews.swift */,
+				4A0BA8427E14B649094C11A7B84D4244 /* Resources */,
+			);
+			name = FontAwesome;
+			sourceTree = "<group>";
+		};
 		2808A3888AD4B229D79A9B3F720A5D90 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,12 +163,21 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		4A0BA8427E14B649094C11A7B84D4244 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4AB7BD2F8DF469628EF194411FDE0C9 /* fa-regular-400.ttf */,
+				E132AA397B1E0060FCBDED8F20F8A5FE /* FontAwesome.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		4ABA08391BE09CF5E4EA12421565E49A /* FontAwesomeSwift */ = {
 			isa = PBXGroup;
 			children = (
 				65BD7A50DB8D8C4DFDA6AFA0E90D6BD2 /* FontAwesomeSwift.h */,
 				7E7A6F25DADCA7AA9245F39E2A22E7FF /* Core */,
-				6CC51157DFDC66FB98436DB93C742CCA /* FontAwesome */,
+				0618BF624CEEF1D4BDA5897161FC8593 /* FontAwesome */,
 				D427AFEF36277B680047EC3B0297CCCB /* FoundationIcons */,
 				7F13C3B734B556174711DA49DD73C8FC /* Ionicons */,
 				8712C7261D39FC5A5FFDA46ADA549E03 /* MaterialDesign */,
@@ -177,17 +197,6 @@
 				1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		6CC51157DFDC66FB98436DB93C742CCA /* FontAwesome */ = {
-			isa = PBXGroup;
-			children = (
-				CE124AA9FD8433698D662D14F517CB8D /* FASFontAwesome.swift */,
-				366CBD1C4EAEF2CC5A7EB5BE6F6ADAD9 /* FASFontAwesome5.swift */,
-				C94A0497315103E1F31D239621B010C4 /* FASFontAwesomeViews.swift */,
-				E8A4682B197B363185787D6FF9A3EF04 /* Resources */,
-			);
-			name = FontAwesome;
 			sourceTree = "<group>";
 		};
 		7E7A6F25DADCA7AA9245F39E2A22E7FF /* Core */ = {
@@ -352,15 +361,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		E8A4682B197B363185787D6FF9A3EF04 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				FC583A37FE5C2C114EBE27E55BB7A181 /* fa-regular-400.ttf */,
-				5C58B01146CA7E265C58D6E01F9FE236 /* FontAwesome.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -409,7 +409,7 @@
 			buildConfigurationList = 458EE0A34B48EDFB272BDCFDE9A5685A /* Build configuration list for PBXNativeTarget "FontAwesomeSwift" */;
 			buildPhases = (
 				FF9A13033416CF0D6EE17B9CF14B6AFF /* Headers */,
-				823E82676F3EA97854523C46EF84DC5A /* Sources */,
+				C8354AD537172D6DE752BA8EA97F8F5E /* Sources */,
 				6178FDDF6AD81E827B696929B2381D80 /* Frameworks */,
 				58F6906417599699C61C1BB6E36364E5 /* Resources */,
 				46EB2E00000830 /* ShellScript */,
@@ -520,31 +520,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		823E82676F3EA97854523C46EF84DC5A /* Sources */ = {
+		C8354AD537172D6DE752BA8EA97F8F5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CED0A2EFB4FF61FCBD6A1287D8B582D /* FASBarButtonItem.swift in Sources */,
-				504946373E4322352153DD4B24206AE2 /* FASButton.swift in Sources */,
-				DEF7E506612546373A88D542E80DFC32 /* FASFont.swift in Sources */,
-				443687393CB78F09A3D61525CCFDE278 /* FASFontAwesome.swift in Sources */,
-				7D0DB018A92528B172C1228D0B75FF44 /* FASFontAwesome5.swift in Sources */,
-				5B7BF3771C681CC475A273E7C4D91251 /* FASFontAwesomeViews.swift in Sources */,
-				3EB3E1547E6025DA9E9F524F07DFD5F7 /* FASFontLoader.swift in Sources */,
-				D6169B29F405197C93F5440D2CAEB5A4 /* FASFoundationIcons.swift in Sources */,
-				8AA4E6D9B48AC57CA2F842072BFE2902 /* FASFoundationIconsViews.swift in Sources */,
-				A8CE8AA17BCC3433DD8F959AC5A8BBD4 /* FASIcon.swift in Sources */,
-				53AB267FC7E2AB1F6D619C2C0FCEBA57 /* FASImageView.swift in Sources */,
-				C92B38D250E1AC9C3BA6BFFBA92E41B2 /* FASIonicons.swift in Sources */,
-				B9BFCD96F2B37E7314284A3424E614E6 /* FASIonIconViews.swift in Sources */,
-				19B32F621A07E305D4AC51E8F9397129 /* FASMaterialDesign.swift in Sources */,
-				A25D8414741A637E29FC2351F191872D /* FASMaterialDesignViews.swift in Sources */,
-				2BC1D3559BFFDCA2745C9281ADE52B29 /* FASOcticons.swift in Sources */,
-				59F0D9FCE118E54AE294A0EDC92560F0 /* FASOcticonsViews.swift in Sources */,
-				EB77D2E86106A2373BA637B1D62BA9D4 /* FASTabBarItem.swift in Sources */,
-				12907B6158A45B610B586EAE6BE7108C /* FASZocial.swift in Sources */,
-				0C6C6321053AE736240704F1B64D1DFF /* FASZocialViews.swift in Sources */,
-				6FB34A59D4DE7BEB1F1DEB3611F2719C /* FontAwesomeSwift-dummy.m in Sources */,
+				9808154E96B7964F0B1484013BD89299 /* FASBarButtonItem.swift in Sources */,
+				DBA87898D6DE4EF657DAF6F3D047DE8B /* FASButton.swift in Sources */,
+				941302819C5EFE39D7F93D531894B4A8 /* FASFont.swift in Sources */,
+				504632E22C6109316C15399C7FE2611C /* FASFontAwesome.swift in Sources */,
+				C01BBC40AFB22352228CD2BA0FA2ED36 /* FASFontAwesome5FreeRegular.swift in Sources */,
+				37DCF067B77CFC26EF680834A91DC6C9 /* FASFontAwesomeViews.swift in Sources */,
+				8DA5C9C0B441BF6C1006109486BBBF59 /* FASFontLoader.swift in Sources */,
+				4D686790C143F88E465D2770C6D74A78 /* FASFoundationIcons.swift in Sources */,
+				B7B53AFF3F4C2C1356A7F650E842ABA7 /* FASFoundationIconsViews.swift in Sources */,
+				E86565DF9BE2E7F99609D8FAE80A3F2A /* FASIcon.swift in Sources */,
+				3DC5A00E3498EF1299F793031B2E8E6F /* FASImageView.swift in Sources */,
+				9F7E5E7ED518AF375E6A4B9759634B36 /* FASIonicons.swift in Sources */,
+				49BDD5B91B7185FCDAF0B748A5294974 /* FASIonIconViews.swift in Sources */,
+				F7A7B0336DDC7821A19AD39A227C4F30 /* FASMaterialDesign.swift in Sources */,
+				46E0DB05F572D074A3A8E49C8CB53708 /* FASMaterialDesignViews.swift in Sources */,
+				FF07D1E4B93BE10F7CF0AFC64D67DD7C /* FASOcticons.swift in Sources */,
+				68F97D791E4ABF0DA000223D3C5E7703 /* FASOcticonsViews.swift in Sources */,
+				A7BBADAF2B06A0CE87C424B39D0336FF /* FASTabBarItem.swift in Sources */,
+				6BD69A7682BB25D8C4624175346BCEA9 /* FASZocial.swift in Sources */,
+				B470A4A5B7779A6564E2F3133AED6558 /* FASZocialViews.swift in Sources */,
+				2704D5F55286D18E6C6A7C6E16C696E9 /* FontAwesomeSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

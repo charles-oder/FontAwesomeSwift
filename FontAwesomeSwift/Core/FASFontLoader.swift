@@ -53,5 +53,18 @@ public class FASFontLoader {
         }
         return fontURL!
     }
+    
+    class func listAllFonts() {
+        let families = UIFont.familyNames.sorted()
+        for family in families {
+            print("Family: \(family)")
+            let names = UIFont.fontNames(forFamilyName: family)
+            for name in names {
+                print("\t\(name)")
+            }
+        }
+    }
+    
+
 
 }
