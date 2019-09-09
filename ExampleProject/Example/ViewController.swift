@@ -18,9 +18,10 @@ class ViewController: UIViewController {
     private var fontNames: [String] = []
     private var font: FASFont! {
         didSet {
-            fontNames = NSDictionary(dictionary: font.allIcons).allKeys as? [String] ?? []
+            fontNames = getValidNames()
             collectionView.reloadData()
             iconNameLabel.text = ""
+            fontButton.setTitle(font.fontFamily, for: .normal)
         }
     }
     
@@ -29,14 +30,16 @@ class ViewController: UIViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
         font = FASFontAwesome()
-        fontButton.setTitle(font.fontFamily, for: .normal)
     }
-
+    
     @IBAction func fontButtonTapped(_ sender: UIButton) {
         let actionViewController = UIAlertController(title: "Select Font", message: nil, preferredStyle: .actionSheet)
         actionViewController.addAction(UIAlertAction(title: "FontAwesome",
                                                      style: .default,
                                                      handler: { [weak self]_ in self?.font = FASFontAwesome() }))
+        actionViewController.addAction(UIAlertAction(title: "FontAwesome5",
+                                                     style: .default,
+                                                     handler: { [weak self]_ in self?.font = FASFontAwesome5() }))
         actionViewController.addAction(UIAlertAction(title: "FoundationIcons",
                                                      style: .default,
                                                      handler: { [weak self]_ in self?.font = FASFoundationIcons() }))
@@ -53,6 +56,23 @@ class ViewController: UIViewController {
     }
     
     @IBAction func subfontButtonTapped(_ sender: UIButton) {
+    }
+    
+    func getValidNames() -> [String] {
+        let names = NSDictionary(dictionary: font.allIcons).allKeys as? [String] ?? []
+        var validNames: [String] = []
+        let rawFont = font.font(size: 12)
+        let descriptior = rawFont.fontDescriptor
+        let charSet: NSCharacterSet = descriptior.object(forKey: UIFontDescriptor.AttributeName.characterSet) as! NSCharacterSet
+        let characters = charSet.characters
+        for name in names {
+            let codeString = font.allIcons[name]!
+            if !characters.contains(codeString) {
+                continue
+            }
+            validNames.append(name)
+        }
+        return validNames.sorted()
     }
     
 }
@@ -75,6 +95,27 @@ extension ViewController: UICollectionViewDataSource {
     
     
 }
+
+extension NSCharacterSet {
+    var characters:[String] {
+        var chars = [String]()
+        for plane:UInt8 in 0...16 {
+            if self.hasMemberInPlane(plane) {
+                let p0 = UInt32(plane) << 16
+                let p1 = (UInt32(plane) + 1) << 16
+                for c:UTF32Char in p0..<p1 {
+                    if self.longCharacterIsMember(c) {
+                        var c1 = c.littleEndian
+                        let s = NSString(bytes: &c1, length: 4, encoding: String.Encoding.utf32LittleEndian.rawValue)!
+                        chars.append(String(s))
+                    }
+                }
+            }
+        }
+        return chars
+    }
+}
+
 
 extension ViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
