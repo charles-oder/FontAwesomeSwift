@@ -39,13 +39,13 @@ class ViewController: UIViewController {
                                                      handler: { [weak self]_ in self?.font = FASFontAwesome() }))
         actionViewController.addAction(UIAlertAction(title: "FASFontAwesome5FreeRegular",
                                                      style: .default,
-                                                     handler: { [weak self]_ in self?.font = FASFontAwesome5FreeRegular() }))
+                                                     handler: { [weak self]_ in self?.font = FASFontAwesome5Free.regular() }))
         actionViewController.addAction(UIAlertAction(title: "FASFontAwesome5FreeSolid",
                                                      style: .default,
-                                                     handler: { [weak self]_ in self?.font = FASFontAwesome5FreeSolid() }))
+                                                     handler: { [weak self]_ in self?.font = FASFontAwesome5Free.solid() }))
         actionViewController.addAction(UIAlertAction(title: "FASFontAwesome5FreeBrands",
                                                      style: .default,
-                                                     handler: { [weak self]_ in self?.font = FASFontAwesome5FreeBrands() }))
+                                                     handler: { [weak self]_ in self?.font = FASFontAwesome5Free.brands() }))
         actionViewController.addAction(UIAlertAction(title: "FoundationIcons",
                                                      style: .default,
                                                      handler: { [weak self]_ in self?.font = FASFoundationIcons() }))
@@ -89,17 +89,32 @@ extension ViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        var cell: ImageCell! = collectionView.dequeueReusableCell(withReuseIdentifier: "font-cell", for: indexPath) as? ImageCell
-        if cell == nil {
-            cell = ImageCell()
-        }
+        let cell: ImageCell! = collectionView.dequeueReusableCell(withReuseIdentifier: "font-cell", for: indexPath) as? ImageCell
+        let gesture = UILongPressGestureRecognizer(target: self, action: #selector(didLongPress(gesture:)))
+        cell.addGestureRecognizer(gesture)
         
         let iconName = fontNames[indexPath.item]
         cell.imageView.image = font.icon(name: iconName, size: 30)?.image
         return cell
     }
     
-    
+    @objc
+    func didLongPress(gesture: UILongPressGestureRecognizer) {
+        if gesture.state != .ended {
+            return
+        }
+        let point = gesture.location(in: collectionView)
+        let indexPath: IndexPath! = collectionView.indexPathForItem(at: point)
+        if indexPath == nil {
+            return
+        }
+        let iconName = fontNames[indexPath.item]
+        let viewController = IconViewController()
+        viewController.font = font
+        viewController.name = iconName
+        present(viewController, animated: true)
+        
+    }
 }
 
 extension NSCharacterSet {
@@ -128,6 +143,7 @@ extension ViewController: UICollectionViewDelegate {
         let iconName = fontNames[indexPath.item]
         iconNameLabel.text = iconName
     }
+    
 }
 
 class ImageCell: UICollectionViewCell {

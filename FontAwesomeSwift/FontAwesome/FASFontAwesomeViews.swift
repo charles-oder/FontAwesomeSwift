@@ -8,11 +8,42 @@
 
 import Foundation
 
+public enum FASFontAwesomeStyle: String {
+    case version4
+    case solid
+    case regular
+    case brands
+    
+    var font: FASFont {
+        switch self {
+        case .regular:
+            return FASFontAwesome5FreeRegular()
+        case .solid:
+            return FASFontAwesome5FreeSolid()
+        case .brands:
+            return FASFontAwesome5FreeBrands()
+        default:
+            return FASFontAwesome()
+        }
+    }
+}
+
 @IBDesignable
 open class FASFontAwesomeButton: FASButton {
     
+    @IBInspectable public var fontStyle: String {
+        get {
+            return self.fontStyleValue.rawValue
+        }
+        set {
+            fontStyleValue = FASFontAwesomeStyle(rawValue: newValue) ?? .version4
+        }
+    }
+    
+    public var fontStyleValue: FASFontAwesomeStyle = .version4
+
     open override func icon(name: String, size: CGFloat) -> UIImage? {
-        return FASFontAwesome().icon(name: name, size: size)?.color(color: self.tintColor).image
+        return fontStyleValue.font.icon(name: name, size: size)?.color(color: self.tintColor).image
     }
 
 }
@@ -20,9 +51,20 @@ open class FASFontAwesomeButton: FASButton {
 @IBDesignable
 open class FASFontAwesomeBarButtonItem: FASBarButtonItem {
     
+    @IBInspectable public var fontStyle: String {
+        get {
+            return self.fontStyleValue.rawValue
+        }
+        set {
+            fontStyleValue = FASFontAwesomeStyle(rawValue: newValue) ?? .version4
+        }
+    }
+    
+    public var fontStyleValue: FASFontAwesomeStyle = .version4
+
     open override func icon(name: String, size: CGFloat) -> UIImage? {
         let color = tintColor ?? .black
-        return FASFontAwesome().icon(name: name, size: size)?.color(color: color).image
+        return fontStyleValue.font.icon(name: name, size: size)?.color(color: color).image
     }
     
 }
@@ -30,8 +72,18 @@ open class FASFontAwesomeBarButtonItem: FASBarButtonItem {
 @IBDesignable
 open class FASFontAwesomeImageView: FASImageView {
     
+    @IBInspectable public var fontStyle: String {
+        get {
+            return self.fontStyleValue.rawValue
+        }
+        set {
+            fontStyleValue = FASFontAwesomeStyle(rawValue: newValue) ?? .version4
+        }
+    }
+    
+    public var fontStyleValue: FASFontAwesomeStyle = .version4
     open override func icon(name: String, size: CGFloat) -> UIImage? {
-        return FASFontAwesome().icon(name: name, size: size)?.color(color: self.tintColor).image
+        return fontStyleValue.font.icon(name: name, size: size)?.color(color: self.tintColor).image
     }
     
 }
@@ -39,8 +91,18 @@ open class FASFontAwesomeImageView: FASImageView {
 @IBDesignable
 public class FASFontAwesomeTabBarItem: FASTabBarItem {
     
+    @IBInspectable public var fontStyle: String {
+        get {
+            return self.fontStyleValue.rawValue
+        }
+        set {
+            fontStyleValue = FASFontAwesomeStyle(rawValue: newValue) ?? .version4
+        }
+    }
+    
+    public var fontStyleValue: FASFontAwesomeStyle = .version4
     public override func icon(name: String, size: CGFloat) -> UIImage? {
-        return FASFontAwesome().icon(name: name, size: size)?.image
+        return fontStyleValue.font.icon(name: name, size: size)?.image
     }
     
 }
