@@ -1,24 +1,24 @@
 PODS:
-  - FontAwesomeSwift (1.8.1):
-    - FontAwesomeSwift/Core (= 1.8.1)
-    - FontAwesomeSwift/FontAwesome (= 1.8.1)
-    - FontAwesomeSwift/FoundationIcons (= 1.8.1)
-    - FontAwesomeSwift/Ionicons (= 1.8.1)
-    - FontAwesomeSwift/MaterialDesign (= 1.8.1)
-    - FontAwesomeSwift/Octicons (= 1.8.1)
-    - FontAwesomeSwift/Zocial (= 1.8.1)
-  - FontAwesomeSwift/Core (1.8.1)
-  - FontAwesomeSwift/FontAwesome (1.8.1):
+  - FontAwesomeSwift (1.9.1):
+    - FontAwesomeSwift/Core (= 1.9.1)
+    - FontAwesomeSwift/FontAwesome (= 1.9.1)
+    - FontAwesomeSwift/FoundationIcons (= 1.9.1)
+    - FontAwesomeSwift/Ionicons (= 1.9.1)
+    - FontAwesomeSwift/MaterialDesign (= 1.9.1)
+    - FontAwesomeSwift/Octicons (= 1.9.1)
+    - FontAwesomeSwift/Zocial (= 1.9.1)
+  - FontAwesomeSwift/Core (1.9.1)
+  - FontAwesomeSwift/FontAwesome (1.9.1):
     - FontAwesomeSwift/Core
-  - FontAwesomeSwift/FoundationIcons (1.8.1):
+  - FontAwesomeSwift/FoundationIcons (1.9.1):
     - FontAwesomeSwift/Core
-  - FontAwesomeSwift/Ionicons (1.8.1):
+  - FontAwesomeSwift/Ionicons (1.9.1):
     - FontAwesomeSwift/Core
-  - FontAwesomeSwift/MaterialDesign (1.8.1):
+  - FontAwesomeSwift/MaterialDesign (1.9.1):
     - FontAwesomeSwift/Core
-  - FontAwesomeSwift/Octicons (1.8.1):
+  - FontAwesomeSwift/Octicons (1.9.1):
     - FontAwesomeSwift/Core
-  - FontAwesomeSwift/Zocial (1.8.1):
+  - FontAwesomeSwift/Zocial (1.9.1):
     - FontAwesomeSwift/Core
 
 DEPENDENCIES:
@@ -29,7 +29,7 @@ EXTERNAL SOURCES:
     :path: ".."
 
 SPEC CHECKSUMS:
-  FontAwesomeSwift: 2ffd31b0c2b8decf5d4693aeeaff50be599b33ad
+  FontAwesomeSwift: 85f4555937d214869ad24bee993c6b1c5c9d1de1
 
 PODFILE CHECKSUM: 21f5afddaf591eb995f5b9bfa97ce0952ff29702
 

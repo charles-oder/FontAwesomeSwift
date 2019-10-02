@@ -1,8 +1,8 @@
 {
   "name": "FontAwesomeSwift",
-  "version": "1.8.1",
+  "version": "1.9.1",
   "summary": "FontAwesome in Swift",
-  "swift_versions": "4.2",
+  "swift_versions": "5.0",
   "description": "An extensible library for using external font icons such as FontAwesome.",
   "homepage": "https://github.com/charles-oder/FontAwesomeSwift",
   "license": {
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/charles-oder/FontAwesomeSwift.git",
-    "tag": "1.8.1"
+    "tag": "1.9.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -89,5 +89,5 @@
       "resources": "FontAwesomeSwift/Zocial/Resources/*.ttf"
     }
   ],
-  "swift_version": "4.2"
+  "swift_version": "5.0"
 }

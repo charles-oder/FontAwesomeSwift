@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'FontAwesomeSwift'
   s.version          = '1.9.1'
   s.summary          = 'FontAwesome in Swift'
-  s.swift_version    = '4.2'
+  s.swift_version    = '5.0'
 
 
   s.description      = <<-DESC
