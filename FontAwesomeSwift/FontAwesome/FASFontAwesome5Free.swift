@@ -26,1446 +26,1446 @@ public class FASFontAwesome5Free: NSObject {
 }
 
 @objc
-class FASFontAwesome5FreeSolid: FASFontAwesome5FreeRegular {
+public class FASFontAwesome5FreeSolid: FASFontAwesome5FreeRegular {
     
-    override var fontFamily: String {
+    public override var fontFamily: String {
         return "Font Awesome 5 Free"
     }
     
-    override var fontName: String {
+    public override var fontName: String {
         return "FontAwesome5Free-Solid"
     }
     
-    override var fontFileName: String {
+    public override var fontFileName: String {
         return "fa-solid-900"
     }
     
 }
 
 @objc
-class FASFontAwesome5FreeBrands: FASFontAwesome5FreeRegular {
+public class FASFontAwesome5FreeBrands: FASFontAwesome5FreeRegular {
     
-    override var fontFamily: String {
+    public override var fontFamily: String {
         return "Font Awesome 5 Brands"
     }
     
-    override var fontName: String {
+    public override var fontName: String {
         return "FontAwesome5Brands-Regular"
     }
     
-    override var fontFileName: String {
+    public override var fontFileName: String {
         return "fa-brands-400"
     }
     
 }
 
 @objc
-class FASFontAwesome5FreeRegular: FASFont {
+public class FASFontAwesome5FreeRegular: FASFont {
 
-    override var fontFamily: String {
+    public override var fontFamily: String {
         return "Font Awesome 5 Free"
     }
     
-    override var fontName: String {
+    public override var fontName: String {
         return "FontAwesome5Free-Regular"
     }
     
-    override var fontFileName: String {
+    public override var fontFileName: String {
         return "fa-regular-400"
     }
 
-    override var fontType: String {
+    public override var fontType: String {
         return "ttf"
     }
     
-    func faSpellCheck(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f891}") }
-    func faUserSecret(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f21b}") }
-    func faUserTag(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f507}") }
-    func faBorderStyle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f853}") }
-    func faGalacticSenate(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f50d}") }
-    func faCloudMeatball(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f73b}") }
-    func faKissBeam(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f597}") }
-    func faBolt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0e7}") }
-    func faBug(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f188}") }
-    func faSearchDollar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f688}") }
-    func faAirFreshener(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5d0}") }
-    func faSmile(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f118}") }
-    func faExchangeAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f362}") }
-    func faGlobeAmericas(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f57d}") }
-    func faHSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0fd}") }
-    func faFacebookSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f082}") }
-    func faCouch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4b8}") }
-    func faGenderless(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f22d}") }
-    func faHandHoldingHeart(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4be}") }
-    func faZhihu(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f63f}") }
-    func faHandPointLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0a5}") }
-    func faBatteryQuarter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f243}") }
-    func faThinkPeaks(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f731}") }
-    func faLiraSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f195}") }
-    func faArrowCircleUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0aa}") }
-    func faBomb(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e2}") }
-    func faMendeley(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7b3}") }
-    func faAlignJustify(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f039}") }
-    func faGripLines(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7a4}") }
-    func faRoad(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f018}") }
-    func faCloudUploadAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f382}") }
-    func faHouzz(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f27c}") }
-    func faDiceFour(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f524}") }
-    func faBookmark(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f02e}") }
-    func faSnapchatGhost(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2ac}") }
-    func faCodiepie(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f284}") }
-    func faArrowAltCircleLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f359}") }
-    func faBalanceScaleLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f515}") }
-    func faDrumSteelpan(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f56a}") }
-    func faAngleDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f107}") }
-    func faGithub(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f09b}") }
-    func faHeartBroken(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7a9}") }
-    func faJoint(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f595}") }
-    func faRobot(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f544}") }
-    func faMinusCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f056}") }
-    func faPhoneSquareAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f87b}") }
-    func faDungeon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6d9}") }
-    func faStrava(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f428}") }
-    func faSyringe(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f48e}") }
-    func faWonSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f159}") }
-    func faApper(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f371}") }
-    func faMercury(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f223}") }
-    func faObjectUngroup(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f248}") }
-    func faIndent(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f03c}") }
-    func faParking(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f540}") }
-    func faPiedPiperHat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4e5}") }
-    func faSubway(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f239}") }
-    func faOtter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f700}") }
-    func faCertificate(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0a3}") }
-    func faRulerCombined(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f546}") }
-    func faStream(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f550}") }
-    func faAdobe(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f778}") }
-    func faJedi(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f669}") }
-    func faSnowboarding(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7ce}") }
-    func faPenNib(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5ad}") }
-    func faDatabase(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c0}") }
-    func faFire(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f06d}") }
-    func faMediumM(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3c7}") }
-    func faRepublican(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f75e}") }
-    func faStepBackward(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f048}") }
-    func faUnlock(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f09c}") }
-    func faSistrix(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ee}") }
-    func faUserClock(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4fd}") }
-    func faGetPocket(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f265}") }
-    func faDice(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f522}") }
-    func faUserAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f406}") }
-    func faSatellite(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7bf}") }
-    func faGrinStars(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f587}") }
-    func faMapMarker(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f041}") }
-    func faBehance(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1b4}") }
-    func faListOl(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0cb}") }
-    func faSpa(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5bb}") }
-    func faTag(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f02b}") }
-    func faSolarPanel(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5ba}") }
-    func faEmpire(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1d1}") }
-    func faThermometerFull(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2c7}") }
-    func faQuora(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2c4}") }
-    func faCampground(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6bb}") }
-    func faAnkh(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f644}") }
-    func faHandsHelping(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4c4}") }
-    func faDna(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f471}") }
-    func faCookieBite(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f564}") }
-    func faBinoculars(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e5}") }
-    func faGrinSquint(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f585}") }
-    func faAcquisitionsIncorporated(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6af}") }
-    func faHammer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6e3}") }
-    func faArrowAltCircleDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f358}") }
-    func faSith(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f512}") }
-    func faBookReader(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5da}") }
-    func faHackerNewsSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3af}") }
-    func faCalendarPlus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f271}") }
-    func faBell(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0f3}") }
-    func faWaveSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f83e}") }
-    func faGoodreadsG(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3a9}") }
-    func faStarOfDavid(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f69a}") }
-    func faBong(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f55c}") }
-    func faFutbol(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e3}") }
-    func faBluetoothB(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f294}") }
-    func faSass(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f41e}") }
-    func faChevronCircleDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f13a}") }
-    func faBehanceSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1b5}") }
-    func faDigitalOcean(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f391}") }
-    func faBabyCarriage(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f77d}") }
-    func faDAndD(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f38d}") }
-    func faCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f111}") }
-    func faGoogle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a0}") }
-    func faMicrosoft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ca}") }
-    func faSleigh(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7cc}") }
-    func faStreetView(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f21d}") }
-    func faQuidditch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f458}") }
-    func faICursor(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f246}") }
-    func faGripVertical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f58e}") }
-    func faForward(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f04e}") }
-    func faChrome(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f268}") }
-    func faFileCode(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c9}") }
-    func faPiedPiperPp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a7}") }
-    func faFacebookMessenger(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f39f}") }
-    func faSubscript(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f12c}") }
-    func faSms(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7cd}") }
-    func faVideoSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4e2}") }
-    func faJoomla(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1aa}") }
-    func faFish(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f578}") }
-    func faRegistered(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f25d}") }
-    func faBaseballBall(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f433}") }
-    func faBellSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1f6}") }
-    func faJenkins(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3b6}") }
-    func faHashtag(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f292}") }
-    func faUmbrella(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0e9}") }
-    func faCpanel(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f388}") }
-    func faHamburger(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f805}") }
-    func faNpm(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d4}") }
-    func faStarHalf(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f089}") }
-    func faEnvelope(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0e0}") }
-    func faChessBishop(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f43a}") }
-    func faArrowAltCircleRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f35a}") }
-    func faCottonBureau(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f89e}") }
-    func faCrown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f521}") }
-    func faMehBlank(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5a4}") }
-    func faPrescriptionBottleAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f486}") }
-    func faBiohazard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f780}") }
-    func faShopware(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5b5}") }
-    func faSkype(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f17e}") }
-    func faToggleOn(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f205}") }
-    func faRoute(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4d7}") }
-    func faGrinBeamSweat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f583}") }
-    func faKiss(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f596}") }
-    func faSquareRootAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f698}") }
-    func faPastafarianism(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f67b}") }
-    func faClosedCaptioning(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f20a}") }
-    func faFacebook(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f09a}") }
-    func faHaykal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f666}") }
-    func faCandyCane(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f786}") }
-    func faRedditSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a2}") }
-    func faTrashRestoreAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f82a}") }
-    func faFilePrescription(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f572}") }
-    func faFileImport(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f56f}") }
-    func faTired(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c8}") }
-    func faColumns(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0db}") }
-    func faPassport(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5ab}") }
-    func faWhmcs(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f40d}") }
-    func faReplyd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e6}") }
-    func faCcPaypal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1f4}") }
-    func faBackward(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f04a}") }
-    func faBuilding(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ad}") }
-    func faChevronDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f078}") }
-    func faFileExport(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f56e}") }
-    func faNutritionix(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d6}") }
-    func faSearchMinus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f010}") }
-    func faImages(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f302}") }
-    func faMegaport(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5a3}") }
-    func faPaintBrush(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1fc}") }
-    func faSignOutAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2f5}") }
-    func faUserCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2bd}") }
-    func faPauseCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f28b}") }
-    func faIcicles(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7ad}") }
-    func faSortAlphaDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f15d}") }
-    func faSortAmountDownAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f884}") }
-    func faCalendarDay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f783}") }
-    func faMoneyBillAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d1}") }
-    func faAtlassian(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f77b}") }
-    func faBoxes(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f468}") }
-    func faShoppingCart(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f07a}") }
-    func faCaretRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0da}") }
-    func faMapPin(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f276}") }
-    func faGreaterThan(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f531}") }
-    func faGoogleDrive(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3aa}") }
-    func faSellcast(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2da}") }
-    func faMizuni(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3cc}") }
-    func faCaretSquareDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f150}") }
-    func faBars(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c9}") }
-    func faCcVisa(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1f0}") }
-    func faCrow(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f520}") }
-    func faBitbucket(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f171}") }
-    func faHandRock(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f255}") }
-    func faStickerMule(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3f7}") }
-    func faSnowflake(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2dc}") }
-    func faFillDrip(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f576}") }
-    func faApplePay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f415}") }
-    func faTimesCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f057}") }
-    func faToiletPaper(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f71e}") }
-    func faCompactDisc(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f51f}") }
-    func faThermometerQuarter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2ca}") }
-    func faLeanpub(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f212}") }
-    func faVk(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f189}") }
-    func faProcedures(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f487}") }
-    func faNodeJs(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d3}") }
-    func faSchool(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f549}") }
-    func faCut(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c4}") }
-    func faAngleDoubleDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f103}") }
-    func faHorse(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6f0}") }
-    func faMeteor(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f753}") }
-    func faMix(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3cb}") }
-    func faSpotify(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1bc}") }
-    func faCheese(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7ef}") }
-    func faGavel(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0e3}") }
-    func faReact(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f41b}") }
-    func faSignInAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2f6}") }
-    func faPaw(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1b0}") }
-    func faFileUpload(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f574}") }
-    func faAccusoft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f369}") }
-    func faYenSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f157}") }
-    func faDizzy(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f567}") }
-    func faMaxcdn(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f136}") }
-    func faKorvue(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f42f}") }
-    func faSearch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f002}") }
-    func faStepForward(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f051}") }
-    func faWindowRestore(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2d2}") }
-    func faFan(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f863}") }
-    func faShekelSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f20b}") }
-    func faHandPointDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0a7}") }
-    func faCheckSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f14a}") }
-    func faDelicious(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a5}") }
-    func faGrimace(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f57f}") }
-    func faTerminal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f120}") }
-    func faVoteYea(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f772}") }
-    func faGitkraken(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3a6}") }
-    func faBorderAll(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f84c}") }
-    func faHotel(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f594}") }
-    func faVihara(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6a7}") }
-    func faTwitter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f099}") }
-    func faLess(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f41d}") }
-    func faNotEqual(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f53e}") }
-    func faCommentDollar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f651}") }
-    func faMonument(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5a6}") }
-    func faAward(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f559}") }
-    func faFilePdf(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c1}") }
-    func faGlobeAsia(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f57e}") }
-    func faPiedPiperAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a8}") }
-    func faWeight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f496}") }
-    func faHornbill(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f592}") }
-    func faNewspaper(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ea}") }
-    func faGasPump(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f52f}") }
-    func faMinusSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f146}") }
-    func faBrush(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f55d}") }
-    func faBluetooth(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f293}") }
-    func faCreativeCommonsRemix(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4ee}") }
-    func faUniregistry(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f404}") }
-    func faUserSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f506}") }
-    func faEmber(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f423}") }
-    func faIdCard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2c2}") }
-    func faSchlix(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ea}") }
-    func faPeopleCarry(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4ce}") }
-    func faYinYang(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6ad}") }
-    func faCloudMoonRain(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f73c}") }
-    func faTwitterSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f081}") }
-    func faUserAltSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4fa}") }
-    func faMarsStroke(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f229}") }
-    func faRandom(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f074}") }
-    func faStoreAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f54f}") }
-    func faEdit(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f044}") }
-    func faWolfPackBattalion(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f514}") }
-    func faTeeth(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f62e}") }
-    func faCreativeCommonsNcEu(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4e9}") }
-    func faSurprise(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c2}") }
-    func faSitemap(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0e8}") }
-    func faCogs(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f085}") }
-    func faCreativeCommonsNcJp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4ea}") }
-    func faShirtsinbulk(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f214}") }
-    func faCcDiscover(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1f2}") }
-    func faChessKnight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f441}") }
-    func faViadeo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a9}") }
-    func faHighlighter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f591}") }
-    func faAppStore(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f36f}") }
-    func faSortAmountUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f161}") }
-    func faWhatsappSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f40c}") }
-    func faBuromobelexperte(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f37f}") }
-    func faWordpressSimple(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f411}") }
-    func faMagnet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f076}") }
-    func faCcApplePay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f416}") }
-    func faTrashAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2ed}") }
-    func faDove(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4ba}") }
-    func faStripe(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f429}") }
-    func faBlogger(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f37c}") }
-    func faUserNinja(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f504}") }
-    func faStripeS(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f42a}") }
-    func faBacon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7e5}") }
-    func faFoursquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f180}") }
-    func faAudible(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f373}") }
-    func faSignLanguage(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a7}") }
-    func faJs(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3b8}") }
-    func faCloudversify(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f385}") }
-    func faLinode(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2b8}") }
-    func faSkyatlas(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f216}") }
-    func faGrinHearts(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f584}") }
-    func faChevronCircleLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f137}") }
-    func faDownload(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f019}") }
-    func faDiagnoses(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f470}") }
-    func faFedex(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f797}") }
-    func faChair(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6c0}") }
-    func faUsps(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7e1}") }
-    func faMarsDouble(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f227}") }
-    func faRulerVertical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f548}") }
-    func faChartLine(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f201}") }
-    func faGrav(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2d6}") }
-    func faBurn(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f46a}") }
-    func faPersonBooth(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f756}") }
-    func faArrowAltCircleUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f35b}") }
-    func faDharmachakra(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f655}") }
-    func faUndoAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2ea}") }
-    func faChargingStation(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5e7}") }
-    func faBimobject(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f378}") }
-    func faPaypal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ed}") }
-    func faShower(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2cc}") }
-    func faEnvelopeSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f199}") }
-    func faMousePointer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f245}") }
-    func faCreativeCommonsBy(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4e7}") }
-    func faCaretSquareUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f151}") }
-    func faPlusCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f055}") }
-    func faAsymmetrik(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f372}") }
-    func faHeadphonesAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f58f}") }
-    func faTradeFederation(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f513}") }
-    func faShoePrints(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f54b}") }
-    func faFileMedical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f477}") }
-    func faAvianex(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f374}") }
-    func faDiceTwo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f528}") }
-    func faGreaterThanEqual(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f532}") }
-    func faMarker(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5a1}") }
-    func faAngleRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f105}") }
-    func faDiscourse(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f393}") }
-    func faMastodon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f6}") }
-    func faPinterestSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d3}") }
-    func faShip(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f21a}") }
-    func faDeviantart(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1bd}") }
-    func faClipboard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f328}") }
-    func faCloudDownloadAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f381}") }
-    func faMedium(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f23a}") }
-    func faUmbrellaBeach(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5ca}") }
-    func faUsers(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c0}") }
-    func faInvision(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7b0}") }
-    func faBullseye(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f140}") }
-    func faBusAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f55e}") }
-    func faBity(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f37a}") }
-    func faFedora(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f798}") }
-    func faCat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6be}") }
-    func faCheckCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f058}") }
-    func faMicrophoneSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f131}") }
-    func faVenus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f221}") }
-    func faMicrochip(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2db}") }
-    func faMusic(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f001}") }
-    func faSortAlphaUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f15e}") }
-    func faBriefcaseMedical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f469}") }
-    func faMailchimp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f59e}") }
-    func faDumpsterFire(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f794}") }
-    func faChromecast(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f838}") }
-    func faRenren(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f18b}") }
-    func faBookOpen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f518}") }
-    func faGlassMartiniAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f57b}") }
-    func faSnapchatSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2ad}") }
-    func faStickyNote(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f249}") }
-    func faWheelchair(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f193}") }
-    func faDolly(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f472}") }
-    func faTruckPickup(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f63c}") }
-    func faGrinTongue(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f589}") }
-    func faTransgender(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f224}") }
-    func faContao(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f26d}") }
-    func faEllipsisH(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f141}") }
-    func faWalking(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f554}") }
-    func faSnowman(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7d0}") }
-    func faClock(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f017}") }
-    func faHamsa(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f665}") }
-    func faBroom(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f51a}") }
-    func faEllipsisV(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f142}") }
-    func faSave(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c7}") }
-    func faPiggyBank(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4d3}") }
-    func faAngleDoubleRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f101}") }
-    func faResearchgate(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f8}") }
-    func faBasketballBall(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f434}") }
-    func faAmbulance(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0f9}") }
-    func faAlipay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f642}") }
-    func faBicycle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f206}") }
-    func faCarSide(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5e4}") }
-    func faNapster(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d2}") }
-    func faPeriscope(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3da}") }
-    func faHollyBerry(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7aa}") }
-    func faCalendarCheck(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f274}") }
-    func faArrowCircleDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0ab}") }
-    func faGitter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f426}") }
-    func faBlackTie(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f27e}") }
-    func faBox(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f466}") }
-    func faCreativeCommonsNc(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4e8}") }
-    func faCommentMedical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7f5}") }
-    func faPrescription(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5b1}") }
-    func faHandScissors(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f257}") }
-    func faBiking(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f84a}") }
-    func faArchive(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f187}") }
-    func faCalendar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f133}") }
-    func faLandmark(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f66f}") }
-    func faAirbnb(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f834}") }
-    func faFunnelDollar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f662}") }
-    func faAnchor(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f13d}") }
-    func faShieldAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ed}") }
-    func faSlidersH(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1de}") }
-    func faStore(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f54e}") }
-    func faTablet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f10a}") }
-    func faThermometerEmpty(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2cb}") }
-    func faBatteryHalf(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f242}") }
-    func faFilePowerpoint(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c4}") }
-    func faNs8(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d5}") }
-    func faThumbtack(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f08d}") }
-    func faHiking(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6ec}") }
-    func faSpeakerDeck(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f83c}") }
-    func faDigg(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a6}") }
-    func faChurch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f51d}") }
-    func faFolderOpen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f07c}") }
-    func faMask(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6fa}") }
-    func faPercentage(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f541}") }
-    func faBloggerB(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f37d}") }
-    func faCheck(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f00c}") }
-    func faRedRiver(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e3}") }
-    func faStackpath(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f842}") }
-    func faViber(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f409}") }
-    func faWaze(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f83f}") }
-    func faCar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1b9}") }
-    func faHotdog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f80f}") }
-    func faCreativeCommonsPd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4ec}") }
-    func faWrench(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0ad}") }
-    func faDemocrat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f747}") }
-    func faFax(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ac}") }
-    func faCircleNotch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ce}") }
-    func faArrowUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f062}") }
-    func faEquals(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f52c}") }
-    func faPagelines(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f18c}") }
-    func faRedditAlien(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f281}") }
-    func faIcons(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f86d}") }
-    func faComment(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f075}") }
-    func faAdjust(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f042}") }
-    func faPhabricator(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3db}") }
-    func faEuroSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f153}") }
-    func faTencentWeibo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1d5}") }
-    func faAlignLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f036}") }
-    func faAmazonPay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f42c}") }
-    func faMapSigns(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f277}") }
-    func faConnectdevelop(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f20e}") }
-    func faList(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f03a}") }
-    func faGit(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1d3}") }
-    func faFulcrum(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f50b}") }
-    func faPen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f304}") }
-    func faUber(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f402}") }
-    func faEye(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f06e}") }
-    func faHelicopter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f533}") }
-    func faDirections(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5eb}") }
-    func faGratipay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f184}") }
-    func faScribd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f28a}") }
-    func faCapsules(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f46b}") }
-    func faArrowsAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0b2}") }
-    func faMicrophone(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f130}") }
-    func faUserCog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4fe}") }
-    func faLine(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3c0}") }
-    func faSortAmountDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f160}") }
-    func faPinterest(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d2}") }
-    func faFlask(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c3}") }
-    func faHistory(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1da}") }
-    func faRaspberryPi(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7bb}") }
-    func faNimblr(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5a8}") }
-    func faSwimmingPool(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c5}") }
-    func faGlide(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a5}") }
-    func faThermometerHalf(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2c9}") }
-    func faFreeCodeCamp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2c5}") }
-    func faSkullCrossbones(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f714}") }
-    func faFileContract(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f56c}") }
-    func faFileExcel(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c3}") }
-    func faChartPie(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f200}") }
-    func faCaretSquareRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f152}") }
-    func faPenSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f14b}") }
-    func faUnlink(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f127}") }
-    func faSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4d9}") }
-    func faCrosshairs(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f05b}") }
-    func faNode(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f419}") }
-    func faObjectGroup(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f247}") }
-    func faChartBar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f080}") }
-    func faBlenderPhone(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6b6}") }
-    func fa500Px(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f26e}") }
-    func faUserMd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0f0}") }
-    func faMicrophoneAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3c9}") }
-    func faHospitalSymbol(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f47e}") }
-    func faRockrms(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e9}") }
-    func faYandex(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f413}") }
-    func faSprayCan(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5bd}") }
-    func faDumpster(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f793}") }
-    func faMapMarkedAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5a0}") }
-    func faLayerGroup(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5fd}") }
-    func faRss(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f09e}") }
-    func faUnderline(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0cd}") }
-    func faPencilAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f303}") }
-    func faCreativeCommonsSampling(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f0}") }
-    func faVolleyballBall(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f45f}") }
-    func faWikipediaW(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f266}") }
-    func faTelegram(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2c6}") }
-    func faMarkdown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f60f}") }
-    func faSocks(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f696}") }
-    func faSkiingNordic(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7ca}") }
-    func faShoppingBag(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f290}") }
-    func faBold(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f032}") }
-    func faGrinTears(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f588}") }
-    func faIdBadge(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2c1}") }
-    func faSearchengin(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3eb}") }
-    func faSplotch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5bc}") }
-    func faListUl(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0ca}") }
-    func faPlus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f067}") }
-    func faFile(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f15b}") }
-    func faTree(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1bb}") }
-    func faDiceD20(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6cf}") }
-    func faSortDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0dd}") }
-    func faHospital(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0f8}") }
-    func faFootballBall(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f44e}") }
-    func faTrafficLight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f637}") }
-    func faGuitar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7a6}") }
-    func faCaretDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d7}") }
-    func faFileMedicalAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f478}") }
-    func faLaughSquint(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f59b}") }
-    func faMountain(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6fc}") }
-    func faScroll(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f70e}") }
-    func faUbuntu(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7df}") }
-    func faFonticons(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f280}") }
-    func faMoneyBillWave(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f53a}") }
-    func faSatelliteDish(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7c0}") }
-    func faFireExtinguisher(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f134}") }
-    func faStarAndCrescent(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f699}") }
-    func faClipboardCheck(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f46c}") }
-    func faBoxOpen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f49e}") }
-    func faExclamation(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f12a}") }
-    func faHandPointUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0a6}") }
-    func faJoget(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3b7}") }
-    func faShare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f064}") }
-    func faSnapchat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2ab}") }
-    func faClone(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f24d}") }
-    func faBattleNet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f835}") }
-    func faCloudSun(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6c4}") }
-    func faFontAwesome(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2b4}") }
-    func faCreativeCommonsSamplingPlus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f1}") }
-    func faLemon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f094}") }
-    func faHeartbeat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f21e}") }
-    func faMandalorian(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f50f}") }
-    func faMicrophoneAltSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f539}") }
-    func faUserFriends(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f500}") }
-    func faUndo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0e2}") }
-    func faSyncAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2f1}") }
-    func faTelegramPlane(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3fe}") }
-    func faCreativeCommons(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f25e}") }
-    func faReply(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e5}") }
-    func faStopCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f28d}") }
-    func faMemory(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f538}") }
-    func faPlaneDeparture(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5b0}") }
-    func faCamera(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f030}") }
-    func faGlassWhiskey(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7a0}") }
-    func faChess(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f439}") }
-    func faRibbon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4d6}") }
-    func faGripHorizontal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f58d}") }
-    func faGofore(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3a7}") }
-    func faMagento(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3c4}") }
-    func faCreativeCommonsShare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f2}") }
-    func faDrum(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f569}") }
-    func faLockOpen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3c1}") }
-    func faAutoprefixer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f41c}") }
-    func faErlang(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f39d}") }
-    func faGrin(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f580}") }
-    func faStar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f005}") }
-    func faTrash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1f8}") }
-    func faUserTie(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f508}") }
-    func faOutdent(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f03b}") }
-    func faSimplybuilt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f215}") }
-    func faCashRegister(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f788}") }
-    func faOsi(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f41a}") }
-    func faVideo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f03d}") }
-    func faPlaystation(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3df}") }
-    func faStarHalfAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c0}") }
-    func faExpeditedssl(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f23e}") }
-    func faFill(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f575}") }
-    func faBook(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f02d}") }
-    func faFlag(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f024}") }
-    func faWindowMinimize(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2d1}") }
-    func faBus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f207}") }
-    func faFirstOrder(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2b0}") }
-    func faLongArrowAltLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f30a}") }
-    func faFolderPlus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f65e}") }
-    func faAffiliatetheme(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f36b}") }
-    func faUntappd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f405}") }
-    func faUserNurse(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f82f}") }
-    func faWind(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f72e}") }
-    func faFileCsv(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6dd}") }
-    func faHryvnia(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6f2}") }
-    func faCartPlus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f217}") }
-    func faModx(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f285}") }
-    func faRedo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f01e}") }
-    func faYahoo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f19e}") }
-    func faSeedling(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4d8}") }
-    func faTable(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0ce}") }
-    func faFlagCheckered(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f11e}") }
-    func faTheaterMasks(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f630}") }
-    func faFacebookF(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f39e}") }
-    func faKickstarter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3bb}") }
-    func faSteamSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1b7}") }
-    func faStarOfLife(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f621}") }
-    func faBarcode(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f02a}") }
-    func faMapMarked(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f59f}") }
-    func faTachometerAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3fd}") }
-    func faUpload(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f093}") }
-    func faBalanceScaleRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f516}") }
-    func faHandMiddleFinger(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f806}") }
-    func faHands(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4c2}") }
-    func faCarCrash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5e1}") }
-    func faFileSignature(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f573}") }
-    func faSwatchbook(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c3}") }
-    func faBitcoin(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f379}") }
-    func faPlayCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f144}") }
-    func faTablets(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f490}") }
-    func faWarehouse(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f494}") }
-    func faFontAwesomeFlag(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f425}") }
-    func faGithubAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f113}") }
-    func faGithubSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f092}") }
-    func faDyalog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f399}") }
-    func faEarlybirds(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f39a}") }
-    func faDev(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6cc}") }
-    func faDumbbell(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f44b}") }
-    func faPinterestP(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f231}") }
-    func faQrcode(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f029}") }
-    func faTint(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f043}") }
-    func faIntercom(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7af}") }
-    func faRocketchat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e8}") }
-    func faSteam(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1b6}") }
-    func faChevronCircleUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f139}") }
-    func faBatteryEmpty(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f244}") }
-    func faLinux(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f17c}") }
-    func faMobile(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f10b}") }
-    func faAngry(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f556}") }
-    func faXbox(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f412}") }
-    func faFastForward(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f050}") }
-    func faGripfire(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ac}") }
-    func faUtensils(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2e7}") }
-    func faYoast(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2b1}") }
-    func faWineBottle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f72f}") }
-    func faEthereum(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f42e}") }
-    func faPlane(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f072}") }
-    func faOptinMonster(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f23c}") }
-    func faXing(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f168}") }
-    func faScrewdriver(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f54a}") }
-    func faTooth(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c9}") }
-    func faFlipboard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f44d}") }
-    func faJsfiddle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1cc}") }
-    func faSuitcaseRolling(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c1}") }
-    func faTumblrSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f174}") }
-    func faAtlas(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f558}") }
-    func faBookDead(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6b7}") }
-    func faMoon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f186}") }
-    func faMugHot(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7b6}") }
-    func faAngleLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f104}") }
-    func faSun(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f185}") }
-    func faParachuteBox(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4cd}") }
-    func faVimeoV(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f27d}") }
-    func faCompress(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f066}") }
-    func faMosque(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f678}") }
-    func faCcMastercard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1f1}") }
-    func faMeetup(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2e0}") }
-    func faHandLizard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f258}") }
-    func faAt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1fa}") }
-    func faSlideshare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e7}") }
-    func faBeer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0fc}") }
-    func faHouseDamage(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6f1}") }
-    func faCodeBranch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f126}") }
-    func faRubleSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f158}") }
-    func faSortNumericDownAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f886}") }
-    func faFontAwesomeAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f35c}") }
-    func faIoxhost(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f208}") }
-    func faPrint(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f02f}") }
-    func faProductHunt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f288}") }
-    func faTrain(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f238}") }
-    func faAlgolia(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f36c}") }
-    func faGlobeAfrica(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f57c}") }
-    func faDropbox(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f16b}") }
-    func faGlobeEurope(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7a2}") }
-    func faCalendarAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f073}") }
-    func faJediOrder(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f50e}") }
-    func faCreativeCommonsNd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4eb}") }
-    func faWineGlass(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4e3}") }
-    func faDiceOne(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f525}") }
-    func faSlack(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f198}") }
-    func faFighterJet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0fb}") }
-    func faStackOverflow(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f16c}") }
-    func faSortAlphaUpAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f882}") }
-    func faMedrt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3c8}") }
-    func faTemperatureLow(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f76b}") }
-    func faUnlockAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f13e}") }
-    func faMixcloud(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f289}") }
-    func faTypo3(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f42b}") }
-    func faDiceSix(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f526}") }
-    func faThumbsUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f164}") }
-    func faGifts(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f79c}") }
-    func faHdd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0a0}") }
-    func faChalkboard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f51b}") }
-    func faPoundSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f154}") }
-    func faPrayingHands(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f684}") }
-    func faAws(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f375}") }
-    func faTrademark(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f25c}") }
-    func faGlobe(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0ac}") }
-    func faFonticonsFi(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3a2}") }
-    func faTruckMonster(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f63b}") }
-    func faEraser(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f12d}") }
-    func faApple(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f179}") }
-    func faStopwatch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2f2}") }
-    func faHourglassHalf(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f252}") }
-    func faLastfmSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f203}") }
-    func faKeycdn(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ba}") }
-    func faTools(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7d9}") }
-    func faBone(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5d7}") }
-    func faReadme(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4d5}") }
-    func faHandSpock(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f259}") }
-    func faSteamSymbol(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3f6}") }
-    func faChartArea(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1fe}") }
-    func faJsSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3b9}") }
-    func faQuestion(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f128}") }
-    func faSymfony(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f83d}") }
-    func faFrog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f52e}") }
-    func faVnv(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f40b}") }
-    func faDhl(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f790}") }
-    func faGrinWink(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f58c}") }
-    func faTaxi(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ba}") }
-    func faBullhorn(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0a1}") }
-    func faLevelUpAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3bf}") }
-    func faPaperPlane(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1d8}") }
-    func faTicketAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ff}") }
-    func faExpandArrowsAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f31e}") }
-    func faAngellist(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f209}") }
-    func faFilter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0b0}") }
-    func faGem(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3a5}") }
-    func faSearchLocation(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f689}") }
-    func faImdb(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2d8}") }
-    func faDrawPolygon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5ee}") }
-    func faPepperHot(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f816}") }
-    func faSmileWink(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4da}") }
-    func faTintSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c7}") }
-    func faWindows(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f17a}") }
-    func faBatteryThreeQuarters(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f241}") }
-    func faPortrait(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e0}") }
-    func faWpforms(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f298}") }
-    func faSpinner(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f110}") }
-    func faOldRepublic(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f510}") }
-    func faWizardsOfTheCoast(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f730}") }
-    func faCheckDouble(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f560}") }
-    func faItunesNote(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3b5}") }
-    func faDesktop(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f108}") }
-    func faFly(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f417}") }
-    func faCloudMoon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6c3}") }
-    func faRProject(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f7}") }
-    func faReacteurope(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f75d}") }
-    func faStaylinked(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3f5}") }
-    func faGulp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ae}") }
-    func faHourglassEnd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f253}") }
-    func faAssistiveListeningSystems(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a2}") }
-    func faEthernet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f796}") }
-    func faBroadcastTower(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f519}") }
-    func faCarrot(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f787}") }
-    func faPodcast(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2ce}") }
-    func faSuperpowers(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2dd}") }
-    func faKeybase(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f5}") }
-    func faAddressBook(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2b9}") }
-    func faShareAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e0}") }
-    func faUps(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7e0}") }
-    func faShapes(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f61f}") }
-    func faCross(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f654}") }
-    func faEllo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5f1}") }
-    func faArrowsAltH(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f337}") }
-    func faTrello(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f181}") }
-    func faGlassMartini(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f000}") }
-    func faMoneyCheckAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f53d}") }
-    func faBirthdayCake(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1fd}") }
-    func faTripadvisor(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f262}") }
-    func faUserGraduate(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f501}") }
-    func faGitAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f841}") }
-    func faExpand(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f065}") }
-    func faAmazon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f270}") }
-    func faCommentSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4b3}") }
-    func faDraft2Digital(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f396}") }
-    func faUssunnah(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f407}") }
-    func faHtml5(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f13b}") }
-    func faDochub(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f394}") }
-    func faVine(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ca}") }
-    func faDAndDBeyond(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6ca}") }
-    func faCodepen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1cb}") }
-    func faMoneyBillWaveAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f53b}") }
-    func faRulerHorizontal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f547}") }
-    func faHandPaper(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f256}") }
-    func faCcJcb(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f24b}") }
-    func faViadeoSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2aa}") }
-    func faIgloo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7ae}") }
-    func faWindowMaximize(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2d0}") }
-    func faXRay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f497}") }
-    func faGraduationCap(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f19d}") }
-    func faComments(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f086}") }
-    func faLinkedin(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f08c}") }
-    func faCloudSunRain(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f743}") }
-    func faOdnoklassnikiSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f264}") }
-    func faRedhat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7bc}") }
-    func faKhanda(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f66d}") }
-    func faCentercode(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f380}") }
-    func faPuzzlePiece(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f12e}") }
-    func faSketch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7c6}") }
-    func faSynagogue(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f69b}") }
-    func faThLarge(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f009}") }
-    func faFortAwesomeAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3a3}") }
-    func faCcAmazonPay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f42d}") }
-    func faDiscord(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f392}") }
-    func faThumbsDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f165}") }
-    func faTrashRestore(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f829}") }
-    func faHeadset(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f590}") }
-    func faHandshake(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2b5}") }
-    func faDrupal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a9}") }
-    func faCloudShowersHeavy(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f740}") }
-    func faGrinSquintTears(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f586}") }
-    func faChessQueen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f445}") }
-    func faFingerprint(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f577}") }
-    func faHotjar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3b1}") }
-    func faThList(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f00b}") }
-    func faIndustry(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f275}") }
-    func faGalacticRepublic(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f50c}") }
-    func faWeightHanging(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5cd}") }
-    func faShuttleVan(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5b6}") }
-    func faFilm(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f008}") }
-    func faInstagram(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f16d}") }
-    func faPhotoVideo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f87c}") }
-    func faCriticalRole(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6c9}") }
-    func faAddressCard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2bb}") }
-    func faStumbleupon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a4}") }
-    func faGolfBall(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f450}") }
-    func faHubspot(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3b2}") }
-    func faSkating(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7c5}") }
-    func faUserPlus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f234}") }
-    func faStumbleuponCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a3}") }
-    func faWeixin(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1d7}") }
-    func faTasks(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0ae}") }
-    func faCompressArrowsAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f78c}") }
-    func faLock(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f023}") }
-    func faLongArrowAltUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f30c}") }
-    func faHireAHelper(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3b0}") }
-    func faHome(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f015}") }
-    func faGamepad(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f11b}") }
-    func faCopy(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c5}") }
-    func faRev(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5b2}") }
-    func faGooglePlus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2b3}") }
-    func faFileArchive(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c6}") }
-    func faCode(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f121}") }
-    func faAllergies(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f461}") }
-    func faKissWinkHeart(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f598}") }
-    func faQuinscape(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f459}") }
-    func faSalesforce(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f83b}") }
-    func faGrinAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f581}") }
-    func faFemale(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f182}") }
-    func faHandHolding(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4bd}") }
-    func faBootstrap(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f836}") }
-    func faDigitalTachograph(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f566}") }
-    func faCuttlefish(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f38c}") }
-    func faCcDinersClub(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f24c}") }
-    func faSdCard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7c2}") }
-    func faPause(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f04c}") }
-    func faArrowsAltV(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f338}") }
-    func faFortAwesome(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f286}") }
-    func faMedapps(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3c6}") }
-    func faDeaf(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a4}") }
-    func faForumbee(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f211}") }
-    func faProjectDiagram(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f542}") }
-    func faCommentAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f27a}") }
-    func faSellsy(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f213}") }
-    func faShoppingBasket(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f291}") }
-    func faJournalWhills(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f66a}") }
-    func faSmoking(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f48d}") }
-    func faTruckLoading(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4de}") }
-    func faWpbeginner(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f297}") }
-    func faDeskpro(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f38f}") }
-    func faCaretSquareLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f191}") }
-    func faLongArrowAltRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f30b}") }
-    func faPizzaSlice(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f818}") }
-    func faLaughWink(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f59c}") }
-    func faShareAltSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e1}") }
-    func faTorah(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6a0}") }
-    func faKaaba(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f66b}") }
-    func faCreativeCommonsZero(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f3}") }
-    func faTwitch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e8}") }
-    func faSquarespace(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5be}") }
-    func faPlay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f04b}") }
-    func faBandAid(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f462}") }
-    func faUniversalAccess(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f29a}") }
-    func faArtstation(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f77a}") }
-    func faLessThanEqual(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f537}") }
-    func faUserAstronaut(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4fb}") }
-    func faTimes(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f00d}") }
-    func faTextHeight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f034}") }
-    func faConfluence(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f78d}") }
-    func faClipboardList(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f46d}") }
-    func faOilCan(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f613}") }
-    func faCameraRetro(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f083}") }
-    func faBriefcase(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0b1}") }
-    func faRing(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f70b}") }
-    func faTshirt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f553}") }
-    func faSquareFull(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f45c}") }
-    func faLifeRing(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1cd}") }
-    func faMarsStrokeV(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f22a}") }
-    func faAtom(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5d2}") }
-    func faMitten(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7b5}") }
-    func faFistRaised(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6de}") }
-    func faStroopwafel(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f551}") }
-    func faUsb(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f287}") }
-    func faCloud(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c2}") }
-    func faMenorah(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f676}") }
-    func faSmokingBan(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f54d}") }
-    func faCcAmex(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1f3}") }
-    func faBlog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f781}") }
-    func faTextWidth(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f035}") }
-    func faAngleDoubleLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f100}") }
-    func faUserEdit(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4ff}") }
-    func faCopyright(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1f9}") }
-    func faYoutubeSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f431}") }
-    func faEyeDropper(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1fb}") }
-    func faMap(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f279}") }
-    func faBlender(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f517}") }
-    func faDraftingCompass(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f568}") }
-    func faOm(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f679}") }
-    func faExternalLinkSquareAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f360}") }
-    func faAlignRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f038}") }
-    func faAd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f641}") }
-    func faBtc(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f15a}") }
-    func faReddit(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a1}") }
-    func faSearchPlus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f00e}") }
-    func faCoins(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f51e}") }
-    func faGooglePlay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ab}") }
-    func faStop(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f04d}") }
-    func faRupeeSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f156}") }
-    func faTram(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7da}") }
-    func faCaretLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d9}") }
-    func faGrunt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ad}") }
-    func faBraille(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a1}") }
-    func faCcStripe(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1f5}") }
-    func faSmog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f75f}") }
-    func faWix(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5cf}") }
-    func faCog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f013}") }
-    func faPallet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f482}") }
-    func faWindowClose(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f410}") }
-    func faLaptopCode(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5fc}") }
-    func faFileWord(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c2}") }
-    func faHeadphones(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f025}") }
-    func faSignature(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5b7}") }
-    func faGrinTongueSquint(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f58a}") }
-    func faTheRedYeti(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f69d}") }
-    func faFlickr(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f16e}") }
-    func faPalette(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f53f}") }
-    func faAdversal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f36a}") }
-    func faIdCardAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f47f}") }
-    func faToilet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7d8}") }
-    func faDivide(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f529}") }
-    func faGift(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f06b}") }
-    func faPage4(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d7}") }
-    func faVenusMars(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f228}") }
-    func faLinkedinIn(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0e1}") }
-    func faArrowCircleRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0a9}") }
-    func faPushed(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e1}") }
-    func faDoorOpen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f52b}") }
-    func faCocktail(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f561}") }
-    func faMapMarkerAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3c5}") }
-    func faLaptopMedical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f812}") }
-    func faPlaneArrival(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5af}") }
-    func faReplyAll(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f122}") }
-    func faMinus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f068}") }
-    func faBalanceScale(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f24e}") }
-    func faFileVideo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c8}") }
-    func faPenAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f305}") }
-    func faSimCard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7c4}") }
-    func faUserShield(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f505}") }
-    func faPencilRuler(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5ae}") }
-    func faFigma(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f799}") }
-    func faDrumstickBite(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6d7}") }
-    func faAccessibleIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f368}") }
-    func faMobileAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3cd}") }
-    func faPaintRoller(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5aa}") }
-    func faAdn(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f170}") }
-    func faPoo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2fe}") }
-    func faSnowplow(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7d2}") }
-    func faLowVision(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a8}") }
-    func faVial(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f492}") }
-    func faInfoCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f05a}") }
-    func faCanadianMapleLeaf(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f785}") }
-    func faBlackberry(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f37b}") }
-    func faHourglass(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f254}") }
-    func faIceCream(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f810}") }
-    func faPhoneSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f098}") }
-    func faToggleOff(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f204}") }
-    func faEnvelopeOpenText(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f658}") }
-    func faGlassCheers(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f79f}") }
-    func faLaugh(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f599}") }
-    func faHotTub(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f593}") }
-    func faGlideG(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a6}") }
-    func faRecycle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1b8}") }
-    func faChessBoard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f43c}") }
-    func faTransgenderAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f225}") }
-    func faChevronUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f077}") }
-    func faTenge(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7d7}") }
-    func faHeart(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f004}") }
-    func faRunning(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f70c}") }
-    func faCarBattery(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5df}") }
-    func faNetworkWired(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6ff}") }
-    func faPatreon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d9}") }
-    func faDiaspora(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f791}") }
-    func faRavelry(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2d9}") }
-    func faExternalLinkAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f35d}") }
-    func faYoutube(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f167}") }
-    func faGg(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f260}") }
-    func faGoogleWallet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ee}") }
-    func faVials(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f493}") }
-    func faSuperscript(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f12b}") }
-    func faDribbbleSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f397}") }
-    func faTableTennis(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f45d}") }
-    func faBowlingBall(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f436}") }
-    func faPrescriptionBottle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f485}") }
-    func faPaperclip(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c6}") }
-    func faCube(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1b2}") }
-    func faGhost(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6e2}") }
-    func faWordpress(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f19a}") }
-    func faMars(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f222}") }
-    func faVolumeOff(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f026}") }
-    func faPeace(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f67c}") }
-    func faGripLinesVertical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7a5}") }
-    func faMailBulk(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f674}") }
-    func faRestroom(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7bd}") }
-    func faLaptop(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f109}") }
-    func faFrown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f119}") }
-    func faCommentsDollar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f653}") }
-    func faFlagUsa(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f74d}") }
-    func faFileAudio(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c7}") }
-    func faSafari(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f267}") }
-    func faCarAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5de}") }
-    func faEnvelopeOpen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2b6}") }
-    func faLeaf(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f06c}") }
-    func faSpider(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f717}") }
-    func faCentos(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f789}") }
-    func faRssSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f143}") }
-    func faGitSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1d2}") }
-    func faGgCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f261}") }
-    func faUniversity(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f19c}") }
-    func faRainbow(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f75b}") }
-    func faAppleAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5d1}") }
-    func faFontAwesomeLogoFull(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4e6}") }
-    func faSkull(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f54c}") }
-    func faTemperatureHigh(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f769}") }
-    func faDeploydog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f38e}") }
-    func faSadCry(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5b3}") }
-    func faVectorSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5cb}") }
-    func faLanguage(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ab}") }
-    func faFirefox(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f269}") }
-    func faDocker(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f395}") }
-    func faCommentDots(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4ad}") }
-    func faRadiationAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7ba}") }
-    func faFolderMinus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f65d}") }
-    func faCity(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f64f}") }
-    func faSortNumericUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f163}") }
-    func faThermometer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f491}") }
-    func faDragon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6d5}") }
-    func faJira(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7b1}") }
-    func faFantasyFlightGames(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6dc}") }
-    func faCreativeCommonsSa(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4ef}") }
-    func faArrowCircleLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0a8}") }
-    func faCoffee(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0f4}") }
-    func faGooglePlusG(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d5}") }
-    func faHockeyPuck(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f453}") }
-    func faMoneyCheck(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f53c}") }
-    func faMedal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5a2}") }
-    func faPiedPiper(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2ae}") }
-    func faAndroid(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f17b}") }
-    func faPennyArcade(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f704}") }
-    func faHourglassStart(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f251}") }
-    func faRadiation(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7b9}") }
-    func faSortNumericDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f162}") }
-    func faChessPawn(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f443}") }
-    func faVoicemail(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f897}") }
-    func faQuran(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f687}") }
-    func faHardHat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f807}") }
-    func faTh(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f00a}") }
-    func faEvernote(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f839}") }
-    func faLongArrowAltDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f309}") }
-    func faChild(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ae}") }
-    func faInbox(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f01c}") }
-    func faVenusDouble(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f226}") }
-    func faYarn(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7e3}") }
-    func faMagic(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d0}") }
-    func faPalfed(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d8}") }
-    func faPercent(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f295}") }
-    func faItunes(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3b4}") }
-    func faBandcamp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2d5}") }
-    func faFastBackward(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f049}") }
-    func faDiceFive(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f523}") }
-    func faItchIo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f83a}") }
-    func faCartArrowDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f218}") }
-    func faPhoneVolume(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a0}") }
-    func faArrowRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f061}") }
-    func faCookie(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f563}") }
-    func faPooStorm(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f75a}") }
-    func faQq(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1d6}") }
-    func faHandPointer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f25a}") }
-    func faCaretUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d8}") }
-    func faSmileBeam(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5b8}") }
-    func faSortAmountUpAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f885}") }
-    func faSpaceShuttle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f197}") }
-    func faTruckMoving(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4df}") }
-    func faAmericanSignLanguageInterpreting(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a3}") }
-    func faFirstdraft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3a1}") }
-    func faImage(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f03e}") }
-    func faHips(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f452}") }
-    func faTruck(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d1}") }
-    func faViacoin(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f237}") }
-    func faHatWizard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6e8}") }
-    func faFileImage(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c5}") }
-    func faDribbble(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f17d}") }
-    func faElementor(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f430}") }
-    func faExclamationCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f06a}") }
-    func faOpencart(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f23d}") }
-    func faBuffer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f837}") }
-    func faKickstarterK(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3bc}") }
-    func faSignal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f012}") }
-    func faQuestionCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f059}") }
-    func faCss3(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f13c}") }
-    func faCropAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f565}") }
-    func faKeyboard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f11c}") }
-    func faBusinessTime(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f64a}") }
-    func faHospitalAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f47d}") }
-    func faQuoteRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f10e}") }
-    func faResolving(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e7}") }
-    func faSort(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0dc}") }
-    func faCss3Alt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f38b}") }
-    func faChevronCircleRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f138}") }
-    func faPython(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e2}") }
-    func faSwimmer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c4}") }
-    func faThemeco(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c6}") }
-    func faYandexInternational(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f414}") }
-    func faHandPeace(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f25b}") }
-    func faPhoenixSquadron(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f511}") }
-    func faSourcetree(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7d3}") }
-    func faTv(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f26c}") }
-    func faInfinity(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f534}") }
-    func faTumblr(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f173}") }
-    func faHippo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6ed}") }
-    func faHackerrank(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5f7}") }
-    func faHandPointRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0a4}") }
-    func faWpexplorer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2de}") }
-    func faBed(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f236}") }
-    func faUikit(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f403}") }
-    func faHeading(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1dc}") }
-    func faPager(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f815}") }
-    func faReceipt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f543}") }
-    func faShareSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f14d}") }
-    func faPray(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f683}") }
-    func faSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c8}") }
-    func faLaughBeam(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f59a}") }
-    func faAlignCenter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f037}") }
-    func faBackspace(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f55a}") }
-    func faLevelDownAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3be}") }
-    func faEject(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f052}") }
-    func faMotorcycle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f21c}") }
-    func faFireAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7e4}") }
-    func faClinicMedical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7f2}") }
-    func faStethoscope(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0f1}") }
-    func faParagraph(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1dd}") }
-    func faCreativeCommonsPdAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4ed}") }
-    func faEnvira(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f299}") }
-    func faStudiovinari(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3f8}") }
-    func faTractor(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f722}") }
-    func faWhatsapp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f232}") }
-    func faYelp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e9}") }
-    func faTape(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4db}") }
-    func faPollH(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f682}") }
-    func faChalkboardTeacher(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f51c}") }
-    func faPhoneAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f879}") }
-    func faCalendarTimes(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f273}") }
-    func faKiwiBird(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f535}") }
-    func faLyft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3c3}") }
-    func faCloudRain(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f73d}") }
-    func faKaggle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5fa}") }
-    func faSupple(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3f9}") }
-    func faCannabis(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f55f}") }
-    func faLastfm(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f202}") }
-    func faJava(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4e4}") }
-    func faGoodreads(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3a8}") }
-    func faServicestack(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ec}") }
-    func faDoorClosed(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f52a}") }
-    func faInternetExplorer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f26b}") }
-    func faUser(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f007}") }
-    func faCloudscale(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f383}") }
-    func faVolumeMute(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6a9}") }
-    func faChessKing(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f43f}") }
-    func faGooglePlusSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d4}") }
-    func faSadTear(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5b4}") }
-    func faFeatherAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f56b}") }
-    func faCrop(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f125}") }
-    func faFileInvoice(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f570}") }
-    func faEgg(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7fb}") }
-    func faNotesMedical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f481}") }
-    func faRemoveFormat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f87d}") }
-    func faRebel(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1d0}") }
-    func faPlusSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0fe}") }
-    func faChessRook(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f447}") }
-    func faHandHoldingUsd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4c0}") }
-    func faEyeSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f070}") }
-    func faBlind(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f29d}") }
-    func faItalic(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f033}") }
-    func faSortNumericUpAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f887}") }
-    func faSuitcase(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0f2}") }
-    func faSkiing(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7c9}") }
-    func faCalculator(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ec}") }
-    func faBrain(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5dc}") }
-    func faLocationArrow(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f124}") }
-    func faAngleUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f106}") }
-    func faMicroscope(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f610}") }
-    func faVrCardboard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f729}") }
-    func faAppStoreIos(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f370}") }
-    func faToriiGate(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6a1}") }
-    func faLaravel(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3bd}") }
-    func faTrophy(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f091}") }
-    func faWifi(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1eb}") }
-    func faConciergeBell(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f562}") }
-    func faVaadin(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f408}") }
-    func faSoundcloud(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1be}") }
-    func faEbay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f4}") }
-    func faHackerNews(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1d4}") }
-    func faAngleDoubleUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f102}") }
-    func faLightbulb(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0eb}") }
-    func faDiceD6(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6d1}") }
-    func faAngrycreative(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f36e}") }
-    func faOpenid(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f19b}") }
-    func faBan(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f05e}") }
-    func faCalendarMinus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f272}") }
-    func faAviato(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f421}") }
-    func faBible(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f647}") }
-    func faServer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f233}") }
-    func faNeos(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f612}") }
-    func faSync(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f021}") }
-    func faSortUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0de}") }
-    func faMale(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f183}") }
-    func faRetweet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f079}") }
-    func faFirstAid(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f479}") }
-    func faArrowLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f060}") }
-    func faBatteryFull(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f240}") }
-    func faGrinBeam(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f582}") }
-    func faNeuter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f22c}") }
-    func faPowerOff(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f011}") }
-    func faQuoteLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f10d}") }
-    func faListAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f022}") }
-    func faPhoneSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3dd}") }
-    func faFrownOpen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f57a}") }
-    func faDashcube(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f210}") }
-    func faWater(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f773}") }
-    func faHooli(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f427}") }
-    func faPlaceOfWorship(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f67f}") }
-    func faFreebsd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3a4}") }
-    func faGlasses(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f530}") }
-    func faCalendarWeek(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f784}") }
-    func faPhone(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f095}") }
-    func faFeather(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f52d}") }
-    func faOpera(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f26a}") }
-    func faRocket(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f135}") }
-    func faOdnoklassniki(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f263}") }
-    func faBreadSlice(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7ec}") }
-    func faPaste(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0ea}") }
-    func faPoop(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f619}") }
-    func faRedoAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2f9}") }
-    func faSlackHash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ef}") }
-    func faWineGlassAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5ce}") }
-    func faBaby(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f77c}") }
-    func faVimeoSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f194}") }
-    func faMedkit(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0fa}") }
-    func faBezierCurve(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f55b}") }
-    func faUserCheck(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4fc}") }
-    func faPoll(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f681}") }
-    func faPills(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f484}") }
-    func faAsterisk(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f069}") }
-    func faCompass(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f14e}") }
-    func faStrikethrough(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0cc}") }
-    func faSuse(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7d6}") }
-    func faUsersCog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f509}") }
-    func faKey(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f084}") }
-    func faDollyFlatbed(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f474}") }
-    func faPlug(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e6}") }
-    func faUtensilSpoon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2e5}") }
-    func faEdge(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f282}") }
-    func faLink(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c1}") }
-    func faArchway(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f557}") }
-    func faUserLock(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f502}") }
-    func faYCombinator(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f23b}") }
-    func faFirstOrderAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f50a}") }
-    func faVimeo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f40a}") }
-    func faPhp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f457}") }
-    func faWeebly(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5cc}") }
-    func faChevronRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f054}") }
-    func faLuggageCart(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f59d}") }
-    func faGopuram(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f664}") }
-    func faMoneyBill(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d6}") }
-    func faEtsy(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2d7}") }
-    func faYammer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f840}") }
-    func faDotCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f192}") }
-    func faFolder(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f07b}") }
-    func faTeethOpen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f62f}") }
-    func faMonero(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d0}") }
-    func faWeibo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f18a}") }
-    func faUserTimes(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f235}") }
-    func faAngular(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f420}") }
-    func faShippingFast(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f48b}") }
-    func faSpeakap(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3f3}") }
-    func faExclamationTriangle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f071}") }
-    func faHanukiah(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6e6}") }
-    func faCloudsmith(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f384}") }
-    func faArrowDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f063}") }
-    func faDonate(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4b9}") }
-    func faGitlab(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f296}") }
-    func faGrinTongueWink(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f58b}") }
-    func faDiceThree(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f527}") }
-    func faFileAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f15c}") }
-    func faFlushed(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f579}") }
-    func faPenFancy(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5ac}") }
-    func faBorderNone(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f850}") }
-    func faRuler(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f545}") }
-    func faTeamspeak(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f9}") }
-    func faFont(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f031}") }
-    func faSortAlphaDownAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f881}") }
-    func faThemeisle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2b2}") }
-    func faLessThan(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f536}") }
-    func faToolbox(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f552}") }
-    func faUserMinus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f503}") }
-    func faBath(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2cd}") }
-    func faWallet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f555}") }
-    func faWpressr(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e4}") }
-    func faVuejs(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f41f}") }
-    func faVolumeUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f028}") }
-    func faFileDownload(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f56d}") }
-    func faXingSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f169}") }
-    func faCreditCard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f09d}") }
-    func faDollarSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f155}") }
-    func faTty(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e4}") }
-    func faAudioDescription(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f29e}") }
-    func faBookMedical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7e6}") }
-    func faMarsStrokeH(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f22b}") }
-    func faDog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6d3}") }
-    func faTags(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f02c}") }
-    func faFileInvoiceDollar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f571}") }
-    func faCrutch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7f7}") }
-    func faAmilia(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f36d}") }
-    func faStamp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5bf}") }
-    func faCubes(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1b3}") }
-    func faBuysellads(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f20d}") }
-    func faChevronLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f053}") }
-    func faThermometerThreeQuarters(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2c8}") }
-    func faVolumeDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f027}") }
-    func faMehRollingEyes(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5a5}") }
-    func faInfo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f129}") }
-    func faTabletAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3fa}") }
-    func faUserInjured(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f728}") }
-    func faHorseHead(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7ab}") }
-    func faSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f715}") }
-    func faMeh(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f11a}") }
-    func faStackExchange(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f18d}") }
-    func faMortarPestle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5a7}") }
-    func faPhoenixFramework(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3dc}") }
+    public func faSpellCheck(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f891}") }
+    public func faUserSecret(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f21b}") }
+    public func faUserTag(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f507}") }
+    public func faBorderStyle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f853}") }
+    public func faGalacticSenate(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f50d}") }
+    public func faCloudMeatball(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f73b}") }
+    public func faKissBeam(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f597}") }
+    public func faBolt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0e7}") }
+    public func faBug(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f188}") }
+    public func faSearchDollar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f688}") }
+    public func faAirFreshener(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5d0}") }
+    public func faSmile(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f118}") }
+    public func faExchangeAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f362}") }
+    public func faGlobeAmericas(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f57d}") }
+    public func faHSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0fd}") }
+    public func faFacebookSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f082}") }
+    public func faCouch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4b8}") }
+    public func faGenderless(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f22d}") }
+    public func faHandHoldingHeart(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4be}") }
+    public func faZhihu(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f63f}") }
+    public func faHandPointLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0a5}") }
+    public func faBatteryQuarter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f243}") }
+    public func faThinkPeaks(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f731}") }
+    public func faLiraSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f195}") }
+    public func faArrowCircleUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0aa}") }
+    public func faBomb(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e2}") }
+    public func faMendeley(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7b3}") }
+    public func faAlignJustify(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f039}") }
+    public func faGripLines(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7a4}") }
+    public func faRoad(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f018}") }
+    public func faCloudUploadAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f382}") }
+    public func faHouzz(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f27c}") }
+    public func faDiceFour(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f524}") }
+    public func faBookmark(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f02e}") }
+    public func faSnapchatGhost(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2ac}") }
+    public func faCodiepie(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f284}") }
+    public func faArrowAltCircleLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f359}") }
+    public func faBalanceScaleLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f515}") }
+    public func faDrumSteelpan(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f56a}") }
+    public func faAngleDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f107}") }
+    public func faGithub(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f09b}") }
+    public func faHeartBroken(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7a9}") }
+    public func faJoint(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f595}") }
+    public func faRobot(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f544}") }
+    public func faMinusCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f056}") }
+    public func faPhoneSquareAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f87b}") }
+    public func faDungeon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6d9}") }
+    public func faStrava(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f428}") }
+    public func faSyringe(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f48e}") }
+    public func faWonSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f159}") }
+    public func faApper(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f371}") }
+    public func faMercury(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f223}") }
+    public func faObjectUngroup(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f248}") }
+    public func faIndent(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f03c}") }
+    public func faParking(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f540}") }
+    public func faPiedPiperHat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4e5}") }
+    public func faSubway(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f239}") }
+    public func faOtter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f700}") }
+    public func faCertificate(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0a3}") }
+    public func faRulerCombined(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f546}") }
+    public func faStream(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f550}") }
+    public func faAdobe(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f778}") }
+    public func faJedi(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f669}") }
+    public func faSnowboarding(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7ce}") }
+    public func faPenNib(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5ad}") }
+    public func faDatabase(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c0}") }
+    public func faFire(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f06d}") }
+    public func faMediumM(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3c7}") }
+    public func faRepublican(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f75e}") }
+    public func faStepBackward(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f048}") }
+    public func faUnlock(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f09c}") }
+    public func faSistrix(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ee}") }
+    public func faUserClock(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4fd}") }
+    public func faGetPocket(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f265}") }
+    public func faDice(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f522}") }
+    public func faUserAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f406}") }
+    public func faSatellite(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7bf}") }
+    public func faGrinStars(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f587}") }
+    public func faMapMarker(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f041}") }
+    public func faBehance(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1b4}") }
+    public func faListOl(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0cb}") }
+    public func faSpa(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5bb}") }
+    public func faTag(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f02b}") }
+    public func faSolarPanel(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5ba}") }
+    public func faEmpire(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1d1}") }
+    public func faThermometerFull(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2c7}") }
+    public func faQuora(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2c4}") }
+    public func faCampground(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6bb}") }
+    public func faAnkh(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f644}") }
+    public func faHandsHelping(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4c4}") }
+    public func faDna(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f471}") }
+    public func faCookieBite(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f564}") }
+    public func faBinoculars(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e5}") }
+    public func faGrinSquint(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f585}") }
+    public func faAcquisitionsIncorporated(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6af}") }
+    public func faHammer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6e3}") }
+    public func faArrowAltCircleDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f358}") }
+    public func faSith(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f512}") }
+    public func faBookReader(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5da}") }
+    public func faHackerNewsSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3af}") }
+    public func faCalendarPlus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f271}") }
+    public func faBell(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0f3}") }
+    public func faWaveSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f83e}") }
+    public func faGoodreadsG(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3a9}") }
+    public func faStarOfDavid(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f69a}") }
+    public func faBong(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f55c}") }
+    public func faFutbol(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e3}") }
+    public func faBluetoothB(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f294}") }
+    public func faSass(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f41e}") }
+    public func faChevronCircleDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f13a}") }
+    public func faBehanceSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1b5}") }
+    public func faDigitalOcean(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f391}") }
+    public func faBabyCarriage(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f77d}") }
+    public func faDAndD(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f38d}") }
+    public func faCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f111}") }
+    public func faGoogle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a0}") }
+    public func faMicrosoft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ca}") }
+    public func faSleigh(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7cc}") }
+    public func faStreetView(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f21d}") }
+    public func faQuidditch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f458}") }
+    public func faICursor(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f246}") }
+    public func faGripVertical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f58e}") }
+    public func faForward(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f04e}") }
+    public func faChrome(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f268}") }
+    public func faFileCode(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c9}") }
+    public func faPiedPiperPp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a7}") }
+    public func faFacebookMessenger(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f39f}") }
+    public func faSubscript(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f12c}") }
+    public func faSms(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7cd}") }
+    public func faVideoSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4e2}") }
+    public func faJoomla(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1aa}") }
+    public func faFish(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f578}") }
+    public func faRegistered(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f25d}") }
+    public func faBaseballBall(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f433}") }
+    public func faBellSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1f6}") }
+    public func faJenkins(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3b6}") }
+    public func faHashtag(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f292}") }
+    public func faUmbrella(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0e9}") }
+    public func faCpanel(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f388}") }
+    public func faHamburger(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f805}") }
+    public func faNpm(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d4}") }
+    public func faStarHalf(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f089}") }
+    public func faEnvelope(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0e0}") }
+    public func faChessBishop(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f43a}") }
+    public func faArrowAltCircleRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f35a}") }
+    public func faCottonBureau(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f89e}") }
+    public func faCrown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f521}") }
+    public func faMehBlank(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5a4}") }
+    public func faPrescriptionBottleAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f486}") }
+    public func faBiohazard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f780}") }
+    public func faShopware(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5b5}") }
+    public func faSkype(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f17e}") }
+    public func faToggleOn(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f205}") }
+    public func faRoute(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4d7}") }
+    public func faGrinBeamSweat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f583}") }
+    public func faKiss(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f596}") }
+    public func faSquareRootAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f698}") }
+    public func faPastafarianism(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f67b}") }
+    public func faClosedCaptioning(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f20a}") }
+    public func faFacebook(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f09a}") }
+    public func faHaykal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f666}") }
+    public func faCandyCane(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f786}") }
+    public func faRedditSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a2}") }
+    public func faTrashRestoreAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f82a}") }
+    public func faFilePrescription(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f572}") }
+    public func faFileImport(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f56f}") }
+    public func faTired(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c8}") }
+    public func faColumns(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0db}") }
+    public func faPassport(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5ab}") }
+    public func faWhmcs(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f40d}") }
+    public func faReplyd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e6}") }
+    public func faCcPaypal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1f4}") }
+    public func faBackward(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f04a}") }
+    public func faBuilding(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ad}") }
+    public func faChevronDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f078}") }
+    public func faFileExport(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f56e}") }
+    public func faNutritionix(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d6}") }
+    public func faSearchMinus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f010}") }
+    public func faImages(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f302}") }
+    public func faMegaport(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5a3}") }
+    public func faPaintBrush(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1fc}") }
+    public func faSignOutAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2f5}") }
+    public func faUserCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2bd}") }
+    public func faPauseCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f28b}") }
+    public func faIcicles(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7ad}") }
+    public func faSortAlphaDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f15d}") }
+    public func faSortAmountDownAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f884}") }
+    public func faCalendarDay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f783}") }
+    public func faMoneyBillAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d1}") }
+    public func faAtlassian(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f77b}") }
+    public func faBoxes(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f468}") }
+    public func faShoppingCart(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f07a}") }
+    public func faCaretRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0da}") }
+    public func faMapPin(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f276}") }
+    public func faGreaterThan(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f531}") }
+    public func faGoogleDrive(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3aa}") }
+    public func faSellcast(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2da}") }
+    public func faMizuni(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3cc}") }
+    public func faCaretSquareDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f150}") }
+    public func faBars(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c9}") }
+    public func faCcVisa(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1f0}") }
+    public func faCrow(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f520}") }
+    public func faBitbucket(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f171}") }
+    public func faHandRock(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f255}") }
+    public func faStickerMule(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3f7}") }
+    public func faSnowflake(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2dc}") }
+    public func faFillDrip(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f576}") }
+    public func faApplePay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f415}") }
+    public func faTimesCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f057}") }
+    public func faToiletPaper(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f71e}") }
+    public func faCompactDisc(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f51f}") }
+    public func faThermometerQuarter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2ca}") }
+    public func faLeanpub(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f212}") }
+    public func faVk(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f189}") }
+    public func faProcedures(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f487}") }
+    public func faNodeJs(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d3}") }
+    public func faSchool(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f549}") }
+    public func faCut(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c4}") }
+    public func faAngleDoubleDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f103}") }
+    public func faHorse(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6f0}") }
+    public func faMeteor(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f753}") }
+    public func faMix(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3cb}") }
+    public func faSpotify(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1bc}") }
+    public func faCheese(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7ef}") }
+    public func faGavel(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0e3}") }
+    public func faReact(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f41b}") }
+    public func faSignInAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2f6}") }
+    public func faPaw(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1b0}") }
+    public func faFileUpload(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f574}") }
+    public func faAccusoft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f369}") }
+    public func faYenSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f157}") }
+    public func faDizzy(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f567}") }
+    public func faMaxcdn(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f136}") }
+    public func faKorvue(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f42f}") }
+    public func faSearch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f002}") }
+    public func faStepForward(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f051}") }
+    public func faWindowRestore(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2d2}") }
+    public func faFan(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f863}") }
+    public func faShekelSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f20b}") }
+    public func faHandPointDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0a7}") }
+    public func faCheckSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f14a}") }
+    public func faDelicious(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a5}") }
+    public func faGrimace(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f57f}") }
+    public func faTerminal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f120}") }
+    public func faVoteYea(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f772}") }
+    public func faGitkraken(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3a6}") }
+    public func faBorderAll(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f84c}") }
+    public func faHotel(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f594}") }
+    public func faVihara(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6a7}") }
+    public func faTwitter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f099}") }
+    public func faLess(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f41d}") }
+    public func faNotEqual(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f53e}") }
+    public func faCommentDollar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f651}") }
+    public func faMonument(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5a6}") }
+    public func faAward(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f559}") }
+    public func faFilePdf(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c1}") }
+    public func faGlobeAsia(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f57e}") }
+    public func faPiedPiperAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a8}") }
+    public func faWeight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f496}") }
+    public func faHornbill(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f592}") }
+    public func faNewspaper(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ea}") }
+    public func faGasPump(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f52f}") }
+    public func faMinusSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f146}") }
+    public func faBrush(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f55d}") }
+    public func faBluetooth(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f293}") }
+    public func faCreativeCommonsRemix(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4ee}") }
+    public func faUniregistry(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f404}") }
+    public func faUserSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f506}") }
+    public func faEmber(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f423}") }
+    public func faIdCard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2c2}") }
+    public func faSchlix(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ea}") }
+    public func faPeopleCarry(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4ce}") }
+    public func faYinYang(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6ad}") }
+    public func faCloudMoonRain(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f73c}") }
+    public func faTwitterSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f081}") }
+    public func faUserAltSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4fa}") }
+    public func faMarsStroke(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f229}") }
+    public func faRandom(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f074}") }
+    public func faStoreAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f54f}") }
+    public func faEdit(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f044}") }
+    public func faWolfPackBattalion(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f514}") }
+    public func faTeeth(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f62e}") }
+    public func faCreativeCommonsNcEu(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4e9}") }
+    public func faSurprise(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c2}") }
+    public func faSitemap(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0e8}") }
+    public func faCogs(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f085}") }
+    public func faCreativeCommonsNcJp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4ea}") }
+    public func faShirtsinbulk(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f214}") }
+    public func faCcDiscover(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1f2}") }
+    public func faChessKnight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f441}") }
+    public func faViadeo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a9}") }
+    public func faHighlighter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f591}") }
+    public func faAppStore(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f36f}") }
+    public func faSortAmountUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f161}") }
+    public func faWhatsappSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f40c}") }
+    public func faBuromobelexperte(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f37f}") }
+    public func faWordpressSimple(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f411}") }
+    public func faMagnet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f076}") }
+    public func faCcApplePay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f416}") }
+    public func faTrashAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2ed}") }
+    public func faDove(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4ba}") }
+    public func faStripe(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f429}") }
+    public func faBlogger(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f37c}") }
+    public func faUserNinja(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f504}") }
+    public func faStripeS(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f42a}") }
+    public func faBacon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7e5}") }
+    public func faFoursquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f180}") }
+    public func faAudible(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f373}") }
+    public func faSignLanguage(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a7}") }
+    public func faJs(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3b8}") }
+    public func faCloudversify(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f385}") }
+    public func faLinode(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2b8}") }
+    public func faSkyatlas(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f216}") }
+    public func faGrinHearts(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f584}") }
+    public func faChevronCircleLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f137}") }
+    public func faDownload(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f019}") }
+    public func faDiagnoses(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f470}") }
+    public func faFedex(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f797}") }
+    public func faChair(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6c0}") }
+    public func faUsps(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7e1}") }
+    public func faMarsDouble(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f227}") }
+    public func faRulerVertical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f548}") }
+    public func faChartLine(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f201}") }
+    public func faGrav(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2d6}") }
+    public func faBurn(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f46a}") }
+    public func faPersonBooth(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f756}") }
+    public func faArrowAltCircleUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f35b}") }
+    public func faDharmachakra(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f655}") }
+    public func faUndoAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2ea}") }
+    public func faChargingStation(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5e7}") }
+    public func faBimobject(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f378}") }
+    public func faPaypal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ed}") }
+    public func faShower(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2cc}") }
+    public func faEnvelopeSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f199}") }
+    public func faMousePointer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f245}") }
+    public func faCreativeCommonsBy(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4e7}") }
+    public func faCaretSquareUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f151}") }
+    public func faPlusCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f055}") }
+    public func faAsymmetrik(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f372}") }
+    public func faHeadphonesAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f58f}") }
+    public func faTradeFederation(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f513}") }
+    public func faShoePrints(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f54b}") }
+    public func faFileMedical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f477}") }
+    public func faAvianex(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f374}") }
+    public func faDiceTwo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f528}") }
+    public func faGreaterThanEqual(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f532}") }
+    public func faMarker(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5a1}") }
+    public func faAngleRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f105}") }
+    public func faDiscourse(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f393}") }
+    public func faMastodon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f6}") }
+    public func faPinterestSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d3}") }
+    public func faShip(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f21a}") }
+    public func faDeviantart(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1bd}") }
+    public func faClipboard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f328}") }
+    public func faCloudDownloadAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f381}") }
+    public func faMedium(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f23a}") }
+    public func faUmbrellaBeach(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5ca}") }
+    public func faUsers(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c0}") }
+    public func faInvision(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7b0}") }
+    public func faBullseye(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f140}") }
+    public func faBusAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f55e}") }
+    public func faBity(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f37a}") }
+    public func faFedora(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f798}") }
+    public func faCat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6be}") }
+    public func faCheckCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f058}") }
+    public func faMicrophoneSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f131}") }
+    public func faVenus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f221}") }
+    public func faMicrochip(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2db}") }
+    public func faMusic(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f001}") }
+    public func faSortAlphaUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f15e}") }
+    public func faBriefcaseMedical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f469}") }
+    public func faMailchimp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f59e}") }
+    public func faDumpsterFire(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f794}") }
+    public func faChromecast(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f838}") }
+    public func faRenren(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f18b}") }
+    public func faBookOpen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f518}") }
+    public func faGlassMartiniAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f57b}") }
+    public func faSnapchatSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2ad}") }
+    public func faStickyNote(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f249}") }
+    public func faWheelchair(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f193}") }
+    public func faDolly(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f472}") }
+    public func faTruckPickup(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f63c}") }
+    public func faGrinTongue(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f589}") }
+    public func faTransgender(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f224}") }
+    public func faContao(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f26d}") }
+    public func faEllipsisH(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f141}") }
+    public func faWalking(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f554}") }
+    public func faSnowman(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7d0}") }
+    public func faClock(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f017}") }
+    public func faHamsa(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f665}") }
+    public func faBroom(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f51a}") }
+    public func faEllipsisV(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f142}") }
+    public func faSave(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c7}") }
+    public func faPiggyBank(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4d3}") }
+    public func faAngleDoubleRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f101}") }
+    public func faResearchgate(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f8}") }
+    public func faBasketballBall(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f434}") }
+    public func faAmbulance(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0f9}") }
+    public func faAlipay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f642}") }
+    public func faBicycle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f206}") }
+    public func faCarSide(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5e4}") }
+    public func faNapster(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d2}") }
+    public func faPeriscope(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3da}") }
+    public func faHollyBerry(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7aa}") }
+    public func faCalendarCheck(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f274}") }
+    public func faArrowCircleDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0ab}") }
+    public func faGitter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f426}") }
+    public func faBlackTie(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f27e}") }
+    public func faBox(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f466}") }
+    public func faCreativeCommonsNc(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4e8}") }
+    public func faCommentMedical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7f5}") }
+    public func faPrescription(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5b1}") }
+    public func faHandScissors(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f257}") }
+    public func faBiking(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f84a}") }
+    public func faArchive(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f187}") }
+    public func faCalendar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f133}") }
+    public func faLandmark(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f66f}") }
+    public func faAirbnb(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f834}") }
+    public func faFunnelDollar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f662}") }
+    public func faAnchor(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f13d}") }
+    public func faShieldAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ed}") }
+    public func faSlidersH(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1de}") }
+    public func faStore(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f54e}") }
+    public func faTablet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f10a}") }
+    public func faThermometerEmpty(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2cb}") }
+    public func faBatteryHalf(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f242}") }
+    public func faFilePowerpoint(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c4}") }
+    public func faNs8(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d5}") }
+    public func faThumbtack(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f08d}") }
+    public func faHiking(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6ec}") }
+    public func faSpeakerDeck(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f83c}") }
+    public func faDigg(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a6}") }
+    public func faChurch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f51d}") }
+    public func faFolderOpen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f07c}") }
+    public func faMask(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6fa}") }
+    public func faPercentage(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f541}") }
+    public func faBloggerB(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f37d}") }
+    public func faCheck(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f00c}") }
+    public func faRedRiver(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e3}") }
+    public func faStackpath(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f842}") }
+    public func faViber(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f409}") }
+    public func faWaze(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f83f}") }
+    public func faCar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1b9}") }
+    public func faHotdog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f80f}") }
+    public func faCreativeCommonsPd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4ec}") }
+    public func faWrench(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0ad}") }
+    public func faDemocrat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f747}") }
+    public func faFax(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ac}") }
+    public func faCircleNotch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ce}") }
+    public func faArrowUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f062}") }
+    public func faEquals(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f52c}") }
+    public func faPagelines(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f18c}") }
+    public func faRedditAlien(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f281}") }
+    public func faIcons(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f86d}") }
+    public func faComment(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f075}") }
+    public func faAdjust(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f042}") }
+    public func faPhabricator(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3db}") }
+    public func faEuroSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f153}") }
+    public func faTencentWeibo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1d5}") }
+    public func faAlignLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f036}") }
+    public func faAmazonPay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f42c}") }
+    public func faMapSigns(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f277}") }
+    public func faConnectdevelop(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f20e}") }
+    public func faList(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f03a}") }
+    public func faGit(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1d3}") }
+    public func faFulcrum(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f50b}") }
+    public func faPen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f304}") }
+    public func faUber(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f402}") }
+    public func faEye(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f06e}") }
+    public func faHelicopter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f533}") }
+    public func faDirections(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5eb}") }
+    public func faGratipay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f184}") }
+    public func faScribd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f28a}") }
+    public func faCapsules(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f46b}") }
+    public func faArrowsAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0b2}") }
+    public func faMicrophone(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f130}") }
+    public func faUserCog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4fe}") }
+    public func faLine(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3c0}") }
+    public func faSortAmountDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f160}") }
+    public func faPinterest(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d2}") }
+    public func faFlask(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c3}") }
+    public func faHistory(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1da}") }
+    public func faRaspberryPi(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7bb}") }
+    public func faNimblr(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5a8}") }
+    public func faSwimmingPool(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c5}") }
+    public func faGlide(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a5}") }
+    public func faThermometerHalf(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2c9}") }
+    public func faFreeCodeCamp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2c5}") }
+    public func faSkullCrossbones(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f714}") }
+    public func faFileContract(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f56c}") }
+    public func faFileExcel(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c3}") }
+    public func faChartPie(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f200}") }
+    public func faCaretSquareRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f152}") }
+    public func faPenSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f14b}") }
+    public func faUnlink(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f127}") }
+    public func faSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4d9}") }
+    public func faCrosshairs(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f05b}") }
+    public func faNode(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f419}") }
+    public func faObjectGroup(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f247}") }
+    public func faChartBar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f080}") }
+    public func faBlenderPhone(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6b6}") }
+    public func fa500Px(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f26e}") }
+    public func faUserMd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0f0}") }
+    public func faMicrophoneAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3c9}") }
+    public func faHospitalSymbol(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f47e}") }
+    public func faRockrms(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e9}") }
+    public func faYandex(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f413}") }
+    public func faSprayCan(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5bd}") }
+    public func faDumpster(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f793}") }
+    public func faMapMarkedAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5a0}") }
+    public func faLayerGroup(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5fd}") }
+    public func faRss(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f09e}") }
+    public func faUnderline(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0cd}") }
+    public func faPencilAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f303}") }
+    public func faCreativeCommonsSampling(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f0}") }
+    public func faVolleyballBall(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f45f}") }
+    public func faWikipediaW(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f266}") }
+    public func faTelegram(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2c6}") }
+    public func faMarkdown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f60f}") }
+    public func faSocks(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f696}") }
+    public func faSkiingNordic(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7ca}") }
+    public func faShoppingBag(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f290}") }
+    public func faBold(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f032}") }
+    public func faGrinTears(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f588}") }
+    public func faIdBadge(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2c1}") }
+    public func faSearchengin(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3eb}") }
+    public func faSplotch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5bc}") }
+    public func faListUl(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0ca}") }
+    public func faPlus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f067}") }
+    public func faFile(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f15b}") }
+    public func faTree(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1bb}") }
+    public func faDiceD20(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6cf}") }
+    public func faSortDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0dd}") }
+    public func faHospital(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0f8}") }
+    public func faFootballBall(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f44e}") }
+    public func faTrafficLight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f637}") }
+    public func faGuitar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7a6}") }
+    public func faCaretDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d7}") }
+    public func faFileMedicalAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f478}") }
+    public func faLaughSquint(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f59b}") }
+    public func faMountain(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6fc}") }
+    public func faScroll(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f70e}") }
+    public func faUbuntu(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7df}") }
+    public func faFonticons(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f280}") }
+    public func faMoneyBillWave(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f53a}") }
+    public func faSatelliteDish(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7c0}") }
+    public func faFireExtinguisher(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f134}") }
+    public func faStarAndCrescent(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f699}") }
+    public func faClipboardCheck(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f46c}") }
+    public func faBoxOpen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f49e}") }
+    public func faExclamation(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f12a}") }
+    public func faHandPointUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0a6}") }
+    public func faJoget(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3b7}") }
+    public func faShare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f064}") }
+    public func faSnapchat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2ab}") }
+    public func faClone(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f24d}") }
+    public func faBattleNet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f835}") }
+    public func faCloudSun(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6c4}") }
+    public func faFontAwesome(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2b4}") }
+    public func faCreativeCommonsSamplingPlus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f1}") }
+    public func faLemon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f094}") }
+    public func faHeartbeat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f21e}") }
+    public func faMandalorian(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f50f}") }
+    public func faMicrophoneAltSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f539}") }
+    public func faUserFriends(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f500}") }
+    public func faUndo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0e2}") }
+    public func faSyncAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2f1}") }
+    public func faTelegramPlane(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3fe}") }
+    public func faCreativeCommons(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f25e}") }
+    public func faReply(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e5}") }
+    public func faStopCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f28d}") }
+    public func faMemory(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f538}") }
+    public func faPlaneDeparture(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5b0}") }
+    public func faCamera(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f030}") }
+    public func faGlassWhiskey(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7a0}") }
+    public func faChess(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f439}") }
+    public func faRibbon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4d6}") }
+    public func faGripHorizontal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f58d}") }
+    public func faGofore(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3a7}") }
+    public func faMagento(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3c4}") }
+    public func faCreativeCommonsShare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f2}") }
+    public func faDrum(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f569}") }
+    public func faLockOpen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3c1}") }
+    public func faAutoprefixer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f41c}") }
+    public func faErlang(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f39d}") }
+    public func faGrin(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f580}") }
+    public func faStar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f005}") }
+    public func faTrash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1f8}") }
+    public func faUserTie(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f508}") }
+    public func faOutdent(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f03b}") }
+    public func faSimplybuilt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f215}") }
+    public func faCashRegister(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f788}") }
+    public func faOsi(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f41a}") }
+    public func faVideo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f03d}") }
+    public func faPlaystation(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3df}") }
+    public func faStarHalfAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c0}") }
+    public func faExpeditedssl(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f23e}") }
+    public func faFill(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f575}") }
+    public func faBook(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f02d}") }
+    public func faFlag(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f024}") }
+    public func faWindowMinimize(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2d1}") }
+    public func faBus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f207}") }
+    public func faFirstOrder(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2b0}") }
+    public func faLongArrowAltLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f30a}") }
+    public func faFolderPlus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f65e}") }
+    public func faAffiliatetheme(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f36b}") }
+    public func faUntappd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f405}") }
+    public func faUserNurse(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f82f}") }
+    public func faWind(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f72e}") }
+    public func faFileCsv(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6dd}") }
+    public func faHryvnia(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6f2}") }
+    public func faCartPlus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f217}") }
+    public func faModx(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f285}") }
+    public func faRedo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f01e}") }
+    public func faYahoo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f19e}") }
+    public func faSeedling(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4d8}") }
+    public func faTable(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0ce}") }
+    public func faFlagCheckered(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f11e}") }
+    public func faTheaterMasks(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f630}") }
+    public func faFacebookF(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f39e}") }
+    public func faKickstarter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3bb}") }
+    public func faSteamSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1b7}") }
+    public func faStarOfLife(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f621}") }
+    public func faBarcode(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f02a}") }
+    public func faMapMarked(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f59f}") }
+    public func faTachometerAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3fd}") }
+    public func faUpload(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f093}") }
+    public func faBalanceScaleRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f516}") }
+    public func faHandMiddleFinger(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f806}") }
+    public func faHands(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4c2}") }
+    public func faCarCrash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5e1}") }
+    public func faFileSignature(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f573}") }
+    public func faSwatchbook(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c3}") }
+    public func faBitcoin(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f379}") }
+    public func faPlayCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f144}") }
+    public func faTablets(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f490}") }
+    public func faWarehouse(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f494}") }
+    public func faFontAwesomeFlag(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f425}") }
+    public func faGithubAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f113}") }
+    public func faGithubSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f092}") }
+    public func faDyalog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f399}") }
+    public func faEarlybirds(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f39a}") }
+    public func faDev(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6cc}") }
+    public func faDumbbell(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f44b}") }
+    public func faPinterestP(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f231}") }
+    public func faQrcode(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f029}") }
+    public func faTint(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f043}") }
+    public func faIntercom(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7af}") }
+    public func faRocketchat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e8}") }
+    public func faSteam(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1b6}") }
+    public func faChevronCircleUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f139}") }
+    public func faBatteryEmpty(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f244}") }
+    public func faLinux(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f17c}") }
+    public func faMobile(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f10b}") }
+    public func faAngry(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f556}") }
+    public func faXbox(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f412}") }
+    public func faFastForward(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f050}") }
+    public func faGripfire(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ac}") }
+    public func faUtensils(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2e7}") }
+    public func faYoast(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2b1}") }
+    public func faWineBottle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f72f}") }
+    public func faEthereum(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f42e}") }
+    public func faPlane(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f072}") }
+    public func faOptinMonster(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f23c}") }
+    public func faXing(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f168}") }
+    public func faScrewdriver(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f54a}") }
+    public func faTooth(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c9}") }
+    public func faFlipboard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f44d}") }
+    public func faJsfiddle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1cc}") }
+    public func faSuitcaseRolling(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c1}") }
+    public func faTumblrSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f174}") }
+    public func faAtlas(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f558}") }
+    public func faBookDead(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6b7}") }
+    public func faMoon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f186}") }
+    public func faMugHot(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7b6}") }
+    public func faAngleLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f104}") }
+    public func faSun(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f185}") }
+    public func faParachuteBox(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4cd}") }
+    public func faVimeoV(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f27d}") }
+    public func faCompress(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f066}") }
+    public func faMosque(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f678}") }
+    public func faCcMastercard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1f1}") }
+    public func faMeetup(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2e0}") }
+    public func faHandLizard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f258}") }
+    public func faAt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1fa}") }
+    public func faSlideshare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e7}") }
+    public func faBeer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0fc}") }
+    public func faHouseDamage(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6f1}") }
+    public func faCodeBranch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f126}") }
+    public func faRubleSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f158}") }
+    public func faSortNumericDownAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f886}") }
+    public func faFontAwesomeAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f35c}") }
+    public func faIoxhost(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f208}") }
+    public func faPrint(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f02f}") }
+    public func faProductHunt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f288}") }
+    public func faTrain(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f238}") }
+    public func faAlgolia(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f36c}") }
+    public func faGlobeAfrica(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f57c}") }
+    public func faDropbox(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f16b}") }
+    public func faGlobeEurope(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7a2}") }
+    public func faCalendarAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f073}") }
+    public func faJediOrder(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f50e}") }
+    public func faCreativeCommonsNd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4eb}") }
+    public func faWineGlass(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4e3}") }
+    public func faDiceOne(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f525}") }
+    public func faSlack(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f198}") }
+    public func faFighterJet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0fb}") }
+    public func faStackOverflow(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f16c}") }
+    public func faSortAlphaUpAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f882}") }
+    public func faMedrt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3c8}") }
+    public func faTemperatureLow(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f76b}") }
+    public func faUnlockAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f13e}") }
+    public func faMixcloud(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f289}") }
+    public func faTypo3(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f42b}") }
+    public func faDiceSix(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f526}") }
+    public func faThumbsUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f164}") }
+    public func faGifts(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f79c}") }
+    public func faHdd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0a0}") }
+    public func faChalkboard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f51b}") }
+    public func faPoundSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f154}") }
+    public func faPrayingHands(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f684}") }
+    public func faAws(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f375}") }
+    public func faTrademark(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f25c}") }
+    public func faGlobe(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0ac}") }
+    public func faFonticonsFi(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3a2}") }
+    public func faTruckMonster(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f63b}") }
+    public func faEraser(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f12d}") }
+    public func faApple(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f179}") }
+    public func faStopwatch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2f2}") }
+    public func faHourglassHalf(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f252}") }
+    public func faLastfmSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f203}") }
+    public func faKeycdn(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ba}") }
+    public func faTools(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7d9}") }
+    public func faBone(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5d7}") }
+    public func faReadme(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4d5}") }
+    public func faHandSpock(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f259}") }
+    public func faSteamSymbol(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3f6}") }
+    public func faChartArea(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1fe}") }
+    public func faJsSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3b9}") }
+    public func faQuestion(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f128}") }
+    public func faSymfony(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f83d}") }
+    public func faFrog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f52e}") }
+    public func faVnv(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f40b}") }
+    public func faDhl(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f790}") }
+    public func faGrinWink(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f58c}") }
+    public func faTaxi(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ba}") }
+    public func faBullhorn(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0a1}") }
+    public func faLevelUpAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3bf}") }
+    public func faPaperPlane(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1d8}") }
+    public func faTicketAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ff}") }
+    public func faExpandArrowsAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f31e}") }
+    public func faAngellist(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f209}") }
+    public func faFilter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0b0}") }
+    public func faGem(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3a5}") }
+    public func faSearchLocation(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f689}") }
+    public func faImdb(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2d8}") }
+    public func faDrawPolygon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5ee}") }
+    public func faPepperHot(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f816}") }
+    public func faSmileWink(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4da}") }
+    public func faTintSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c7}") }
+    public func faWindows(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f17a}") }
+    public func faBatteryThreeQuarters(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f241}") }
+    public func faPortrait(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e0}") }
+    public func faWpforms(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f298}") }
+    public func faSpinner(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f110}") }
+    public func faOldRepublic(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f510}") }
+    public func faWizardsOfTheCoast(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f730}") }
+    public func faCheckDouble(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f560}") }
+    public func faItunesNote(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3b5}") }
+    public func faDesktop(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f108}") }
+    public func faFly(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f417}") }
+    public func faCloudMoon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6c3}") }
+    public func faRProject(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f7}") }
+    public func faReacteurope(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f75d}") }
+    public func faStaylinked(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3f5}") }
+    public func faGulp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ae}") }
+    public func faHourglassEnd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f253}") }
+    public func faAssistiveListeningSystems(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a2}") }
+    public func faEthernet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f796}") }
+    public func faBroadcastTower(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f519}") }
+    public func faCarrot(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f787}") }
+    public func faPodcast(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2ce}") }
+    public func faSuperpowers(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2dd}") }
+    public func faKeybase(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f5}") }
+    public func faAddressBook(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2b9}") }
+    public func faShareAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e0}") }
+    public func faUps(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7e0}") }
+    public func faShapes(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f61f}") }
+    public func faCross(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f654}") }
+    public func faEllo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5f1}") }
+    public func faArrowsAltH(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f337}") }
+    public func faTrello(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f181}") }
+    public func faGlassMartini(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f000}") }
+    public func faMoneyCheckAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f53d}") }
+    public func faBirthdayCake(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1fd}") }
+    public func faTripadvisor(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f262}") }
+    public func faUserGraduate(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f501}") }
+    public func faGitAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f841}") }
+    public func faExpand(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f065}") }
+    public func faAmazon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f270}") }
+    public func faCommentSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4b3}") }
+    public func faDraft2Digital(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f396}") }
+    public func faUssunnah(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f407}") }
+    public func faHtml5(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f13b}") }
+    public func faDochub(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f394}") }
+    public func faVine(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ca}") }
+    public func faDAndDBeyond(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6ca}") }
+    public func faCodepen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1cb}") }
+    public func faMoneyBillWaveAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f53b}") }
+    public func faRulerHorizontal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f547}") }
+    public func faHandPaper(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f256}") }
+    public func faCcJcb(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f24b}") }
+    public func faViadeoSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2aa}") }
+    public func faIgloo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7ae}") }
+    public func faWindowMaximize(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2d0}") }
+    public func faXRay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f497}") }
+    public func faGraduationCap(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f19d}") }
+    public func faComments(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f086}") }
+    public func faLinkedin(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f08c}") }
+    public func faCloudSunRain(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f743}") }
+    public func faOdnoklassnikiSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f264}") }
+    public func faRedhat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7bc}") }
+    public func faKhanda(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f66d}") }
+    public func faCentercode(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f380}") }
+    public func faPuzzlePiece(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f12e}") }
+    public func faSketch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7c6}") }
+    public func faSynagogue(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f69b}") }
+    public func faThLarge(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f009}") }
+    public func faFortAwesomeAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3a3}") }
+    public func faCcAmazonPay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f42d}") }
+    public func faDiscord(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f392}") }
+    public func faThumbsDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f165}") }
+    public func faTrashRestore(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f829}") }
+    public func faHeadset(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f590}") }
+    public func faHandshake(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2b5}") }
+    public func faDrupal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a9}") }
+    public func faCloudShowersHeavy(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f740}") }
+    public func faGrinSquintTears(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f586}") }
+    public func faChessQueen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f445}") }
+    public func faFingerprint(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f577}") }
+    public func faHotjar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3b1}") }
+    public func faThList(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f00b}") }
+    public func faIndustry(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f275}") }
+    public func faGalacticRepublic(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f50c}") }
+    public func faWeightHanging(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5cd}") }
+    public func faShuttleVan(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5b6}") }
+    public func faFilm(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f008}") }
+    public func faInstagram(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f16d}") }
+    public func faPhotoVideo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f87c}") }
+    public func faCriticalRole(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6c9}") }
+    public func faAddressCard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2bb}") }
+    public func faStumbleupon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a4}") }
+    public func faGolfBall(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f450}") }
+    public func faHubspot(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3b2}") }
+    public func faSkating(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7c5}") }
+    public func faUserPlus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f234}") }
+    public func faStumbleuponCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a3}") }
+    public func faWeixin(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1d7}") }
+    public func faTasks(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0ae}") }
+    public func faCompressArrowsAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f78c}") }
+    public func faLock(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f023}") }
+    public func faLongArrowAltUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f30c}") }
+    public func faHireAHelper(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3b0}") }
+    public func faHome(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f015}") }
+    public func faGamepad(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f11b}") }
+    public func faCopy(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c5}") }
+    public func faRev(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5b2}") }
+    public func faGooglePlus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2b3}") }
+    public func faFileArchive(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c6}") }
+    public func faCode(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f121}") }
+    public func faAllergies(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f461}") }
+    public func faKissWinkHeart(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f598}") }
+    public func faQuinscape(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f459}") }
+    public func faSalesforce(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f83b}") }
+    public func faGrinAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f581}") }
+    public func faFemale(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f182}") }
+    public func faHandHolding(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4bd}") }
+    public func faBootstrap(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f836}") }
+    public func faDigitalTachograph(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f566}") }
+    public func faCuttlefish(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f38c}") }
+    public func faCcDinersClub(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f24c}") }
+    public func faSdCard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7c2}") }
+    public func faPause(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f04c}") }
+    public func faArrowsAltV(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f338}") }
+    public func faFortAwesome(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f286}") }
+    public func faMedapps(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3c6}") }
+    public func faDeaf(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a4}") }
+    public func faForumbee(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f211}") }
+    public func faProjectDiagram(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f542}") }
+    public func faCommentAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f27a}") }
+    public func faSellsy(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f213}") }
+    public func faShoppingBasket(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f291}") }
+    public func faJournalWhills(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f66a}") }
+    public func faSmoking(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f48d}") }
+    public func faTruckLoading(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4de}") }
+    public func faWpbeginner(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f297}") }
+    public func faDeskpro(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f38f}") }
+    public func faCaretSquareLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f191}") }
+    public func faLongArrowAltRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f30b}") }
+    public func faPizzaSlice(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f818}") }
+    public func faLaughWink(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f59c}") }
+    public func faShareAltSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e1}") }
+    public func faTorah(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6a0}") }
+    public func faKaaba(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f66b}") }
+    public func faCreativeCommonsZero(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f3}") }
+    public func faTwitch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e8}") }
+    public func faSquarespace(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5be}") }
+    public func faPlay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f04b}") }
+    public func faBandAid(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f462}") }
+    public func faUniversalAccess(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f29a}") }
+    public func faArtstation(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f77a}") }
+    public func faLessThanEqual(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f537}") }
+    public func faUserAstronaut(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4fb}") }
+    public func faTimes(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f00d}") }
+    public func faTextHeight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f034}") }
+    public func faConfluence(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f78d}") }
+    public func faClipboardList(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f46d}") }
+    public func faOilCan(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f613}") }
+    public func faCameraRetro(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f083}") }
+    public func faBriefcase(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0b1}") }
+    public func faRing(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f70b}") }
+    public func faTshirt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f553}") }
+    public func faSquareFull(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f45c}") }
+    public func faLifeRing(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1cd}") }
+    public func faMarsStrokeV(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f22a}") }
+    public func faAtom(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5d2}") }
+    public func faMitten(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7b5}") }
+    public func faFistRaised(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6de}") }
+    public func faStroopwafel(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f551}") }
+    public func faUsb(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f287}") }
+    public func faCloud(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c2}") }
+    public func faMenorah(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f676}") }
+    public func faSmokingBan(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f54d}") }
+    public func faCcAmex(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1f3}") }
+    public func faBlog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f781}") }
+    public func faTextWidth(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f035}") }
+    public func faAngleDoubleLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f100}") }
+    public func faUserEdit(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4ff}") }
+    public func faCopyright(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1f9}") }
+    public func faYoutubeSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f431}") }
+    public func faEyeDropper(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1fb}") }
+    public func faMap(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f279}") }
+    public func faBlender(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f517}") }
+    public func faDraftingCompass(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f568}") }
+    public func faOm(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f679}") }
+    public func faExternalLinkSquareAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f360}") }
+    public func faAlignRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f038}") }
+    public func faAd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f641}") }
+    public func faBtc(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f15a}") }
+    public func faReddit(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1a1}") }
+    public func faSearchPlus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f00e}") }
+    public func faCoins(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f51e}") }
+    public func faGooglePlay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ab}") }
+    public func faStop(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f04d}") }
+    public func faRupeeSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f156}") }
+    public func faTram(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7da}") }
+    public func faCaretLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d9}") }
+    public func faGrunt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ad}") }
+    public func faBraille(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a1}") }
+    public func faCcStripe(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1f5}") }
+    public func faSmog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f75f}") }
+    public func faWix(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5cf}") }
+    public func faCog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f013}") }
+    public func faPallet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f482}") }
+    public func faWindowClose(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f410}") }
+    public func faLaptopCode(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5fc}") }
+    public func faFileWord(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c2}") }
+    public func faHeadphones(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f025}") }
+    public func faSignature(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5b7}") }
+    public func faGrinTongueSquint(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f58a}") }
+    public func faTheRedYeti(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f69d}") }
+    public func faFlickr(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f16e}") }
+    public func faPalette(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f53f}") }
+    public func faAdversal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f36a}") }
+    public func faIdCardAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f47f}") }
+    public func faToilet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7d8}") }
+    public func faDivide(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f529}") }
+    public func faGift(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f06b}") }
+    public func faPage4(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d7}") }
+    public func faVenusMars(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f228}") }
+    public func faLinkedinIn(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0e1}") }
+    public func faArrowCircleRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0a9}") }
+    public func faPushed(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e1}") }
+    public func faDoorOpen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f52b}") }
+    public func faCocktail(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f561}") }
+    public func faMapMarkerAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3c5}") }
+    public func faLaptopMedical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f812}") }
+    public func faPlaneArrival(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5af}") }
+    public func faReplyAll(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f122}") }
+    public func faMinus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f068}") }
+    public func faBalanceScale(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f24e}") }
+    public func faFileVideo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c8}") }
+    public func faPenAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f305}") }
+    public func faSimCard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7c4}") }
+    public func faUserShield(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f505}") }
+    public func faPencilRuler(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5ae}") }
+    public func faFigma(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f799}") }
+    public func faDrumstickBite(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6d7}") }
+    public func faAccessibleIcon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f368}") }
+    public func faMobileAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3cd}") }
+    public func faPaintRoller(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5aa}") }
+    public func faAdn(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f170}") }
+    public func faPoo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2fe}") }
+    public func faSnowplow(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7d2}") }
+    public func faLowVision(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a8}") }
+    public func faVial(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f492}") }
+    public func faInfoCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f05a}") }
+    public func faCanadianMapleLeaf(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f785}") }
+    public func faBlackberry(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f37b}") }
+    public func faHourglass(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f254}") }
+    public func faIceCream(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f810}") }
+    public func faPhoneSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f098}") }
+    public func faToggleOff(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f204}") }
+    public func faEnvelopeOpenText(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f658}") }
+    public func faGlassCheers(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f79f}") }
+    public func faLaugh(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f599}") }
+    public func faHotTub(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f593}") }
+    public func faGlideG(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a6}") }
+    public func faRecycle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1b8}") }
+    public func faChessBoard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f43c}") }
+    public func faTransgenderAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f225}") }
+    public func faChevronUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f077}") }
+    public func faTenge(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7d7}") }
+    public func faHeart(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f004}") }
+    public func faRunning(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f70c}") }
+    public func faCarBattery(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5df}") }
+    public func faNetworkWired(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6ff}") }
+    public func faPatreon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d9}") }
+    public func faDiaspora(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f791}") }
+    public func faRavelry(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2d9}") }
+    public func faExternalLinkAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f35d}") }
+    public func faYoutube(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f167}") }
+    public func faGg(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f260}") }
+    public func faGoogleWallet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ee}") }
+    public func faVials(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f493}") }
+    public func faSuperscript(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f12b}") }
+    public func faDribbbleSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f397}") }
+    public func faTableTennis(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f45d}") }
+    public func faBowlingBall(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f436}") }
+    public func faPrescriptionBottle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f485}") }
+    public func faPaperclip(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c6}") }
+    public func faCube(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1b2}") }
+    public func faGhost(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6e2}") }
+    public func faWordpress(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f19a}") }
+    public func faMars(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f222}") }
+    public func faVolumeOff(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f026}") }
+    public func faPeace(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f67c}") }
+    public func faGripLinesVertical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7a5}") }
+    public func faMailBulk(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f674}") }
+    public func faRestroom(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7bd}") }
+    public func faLaptop(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f109}") }
+    public func faFrown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f119}") }
+    public func faCommentsDollar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f653}") }
+    public func faFlagUsa(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f74d}") }
+    public func faFileAudio(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c7}") }
+    public func faSafari(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f267}") }
+    public func faCarAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5de}") }
+    public func faEnvelopeOpen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2b6}") }
+    public func faLeaf(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f06c}") }
+    public func faSpider(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f717}") }
+    public func faCentos(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f789}") }
+    public func faRssSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f143}") }
+    public func faGitSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1d2}") }
+    public func faGgCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f261}") }
+    public func faUniversity(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f19c}") }
+    public func faRainbow(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f75b}") }
+    public func faAppleAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5d1}") }
+    public func faFontAwesomeLogoFull(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4e6}") }
+    public func faSkull(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f54c}") }
+    public func faTemperatureHigh(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f769}") }
+    public func faDeploydog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f38e}") }
+    public func faSadCry(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5b3}") }
+    public func faVectorSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5cb}") }
+    public func faLanguage(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ab}") }
+    public func faFirefox(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f269}") }
+    public func faDocker(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f395}") }
+    public func faCommentDots(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4ad}") }
+    public func faRadiationAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7ba}") }
+    public func faFolderMinus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f65d}") }
+    public func faCity(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f64f}") }
+    public func faSortNumericUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f163}") }
+    public func faThermometer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f491}") }
+    public func faDragon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6d5}") }
+    public func faJira(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7b1}") }
+    public func faFantasyFlightGames(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6dc}") }
+    public func faCreativeCommonsSa(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4ef}") }
+    public func faArrowCircleLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0a8}") }
+    public func faCoffee(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0f4}") }
+    public func faGooglePlusG(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d5}") }
+    public func faHockeyPuck(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f453}") }
+    public func faMoneyCheck(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f53c}") }
+    public func faMedal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5a2}") }
+    public func faPiedPiper(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2ae}") }
+    public func faAndroid(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f17b}") }
+    public func faPennyArcade(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f704}") }
+    public func faHourglassStart(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f251}") }
+    public func faRadiation(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7b9}") }
+    public func faSortNumericDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f162}") }
+    public func faChessPawn(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f443}") }
+    public func faVoicemail(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f897}") }
+    public func faQuran(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f687}") }
+    public func faHardHat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f807}") }
+    public func faTh(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f00a}") }
+    public func faEvernote(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f839}") }
+    public func faLongArrowAltDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f309}") }
+    public func faChild(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ae}") }
+    public func faInbox(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f01c}") }
+    public func faVenusDouble(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f226}") }
+    public func faYarn(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7e3}") }
+    public func faMagic(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d0}") }
+    public func faPalfed(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d8}") }
+    public func faPercent(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f295}") }
+    public func faItunes(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3b4}") }
+    public func faBandcamp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2d5}") }
+    public func faFastBackward(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f049}") }
+    public func faDiceFive(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f523}") }
+    public func faItchIo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f83a}") }
+    public func faCartArrowDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f218}") }
+    public func faPhoneVolume(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a0}") }
+    public func faArrowRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f061}") }
+    public func faCookie(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f563}") }
+    public func faPooStorm(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f75a}") }
+    public func faQq(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1d6}") }
+    public func faHandPointer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f25a}") }
+    public func faCaretUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d8}") }
+    public func faSmileBeam(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5b8}") }
+    public func faSortAmountUpAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f885}") }
+    public func faSpaceShuttle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f197}") }
+    public func faTruckMoving(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4df}") }
+    public func faAmericanSignLanguageInterpreting(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2a3}") }
+    public func faFirstdraft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3a1}") }
+    public func faImage(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f03e}") }
+    public func faHips(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f452}") }
+    public func faTruck(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d1}") }
+    public func faViacoin(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f237}") }
+    public func faHatWizard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6e8}") }
+    public func faFileImage(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1c5}") }
+    public func faDribbble(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f17d}") }
+    public func faElementor(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f430}") }
+    public func faExclamationCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f06a}") }
+    public func faOpencart(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f23d}") }
+    public func faBuffer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f837}") }
+    public func faKickstarterK(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3bc}") }
+    public func faSignal(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f012}") }
+    public func faQuestionCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f059}") }
+    public func faCss3(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f13c}") }
+    public func faCropAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f565}") }
+    public func faKeyboard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f11c}") }
+    public func faBusinessTime(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f64a}") }
+    public func faHospitalAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f47d}") }
+    public func faQuoteRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f10e}") }
+    public func faResolving(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e7}") }
+    public func faSort(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0dc}") }
+    public func faCss3Alt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f38b}") }
+    public func faChevronCircleRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f138}") }
+    public func faPython(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e2}") }
+    public func faSwimmer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c4}") }
+    public func faThemeco(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5c6}") }
+    public func faYandexInternational(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f414}") }
+    public func faHandPeace(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f25b}") }
+    public func faPhoenixSquadron(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f511}") }
+    public func faSourcetree(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7d3}") }
+    public func faTv(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f26c}") }
+    public func faInfinity(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f534}") }
+    public func faTumblr(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f173}") }
+    public func faHippo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6ed}") }
+    public func faHackerrank(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5f7}") }
+    public func faHandPointRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0a4}") }
+    public func faWpexplorer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2de}") }
+    public func faBed(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f236}") }
+    public func faUikit(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f403}") }
+    public func faHeading(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1dc}") }
+    public func faPager(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f815}") }
+    public func faReceipt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f543}") }
+    public func faShareSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f14d}") }
+    public func faPray(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f683}") }
+    public func faSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c8}") }
+    public func faLaughBeam(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f59a}") }
+    public func faAlignCenter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f037}") }
+    public func faBackspace(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f55a}") }
+    public func faLevelDownAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3be}") }
+    public func faEject(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f052}") }
+    public func faMotorcycle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f21c}") }
+    public func faFireAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7e4}") }
+    public func faClinicMedical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7f2}") }
+    public func faStethoscope(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0f1}") }
+    public func faParagraph(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1dd}") }
+    public func faCreativeCommonsPdAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4ed}") }
+    public func faEnvira(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f299}") }
+    public func faStudiovinari(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3f8}") }
+    public func faTractor(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f722}") }
+    public func faWhatsapp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f232}") }
+    public func faYelp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e9}") }
+    public func faTape(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4db}") }
+    public func faPollH(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f682}") }
+    public func faChalkboardTeacher(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f51c}") }
+    public func faPhoneAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f879}") }
+    public func faCalendarTimes(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f273}") }
+    public func faKiwiBird(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f535}") }
+    public func faLyft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3c3}") }
+    public func faCloudRain(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f73d}") }
+    public func faKaggle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5fa}") }
+    public func faSupple(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3f9}") }
+    public func faCannabis(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f55f}") }
+    public func faLastfm(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f202}") }
+    public func faJava(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4e4}") }
+    public func faGoodreads(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3a8}") }
+    public func faServicestack(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ec}") }
+    public func faDoorClosed(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f52a}") }
+    public func faInternetExplorer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f26b}") }
+    public func faUser(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f007}") }
+    public func faCloudscale(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f383}") }
+    public func faVolumeMute(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6a9}") }
+    public func faChessKing(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f43f}") }
+    public func faGooglePlusSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d4}") }
+    public func faSadTear(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5b4}") }
+    public func faFeatherAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f56b}") }
+    public func faCrop(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f125}") }
+    public func faFileInvoice(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f570}") }
+    public func faEgg(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7fb}") }
+    public func faNotesMedical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f481}") }
+    public func faRemoveFormat(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f87d}") }
+    public func faRebel(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1d0}") }
+    public func faPlusSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0fe}") }
+    public func faChessRook(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f447}") }
+    public func faHandHoldingUsd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4c0}") }
+    public func faEyeSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f070}") }
+    public func faBlind(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f29d}") }
+    public func faItalic(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f033}") }
+    public func faSortNumericUpAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f887}") }
+    public func faSuitcase(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0f2}") }
+    public func faSkiing(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7c9}") }
+    public func faCalculator(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1ec}") }
+    public func faBrain(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5dc}") }
+    public func faLocationArrow(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f124}") }
+    public func faAngleUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f106}") }
+    public func faMicroscope(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f610}") }
+    public func faVrCardboard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f729}") }
+    public func faAppStoreIos(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f370}") }
+    public func faToriiGate(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6a1}") }
+    public func faLaravel(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3bd}") }
+    public func faTrophy(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f091}") }
+    public func faWifi(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1eb}") }
+    public func faConciergeBell(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f562}") }
+    public func faVaadin(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f408}") }
+    public func faSoundcloud(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1be}") }
+    public func faEbay(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f4}") }
+    public func faHackerNews(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1d4}") }
+    public func faAngleDoubleUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f102}") }
+    public func faLightbulb(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0eb}") }
+    public func faDiceD6(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6d1}") }
+    public func faAngrycreative(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f36e}") }
+    public func faOpenid(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f19b}") }
+    public func faBan(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f05e}") }
+    public func faCalendarMinus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f272}") }
+    public func faAviato(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f421}") }
+    public func faBible(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f647}") }
+    public func faServer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f233}") }
+    public func faNeos(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f612}") }
+    public func faSync(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f021}") }
+    public func faSortUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0de}") }
+    public func faMale(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f183}") }
+    public func faRetweet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f079}") }
+    public func faFirstAid(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f479}") }
+    public func faArrowLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f060}") }
+    public func faBatteryFull(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f240}") }
+    public func faGrinBeam(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f582}") }
+    public func faNeuter(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f22c}") }
+    public func faPowerOff(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f011}") }
+    public func faQuoteLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f10d}") }
+    public func faListAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f022}") }
+    public func faPhoneSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3dd}") }
+    public func faFrownOpen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f57a}") }
+    public func faDashcube(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f210}") }
+    public func faWater(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f773}") }
+    public func faHooli(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f427}") }
+    public func faPlaceOfWorship(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f67f}") }
+    public func faFreebsd(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3a4}") }
+    public func faGlasses(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f530}") }
+    public func faCalendarWeek(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f784}") }
+    public func faPhone(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f095}") }
+    public func faFeather(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f52d}") }
+    public func faOpera(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f26a}") }
+    public func faRocket(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f135}") }
+    public func faOdnoklassniki(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f263}") }
+    public func faBreadSlice(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7ec}") }
+    public func faPaste(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0ea}") }
+    public func faPoop(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f619}") }
+    public func faRedoAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2f9}") }
+    public func faSlackHash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3ef}") }
+    public func faWineGlassAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5ce}") }
+    public func faBaby(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f77c}") }
+    public func faVimeoSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f194}") }
+    public func faMedkit(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0fa}") }
+    public func faBezierCurve(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f55b}") }
+    public func faUserCheck(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4fc}") }
+    public func faPoll(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f681}") }
+    public func faPills(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f484}") }
+    public func faAsterisk(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f069}") }
+    public func faCompass(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f14e}") }
+    public func faStrikethrough(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0cc}") }
+    public func faSuse(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7d6}") }
+    public func faUsersCog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f509}") }
+    public func faKey(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f084}") }
+    public func faDollyFlatbed(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f474}") }
+    public func faPlug(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e6}") }
+    public func faUtensilSpoon(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2e5}") }
+    public func faEdge(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f282}") }
+    public func faLink(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0c1}") }
+    public func faArchway(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f557}") }
+    public func faUserLock(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f502}") }
+    public func faYCombinator(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f23b}") }
+    public func faFirstOrderAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f50a}") }
+    public func faVimeo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f40a}") }
+    public func faPhp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f457}") }
+    public func faWeebly(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5cc}") }
+    public func faChevronRight(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f054}") }
+    public func faLuggageCart(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f59d}") }
+    public func faGopuram(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f664}") }
+    public func faMoneyBill(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f0d6}") }
+    public func faEtsy(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2d7}") }
+    public func faYammer(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f840}") }
+    public func faDotCircle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f192}") }
+    public func faFolder(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f07b}") }
+    public func faTeethOpen(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f62f}") }
+    public func faMonero(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3d0}") }
+    public func faWeibo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f18a}") }
+    public func faUserTimes(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f235}") }
+    public func faAngular(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f420}") }
+    public func faShippingFast(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f48b}") }
+    public func faSpeakap(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3f3}") }
+    public func faExclamationTriangle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f071}") }
+    public func faHanukiah(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6e6}") }
+    public func faCloudsmith(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f384}") }
+    public func faArrowDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f063}") }
+    public func faDonate(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4b9}") }
+    public func faGitlab(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f296}") }
+    public func faGrinTongueWink(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f58b}") }
+    public func faDiceThree(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f527}") }
+    public func faFileAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f15c}") }
+    public func faFlushed(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f579}") }
+    public func faPenFancy(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5ac}") }
+    public func faBorderNone(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f850}") }
+    public func faRuler(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f545}") }
+    public func faTeamspeak(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f4f9}") }
+    public func faFont(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f031}") }
+    public func faSortAlphaDownAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f881}") }
+    public func faThemeisle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2b2}") }
+    public func faLessThan(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f536}") }
+    public func faToolbox(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f552}") }
+    public func faUserMinus(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f503}") }
+    public func faBath(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2cd}") }
+    public func faWallet(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f555}") }
+    public func faWpressr(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3e4}") }
+    public func faVuejs(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f41f}") }
+    public func faVolumeUp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f028}") }
+    public func faFileDownload(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f56d}") }
+    public func faXingSquare(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f169}") }
+    public func faCreditCard(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f09d}") }
+    public func faDollarSign(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f155}") }
+    public func faTty(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1e4}") }
+    public func faAudioDescription(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f29e}") }
+    public func faBookMedical(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7e6}") }
+    public func faMarsStrokeH(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f22b}") }
+    public func faDog(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f6d3}") }
+    public func faTags(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f02c}") }
+    public func faFileInvoiceDollar(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f571}") }
+    public func faCrutch(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7f7}") }
+    public func faAmilia(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f36d}") }
+    public func faStamp(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5bf}") }
+    public func faCubes(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f1b3}") }
+    public func faBuysellads(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f20d}") }
+    public func faChevronLeft(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f053}") }
+    public func faThermometerThreeQuarters(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f2c8}") }
+    public func faVolumeDown(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f027}") }
+    public func faMehRollingEyes(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5a5}") }
+    public func faInfo(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f129}") }
+    public func faTabletAlt(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3fa}") }
+    public func faUserInjured(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f728}") }
+    public func faHorseHead(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f7ab}") }
+    public func faSlash(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f715}") }
+    public func faMeh(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f11a}") }
+    public func faStackExchange(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f18d}") }
+    public func faMortarPestle(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f5a7}") }
+    public func faPhoenixFramework(size: CGFloat) -> FASIcon { return FASIcon(font: font(size: size), iconCode: "\u{f3dc}") }
 
 
-    override var allIcons: [String : String] {
+    public override var allIcons: [String : String] {
         return [
             "fa-spell-check": "\u{f891}",
             "fa-user-secret": "\u{f21b}",
